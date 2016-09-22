@@ -1,0 +1,42 @@
+/*
+ * @author: Muhammad R Ridho
+ */
+.page {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+	background: #fff;
+	z-index: 100;
+	@include transition(all .15s ease-in-out);
+	transform: translate3d(0px, 0px, 0px);
+
+	line-height: 2em;
+
+	&__item {
+		position: absolute;
+		top: 0; right: 0; left: 0;
+		bottom: 0;
+		padding: 10px;
+		background: #fff;
+		overflow: auto;
+
+		&--fluid {
+			padding: 0;
+		}
+
+		
+	}
+	// PANEL DEPENDENCIES
+	&--show-panel {
+		// transform: translate3d(250px, 0px, 0px);
+		// @include translate(250px, 0);
+
+		.page__item {
+			overflow: hidden;
+		}
+	}
+	&--notransition {
+		@include transition(none !important);
+	}
+
+}

@@ -1,0 +1,29 @@
+.panel {
+	position: fixed; top: 0; bottom: 0; left: 0px;
+	z-index: 98;
+	overflow: auto;
+	width: 250px;
+	height: 100vh;;
+	background: $blue;
+
+	&__handler {
+		position: absolute;
+		top: 0; bottom: 0; left: 0;
+		width: 10px;
+		content: "";
+	}
+	&__overlay {
+		@include transition(all .15s linear);
+
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 99;
+		display: none;
+		background: rgba(0, 0, 0, .2);
+		opacity: 0;
+
+		&--is-active {
+			opacity: 1;
+		}
+	}
+}

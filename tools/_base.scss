@@ -1,0 +1,29 @@
+//SETTINGS
+$fontSizeBase		: 1.4rem !default;
+
+html {
+	@include box-sizing(border-box);
+
+	// Set default font size 1em = 10px;
+	font-size: 62.5%;
+	font-family: Lato, sans-serif;
+	color: $black;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	// Set body font size 1.4em = 14px;
+	font-size: $fontSizeBase;
+	background: $baseBackground;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0 0 10px 0; }
+
+h1 { font-size: $fontSizeH1; font-weight: normal; }
+h2 { font-size: $fontSizeH2; font-weight: normal; }
+h3 { font-size: $fontSizeH3; }
+h4 { font-size: $fontSizeH4; }
+h5 { font-size: $fontSizeH5; }
+h6 { font-size: $fontSizeH6; }

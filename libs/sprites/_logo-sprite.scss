@@ -1,0 +1,110 @@
+// TODO: MOVE TO BLOCK
+
+.icon_sakuku, .icon_anz, .icon_bank-bri, .icon_bank-mega, .icon_bca-klikpay, 
+.icon_bca, .icon_bii, .icon_bni-debit-online, .icon_bni46, .icon_cimb-click, 
+.icon_cimb-niaga, .icon_citi, .icon_danamon, .icon_debita-btn-online, .icon_e-pay-bri, 
+.icon_hsbc, .icon_idea, .icon_jcb-cc, .icon_jcb, .icon_jne, 
+.icon_klik-bca, .icon_mandiri-card, .icon_mandiri-clickpay, .icon_mandiri, .icon_mandiriecash, 
+.icon_master-card, .icon_mastercard-securecard, .icon_mnc, .icon_ncs, .icon_norton, 
+.icon_ocbc-nisp, .icon_panin-bank, .icon_permata-bank, .icon_rpx, .icon_standar-chartered, 
+.icon_telkomsel-poin, .icon_uob, .icon_verified-visa, .icon_visa, .icon_xl-tunai,
+.inst-ANZ, .inst-BCA, .inst-BII, .inst-BNI, .inst-BRI, .inst-Citibank, .inst-Danamon, .inst-HSBC,
+.inst-MNC, .inst-Mandiri, .inst-Mega, .inst-OCBCNISP, .inst-Panin, .inst-Permata, .inst-StandardChartered, .inst-UOB, .inst-Veritrans,
+.mp-BTNDebitOnline, .mp-CIMBClicks, .mp-DebitMandiri, .mp-KlikBCA, .mp-KlikPAYFullPayment, .mp-MandiriDebit, .mp-MandiriEcash, 
+.mp-Sakuku, .mp-TelkomselPoin, .mp-XLTunai, .mp-BNI, .mp-BRI, .inst-CIMBNiaga, .icon_bukopin, .inst-Bukopin,
+.inst-KlikPayInst,
+.inst-MIGSBCAInst,
+.inst-MandiriInstallment,
+.inst-ANZInstallment,
+.inst-BIIInstallment,
+.inst-BNIInstallment,
+.inst-BRIInstallment,
+.inst-BukopinInstallment,
+.inst-CIMBInstallment,
+.inst-CitibankInstallment,
+.inst-DanamonInstallment,
+.inst-HSBCInstallment,
+.inst-MegaInstallment,
+.inst-MNCInstallment,
+.inst-OcbcNispInstallment,
+.inst-PaninInstallment,
+.inst-PermataInstallment,
+.inst-StandardCharteredInstallment,
+.inst-UOBInstallment,
+.icon_amex, .icon_amex_safekey,
+.mp-Indomaret,
+.icon_bes,
+.icon_etobee,
+.icon_first_logistics,
+.icon_atri,
+.icon_adx,
+.icon_jt_express,
+.icon_nex,
+.icon_primatama,
+.icon_sap,
+.icon_tiki,
+.icon_PosPay,
+.mp-PosPay,
+.icon_briTouch,
+.mp-BRITouchInstallment,
+.icon_atmbersama,
+.mp-AtmBersama
+{ display: inline-block; background: url('/seoul-web/resources/images/assets/logo-sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.icon_sakuku, .mp-Sakuku { background-position: -2px -0px; width: 51px; height: 32px; }
+.icon_anz, .inst-ANZ, .inst-ANZInstallment { background-position: -2px -34px; width: 50px; height: 31px; }
+.icon_bank-bri, .inst-BRI, .inst-BRIInstallment { background-position: -2px -67px; width: 50px; height: 31px; }
+.icon_bank-mega, .inst-Mega, .inst-MegaInstallment { background-position: -2px -100px; width: 50px; height: 31px; }
+.icon_bca-klikpay, .mp-KlikPAYFullPayment, .inst-KlikPayInst { background-position: -2px -133px; width: 50px; height: 31px; }
+.icon_bca, .inst-BCA, .inst-MIGSBCAInst { background-position: -2px -166px; width: 50px; height: 31px; }
+.icon_bii, .inst-BII, .inst-BIIInstallment { background-position: -2px -199px; width: 50px; height: 31px; }
+.icon_bni-debit-online, .mp-BNI, .inst-BNIInstallment { background-position: -2px -232px; width: 50px; height: 31px; }
+.icon_bni46, .inst-BNI { background-position: -2px -265px; width: 50px; height: 31px; }
+.icon_cimb-click, .mp-CIMBClicks { background-position: -2px -298px; width: 50px; height: 31px; }
+.icon_cimb-niaga, .inst-CIMBNiaga, .inst-CIMBInstallment { background-position: -2px -331px; width: 50px; height: 31px; }
+.icon_citi, .inst-Citibank, .inst-CitibankInstallment { background-position: -2px -364px; width: 50px; height: 31px; }
+.icon_danamon, .inst-Danamon, .inst-DanamonInstallment { background-position: -2px -397px; width: 50px; height: 31px; }
+.icon_debita-btn-online, .mp-BTNDebitOnline { background-position: -2px -430px; width: 50px; height: 31px; }
+.icon_e-pay-bri, .mp-BRI { background-position: -2px -463px; width: 50px; height: 31px; }
+.icon_hsbc, .inst-HSBC, .inst-HSBCInstallment { background-position: -2px -496px; width: 50px; height: 31px; }
+.icon_idea { background-position: -2px -529px; width: 50px; height: 31px; }
+.icon_jcb-cc { background-position: -2px -562px; width: 50px; height: 31px; }
+.icon_jcb { background-position: -2px -595px; width: 50px; height: 31px; }
+.icon_jne { background-position: -2px -628px; width: 50px; height: 31px; }
+.icon_klik-bca, .mp-KlikBCA { background-position: -2px -661px; width: 50px; height: 31px; }
+.icon_mandiri-card, .mp-DebitMandiri { background-position: -2px -694px; width: 50px; height: 31px; }
+.icon_mandiri-clickpay, .mp-MandiriDebit { background-position: -2px -727px; width: 50px; height: 31px; }
+.icon_mandiri, .inst-Mandiri, .inst-MandiriInstallment { background-position: -2px -760px; width: 50px; height: 31px; }
+.icon_mandiriecash, .mp-MandiriEcash { background-position: -2px -793px; width: 50px; height: 31px; }
+.icon_master-card { background-position: -2px -826px; width: 50px; height: 31px; }
+.icon_mastercard-securecard { background-position: -2px -859px; width: 50px; height: 31px; }
+.icon_mnc, .inst-MNC, .inst-MNCInstallment { background-position: -2px -892px; width: 50px; height: 32px; }
+.icon_ncs { background-position: -2px -926px; width: 50px; height: 31px; }
+.icon_norton { background-position: -2px -959px; width: 50px; height: 31px; }
+.icon_ocbc-nisp, .inst-OCBCNISP, .inst-OcbcNispInstallment { background-position: -2px -992px; width: 50px; height: 31px; }
+.icon_panin-bank, .inst-Panin, .inst-PaninInstallment { background-position: -2px -1025px; width: 50px; height: 31px; }
+.icon_permata-bank, .inst-Permata, .inst-PermataInstallment { background-position: -2px -1058px; width: 50px; height: 31px; }
+.icon_rpx { background-position: -2px -1091px; width: 50px; height: 31px; }
+.icon_standar-chartered, .inst-StandardChartered, .inst-StandardCharteredInstallment { background-position: -2px -1124px; width: 50px; height: 31px; }
+.icon_telkomsel-poin, .mp-TelkomselPoin { background-position: -2px -1157px; width: 50px; height: 31px; }
+.icon_uob, .inst-UOB, .inst-UOBInstallment { background-position: -2px -1190px; width: 50px; height: 31px; }
+.icon_verified-visa { background-position: -2px -1223px; width: 50px; height: 31px; }
+.icon_visa { background-position: -2px -1256px; width: 50px; height: 31px; }
+.icon_xl-tunai, .mp-XLTunai { background-position: -2px -1289px; width: 50px; height: 31px; }
+.icon_bukopin, .inst-Bukopin, .inst-BukopinInstallment { background-position: -2px -1322px; width: 50px; height: 31px;}
+.icon_amex {background-position: -2px -1356px; width: 50px; height: 31px;} 
+.icon_amex_safekey {background-position: -2px -1390px; width: 50px; height: 31px;}
+.mp-Indomaret{background-position: -2px -1422px; width: 50px; height: 31px;}
+.icon_bes{background-position: -2px -1454px; width: 50px; height: 31px;}
+.icon_etobee{background-position: -2px -1520px; width: 50px; height: 31px;}
+.icon_first_logistics{background-position: -2px -1486px; width: 50px; height: 31px;}
+.icon_atri{background-position: -2px -1752px; width: 50px; height: 31px;}
+.icon_adx{background-position: -2px -1554px; width: 50px; height: 31px;}
+.icon_jt_express{background-position: -2px -1586px; width: 50px; height: 31px;}
+.icon_nex{background-position: -2px -1620px; width: 50px; height: 31px;}
+.icon_primatama{background-position: -2px -1654px; width: 50px; height: 31px;}
+.icon_sap{background-position: -2px -1687px; width: 50px; height: 31px;}
+.icon_tiki{background-position: -2px -1720px; width: 50px; height: 31px;}
+.icon_PosPay, .mp-PosPay{background-position: -2px -1788px; width: 50px; height: 31px;}
+.icon_briTouch, .mp-BRITouchInstallment{background-position: -2px -1822px; width: 50px; height: 31px;}
+.icon_atmbersama, .mp-AtmBersama{background-position: -2px -1854px; width: 50px; height: 31px;}

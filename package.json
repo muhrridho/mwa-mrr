@@ -1,0 +1,21 @@
+{
+  "name": "Hotel",
+  "version": "1.0.0",
+  "author": "Muhammad R Ridho",
+  "private": true,
+  "dependencies": {
+    "grunt-cli": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "start": "grunt --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engine": "node >= 4.0.0",
+  "license": "ISC"
+}

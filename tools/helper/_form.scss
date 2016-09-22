@@ -1,0 +1,261 @@
+%form {
+	&__group {
+		margin-bottom: 10px;
+	}
+	&__help, &__helper {
+		display: inline-block;
+		margin-top: 5px;
+		color: $greyDark;
+		font-style: italic;
+		font-size: 1.2rem;
+	}
+        &__error-text{
+		display: block;
+		margin-top: 5px;
+		color: $red;
+		font-size: 1.2rem;
+	}
+	&__textfield {
+		padding: 6px 1.2rem;
+		width: 100%;
+		outline: none;
+		border: 1px solid $greyLight;
+                
+                &--error{
+                    border: 1px solid $red;
+                }
+                
+	}
+	&__checkbox {
+		position: absolute;
+		left: -9999px;
+
+		& + label {
+			position: relative;
+			padding-top: 4px;
+			padding-left: 35px;
+			cursor: pointer;
+
+			&:before {
+				position: absolute; 
+				top: 4px; left: 0;
+				width: 18px; height: 18px;
+				border: 1px solid #ccc;
+				border-radius: 1px;
+				background: #fff;
+				content: '';
+			}
+			&:after {
+				@extend .bli-check-list:before;
+
+				position: absolute;
+				top: 7px; left: 4px;
+				color: #09ad7e;
+				font-size: 1.2rem;
+				font-family: 'blicon';
+				transition: all .2s;
+			}
+		}
+		&:not(:checked) + label:after {
+			opacity: 0;
+			transform: scale(0);
+		}
+		&:checked {
+			& + label:before {
+				border-color: $blue;
+				background: $blue;
+			}
+			& + label:after {
+				color: #fff;
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+		&:disabled {
+			& + label {
+				color: #aaa;
+			}
+			& + label:before {
+				border-color: #bbb;
+				background-color: #ddd;
+				box-shadow: none;
+			}
+			& + label:after {
+				color: #999;			
+			}
+		}
+		&:focus + label:before {
+			border: 1px dotted $blue;
+		}
+	}
+	&__radio {
+		position: absolute;
+		left: -9999px;
+
+		& + label {
+			position: relative;
+			padding-top: 4px;
+			padding-left: 35px;
+			cursor: pointer;
+
+			&:before, &:after {
+				position: absolute;
+				top: 0px; left: 4px;
+				color: $black;
+				font-size: 2.4rem;
+				font-family: 'blicon';
+				transition: all .2s;
+			}
+			&:before { @extend .bli-circle-empty:before; }
+			&:after {
+				@extend .bli-circle-selected:before;
+
+				opacity: 0;
+			}
+		}
+		// &:not(:checked) + label:before {
+		// 	opacity: 1;
+		// 	transform: scale(1);
+		// }
+		&:checked {
+			& + label:before {
+				
+			}
+			& + label:after {
+				opacity: 1;
+			}
+		}
+		&:disabled {
+			& + label {
+				color: #aaa;
+			}
+			& + label:before {
+				border-color: #bbb;
+				background-color: #ddd;
+				box-shadow: none;
+			}
+			& + label:after {
+				color: #999;			
+			}
+		}
+	}
+	&__button {
+		display: inline-block;
+		padding: 10px 20px;
+		outline: none;
+		border: 1px solid $greyLight;
+		background: #fff;
+		color: $greyDarker;
+		text-align: center;
+		cursor: pointer;
+
+		&--blue {
+			border-color: $blue;
+			background: $blue;
+			color: #fff;
+
+			&:hover {
+                                border-color: $blueLight;
+				background: $blueLight;
+				color: #fff;
+			}
+		}
+		&--orange {
+			border-color: $orange;
+			background: $orange;
+			color: #fff;
+
+			&:hover {
+				border-color: $orangeLight;
+				background: $orangeLight;
+				color: #fff;
+			}
+		}
+		&--inverse-blue {
+			border-color: $blue;
+			background: #fff;
+			color: $blue;
+		}
+		&--link {
+			margin: 0;
+			padding: 0;
+			outline: none;
+			border: 0;
+			background: none;
+			color: $blue;
+			text-align: left;
+			cursor: pointer;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__link {
+		&--button {
+			@extend %form__button;
+
+			display: block;
+			text-decoration: none;
+		}
+	}
+	&__textarea {
+		@extend %form__textfield;
+	}
+}
+
+
+/* TODO: Migrate to formatting above and remove below styling*/
+%form-group {
+	@extend %form__group;
+}
+
+%input {
+	@include border-radius(2px);
+
+	padding: 6px 1.2rem;
+	width: 100%;
+	outline: none;
+	border: 1px solid $greyDark;
+        
+        &--error{
+            border: 1px solid $red;
+        }
+}
+
+%input--big {
+    @extend %input;
+
+    padding: 20px;
+}
+
+%textfield {
+	@extend %form__textfield;
+        
+        &--error{
+            border: 1px solid $red;
+        }
+        
+}
+
+%textarea {
+	@extend %form__textfield;
+}
+
+%button {
+	@extend %form__button;
+
+	&--blue { @extend %form__button--blue; }
+	&--orange { @extend %form__button--orange; }
+}
+%a.button {
+	@extend %form__button--link;
+}
+
+%checkbox {
+	@extend %form__checkbox;
+}
+
+%button.link {
+	@extend %form__button--link;
+}
