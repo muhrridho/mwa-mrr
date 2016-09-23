@@ -1,0 +1,1282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"home",
+				"homeSlider"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"jumbotron__con",
+				"jumbotron__container	 desktop-home.css"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"gre",
+				"greyDarker"
+			],
+			[
+				"grey",
+				"greyLighter"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bre",
+				"breadcrumbBlue"
+			],
+			[
+				"blue",
+				"blue	blue()"
+			],
+			[
+				"spec",
+				"specialRequestArrowDeg"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"sort",
+				"sort__item	 desktop-catalog.css"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"sele",
+				"selectedSearch"
+			],
+			[
+				"sear",
+				"searchTerm"
+			],
+			[
+				"SEAR",
+				"SEARCH_AUTOSUGGEST"
+			],
+			[
+				"show",
+				"showSearchBlock"
+			],
+			[
+				"new",
+				"newSearchItem"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"val",
+				"value	AngularJS"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"SEARCH_",
+				"SEARCH_SUGGEST"
+			],
+			[
+				"dis",
+				"displaySearch"
+			],
+			[
+				"SEA",
+				"SEARCH_AUTOCOMPLETE"
+			],
+			[
+				"on",
+				"onKeyUp"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"data",
+				"dataSearch"
+			],
+			[
+				"AUT",
+				"AUTO_COMPLETE"
+			],
+			[
+				"mix",
+				"mixin	@mixin"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"jumbotron",
+				"jumbotron--detail__btn	 desktop-detail.css"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"jum",
+				"jumbotron--detail__summary	 desktop-detail.css"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"jumbotron--de",
+				"jumbotron--detail__slider	 desktop-detail.css"
+			],
+			[
+				"next",
+				"nextSlide"
+			],
+			[
+				"r",
+				"rightArrow"
+			],
+			[
+				"left",
+				"leftArrow"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"cata",
+				"catalog-nav__menu	 desktop-catalog.css"
+			],
+			[
+				"catalog",
+				"catalog-nav"
+			],
+			[
+				"js",
+				"js-search__ac-trigger"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"cale",
+				"calendarIn"
+			],
+			[
+				"cal",
+				"calendarIn"
+			],
+			[
+				"hote",
+				"hotels"
+			],
+			[
+				"searc",
+				"searchData"
+			],
+			[
+				"aut",
+				"autocompleteItem"
+			],
+			[
+				"sea",
+				"search__ac"
+			],
+			[
+				"sar",
+				"searchTerm"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"se",
+				"searchTerm"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"traspa",
+				"transparent"
+			],
+			[
+				"conta",
+				"contact__form-item	 example-contact.css"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"__",
+				"__container"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font-si",
+				"font-size"
+			],
+			[
+				"poi",
+				"pointer"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"defa",
+				"defaultBorder"
+			],
+			[
+				"form",
+				"form-group-element"
+			],
+			[
+				"ex",
+				"extend	@extend"
+			],
+			[
+				"de",
+				"default	!default"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"incl",
+				"include	@include"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"co",
+				"code	Tag"
+			],
+			[
+				"bli",
+				"bli3	 hotel-thankyou.css"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"rou",
+				"round-5	 single-style.css"
+			],
+			[
+				"impo",
+				"import	@import"
+			],
+			[
+				"opa",
+				"opacity"
+			],
+			[
+				"met",
+				"meta	Tag"
+			],
+			[
+				"margin-bottom",
+				"margin-bottom-10	 hotel-homepage.css"
+			],
+			[
+				"margin-bo",
+				"margin-bottom-10	 hotel-homepage.css"
+			],
+			[
+				"bold",
+				"font-bold	 hotel-homepage.css"
+			],
+			[
+				"margin-left",
+				"margin-left-15	 hotel-homepage.css"
+			],
+			[
+				"float",
+				"float-left	 hotel-homepage.css"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"fonts-",
+				"font-size"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"line",
+				"lighten	lighten()"
+			],
+			[
+				"per",
+				"permintaanKhusus"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"te",
+				"textarea	Tag"
+			],
+			[
+				"hide",
+				"hideSlider"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"slider",
+				"slider-header"
+			],
+			[
+				"he",
+				"headerHeight"
+			],
+			[
+				"sli",
+				"slider-header"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tri",
+				"triggerOpen"
+			],
+			[
+				"exp",
+				"expand"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 4486,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/panel/_panel.scss",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/panel/_panel.js",
+			"settings":
+			{
+				"buffer_size": 2873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/mobile/_fundamental.js",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 115.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Workspace/mwa-mrr",
+		"/D/Workspace/mwa-mrr/blocks",
+		"/D/Workspace/mwa-mrr/blocks/mobile",
+		"/D/Workspace/mwa-mrr/blocks/mobile/panel",
+		"/D/Workspace/mwa-mrr/libs",
+		"/D/Workspace/mwa-mrr/pages",
+		"/D/Workspace/mwa-mrr/pages/mobile",
+		"/D/Workspace/mwa-mrr/public"
+	],
+	"file_history":
+	[
+		"/D/Workspace/mwa-mrr/pages/mobile/index.scss",
+		"/D/Data/App/Project/Convention/dist/public/_panel.js",
+		"/D/Data/App/Project/Convention/dist/public/index.html",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/_blicon.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/order-cost/_order-cost.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/order-detail/_order-detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/payment/_payment.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/desktop-checkout.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/payment/_payment.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/desktop-checkout.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/special-request/_special-request.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/hotelCheckout.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/breadcrumb/_breadcrumb.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/old.hotelCheckout.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/room-info/_room-info.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/special-request/_special-request.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/hotelCatalog.jsp",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Data/App/test/sameheight/index.html",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/User/PostCSSSorting.sublime-settings",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/helper/_grid.scss",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/PostCSS Sorting/PostCSSSorting.sublime-settings",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/CSScomb/README.md",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/C/Users/muhammad.ridho/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/helper/_common.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/old.hotelCheckout2.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/order-summary/_order-summary.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-desc/_hotel-desc.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/jumbotron/_jumbotron--detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/timer/_timer.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/form-guest/_form-guest.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/room-summary/_room-summary.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/guest/_form-guest.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/checkout-countdown/_checkout-countdown.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/guest/_guest.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/hotelHomepage.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/checkout-info-kamar/_checkout-info-kamar.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/checkout-info-tamu/_checkout-info-tamu.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/checkout-order-detail/_checkout-order-detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/hotelCheckout-test.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/_variables.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/desktop-catalog.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/_mixins.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/sort/_sort.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/sort/_sort.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/helper/_form.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/tadvsr-review/_tadvsr-review.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/hotelDetail.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/desktop-detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/old.hotelDetail.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/tadvsr-summary/_tadvsr-summary.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/builds/desktop/desktop-home.css",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/search/_search.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/_fundamental.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/script/common-hotel.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-slider/_hotel-slider.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-slider/_hotel-slider.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/search/_search__ac.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/search/_search.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/builds/desktop/desktop-detail.css",
+		"/D/Data/App/Project/Lib/Daterangepicker/demo.html",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/js/style/desktop/desktop-hotel-detail-script.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/js/script/controllers/hotel-detail-controller.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/detail/_detail.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/old.hotelCatalog.jsp",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/detail/_detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/jumbotron/_jumbotron--home.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/jumbotron/_jumbotron.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-room/_hotel-room.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/pilihkamar/_pilihkamar.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/pikaday/_pikaday.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/WEB-INF/views/hotel/desktop/blocks/footer.jspf",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-facility/_hotel-facility.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/description/_description.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/desktop-home.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/sprites/_sprites__acc-type.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/sprites/_logo-sprite.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/blur/_blur.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/sliderpro/_sliderpro.scss",
+		"/D/Data/App/Project/Lib/Sliderpro/dist/css/slider-pro.css",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/catalog-hotel/_catalog-hotel.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-heading/_hotel-heading.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/room/_room.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/changedate/_changedate.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/hotel-heading/_hotel-heading--small.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/filter/_filter.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/catalog/_catalog.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/catalog-nav/_catalog-nav.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/nouislider/_nouislider.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/nouislider/_nouislider.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/filter/_filter.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/sprites/_sprites__accomodation-types.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/nav/_nav.scss",
+		"/D/Data/App/Project/Lib/form/index.html",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/blocks/desktop/form/_form.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/tools/_bootstrap.scss",
+		"/D/Data/App/Project/Lib/form/form.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/pikaday/_pikaday.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/old.desktop-detail.scss",
+		"/D/Workspace/x-seoul/seoul-web-ui/Gruntfile.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/moment.js",
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/builds/desktop/desktop-home.css.map",
+		"/D/Data/App/Project/Hotel/resources/page/desktop/desktop-home.scss",
+		"/D/Data/App/Project/Hotel/resources/block/desktop/footer/_footer.scss",
+		"/D/Data/App/Project/Hotel/resources/tool/helper/_form.scss",
+		"/D/Data/App/Project/Hotel/resources/block/desktop/destinasi/_destinasi.scss",
+		"/D/Data/App/Project/Hotel/resources/tool/helper/_grid.scss",
+		"/D/Data/App/Project/Hotel/resources/block/desktop/jumbotron/_jumbotron--home.scss",
+		"/D/Data/App/Project/Hotel/resources/tool/_base.scss",
+		"/D/Data/App/Project/Hotel/resources/block/desktop/jumbotron/_jumbotron--about.scss",
+		"/D/Data/App/Project/Hotel/example/about.html",
+		"/D/Data/App/Project/Hotel/resources/tool/_bootstrap.scss",
+		"/D/Data/App/Project/Hotel/index.html",
+		"/D/Data/App/Project/Hotel/resources/page/desktop/example-home.scss",
+		"/D/Data/App/Project/Hotel/Grunt.js",
+		"/D/Data/App/Project/Hotel/package.json",
+		"/D/Data/App/Project/Convention/resources/page/desktop/example-home.scss",
+		"/D/Data/App/Project/Convention/resources/block/desktop/jumbotron/_jumbotron--about.scss",
+		"/D/Data/App/Project/Convention/resources/block/desktop/jumbotron/_jumbotron.scss",
+		"/D/Data/App/Project/Convention/resources/block/desktop/header/_header.scss",
+		"/D/Data/App/Project/Convention/resources/block/desktop/nav/_nav.scss",
+		"/D/Data/App/Project/Convention/resources/block/desktop/content/_content.scss",
+		"/D/Data/App/Project/Convention/resources/page/desktop/_fundamental.scss",
+		"/D/Data/App/Project/Convention/resources/tool/helper/_type.scss",
+		"/D/Data/App/Project/Convention/resources/tool/helper/_grid.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"12px",
+			"    ",
+			"breadcrumbs",
+			"    ",
+			"2016",
+			"content",
+			"refresh",
+			"//",
+			"side_bar",
+			"minimap",
+			"color\"",
+			"://",
+			"detail",
+			"Detail",
+			"detail",
+			"hotelDataDetail",
+			"\n						",
+			">\n",
+			"2",
+			"order-summary",
+			"[R]",
+			"	",
+			"[R]",
+			"    ",
+			"room-summary",
+			"small",
+			"filter__check",
+			"filter__group",
+			"checked",
+			"%form",
+			"permintaan-khusus",
+			"form-group",
+			"guest",
+			"order-detail",
+			"info-kamar",
+			"countdown",
+			"info-tamu",
+			"initializeTimer",
+			"sort__check",
+			"sort__icon",
+			"bli-down-arrow",
+			"bli-check-list",
+			"\n        ",
+			"review",
+			"sum-",
+			"tadvsr-review",
+			"",
+			" .",
+			"showSearchBlock",
+			"$('.search__ac-error')",
+			"updateSearch",
+			"-section",
+			"search__ac-region",
+			"insertSearchItem",
+			"renderSearchBlock",
+			"SEARCH_SUGGEST",
+			"searchAutocomplete",
+			"status",
+			"searchInput",
+			"    ",
+			"callApiAutoComplete",
+			"hotel-room__row",
+			"hotel-room__col",
+			"td",
+			"th",
+			";\n",
+			"modal",
+			"hotel__section",
+			";\n",
+			"filter__form-group",
+			"filter__checkbox",
+			"form__checkbox",
+			"filter__is-hideable",
+			"form__group",
+			"pika-single",
+			"<link href=\"http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css\" rel=\"stylesheet\">",
+			"-->",
+			"<!--",
+			"class",
+			"ctlg",
+			"selectedSearch",
+			"console",
+			"calendar",
+			"click",
+			"isCheckoutTriggered",
+			"selected_search",
+			"hotels",
+			"searchTer",
+			"\"></",
+			"\">' ",
+			"$black",
+			"hotel di",
+			"<strong>",
+			"p>",
+			"<a",
+			"<li>",
+			"footer-nav",
+			"15px",
+			";\n",
+			"\";\n",
+			"  -",
+			"	",
+			"|	",
+			"	",
+			"::	",
+			"::  ",
+			"	",
+			"-l",
+			"-d",
+			"check_out",
+			"/*",
+			"margin",
+			"col-",
+			"mb",
+			".p",
+			".m",
+			" !important",
+			"---",
+			"bli-usp",
+			"border",
+			"orange",
+			"auto",
+			"center",
+			"translatey",
+			"translate",
+			"font",
+			"-sm-",
+			"-md-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"1.2rem",
+			"	",
+			"breadcrumb",
+			"	",
+			"order-detail",
+			"	",
+			"  ",
+			"[R]",
+			"[R][R]",
+			"  ",
+			"room-info",
+			"special-request__check",
+			"special-request__group",
+			"special-request__check",
+			"value=\"\"",
+			"&",
+			"special-request",
+			"group",
+			"form-guest",
+			"order-summary",
+			"room-summary",
+			"timer",
+			"guest",
+			"sort__check bli-check-list",
+			"sort__icon bli-down-arrow",
+			"sort__icon",
+			"sort__check",
+			"summary",
+			"",
+			"tadvsr-summary",
+			"renderAutoComplete",
+			"SEARCH_AUTOSUGGEST",
+			"isIndexChanged",
+			"searchBox",
+			"	",
+			"hotel-room__tr",
+			"hotel-room__td",
+			"th",
+			"filter__group",
+			"filter__check",
+			"filter__checkbox",
+			"filter__form-group--is-hideable",
+			"filter__form-group",
+			"--%>",
+			"<%--",
+			"selectedSearch",
+			"Hotel di",
+			"<br><strong>",
+			"span>",
+			"<a class=\"destinasi__link\"",
+			"<li class=\"footer__item\">",
+			"footer",
+			"-  ",
+			"      ",
+			"|    ",
+			"::  ",
+			"    ",
+			"L",
+			"D",
+			"//",
+			"padding",
+			"col-offset-",
+			"margin-bottom-",
+			".padding-",
+			".margin-",
+			".margin",
+			"",
+			"...",
+			"-xs-",
+			"-sm-",
+			"-md-",
+			"",
+			"<span>*</span>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blocks/mobile/panel/_panel.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								533,
+								533
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blocks/mobile/panel/_panel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2873,
+								2873
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 768.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/mobile/_fundamental.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 149.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
+	"project": "mwa-mrr.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"desktoppulsatha",
+				"target\\com.gdn.x.seoul-seoul-web-ui\\WEB-INF\\views\\pulsa\\desktop\\desktopPulsaThankYouFailed.jspf"
+			],
+			[
+				"memberorderdetailho",
+				"target\\com.gdn.x.seoul-seoul-web-ui\\WEB-INF\\views\\default\\member\\memberOrderDetailHotelPage.jsp"
+			],
+			[
+				"memberorderhotelpage",
+				"target\\com.gdn.x.seoul-seoul-web-ui\\WEB-INF\\views\\default\\member\\memberOrderHotelPage.jsp"
+			],
+			[
+				"memberorderhotel",
+				"target\\com.gdn.x.seoul-seoul-web-ui\\WEB-INF\\views\\default\\member\\memberOrderHotelPage.jsp"
+			],
+			[
+				"memberordercon",
+				"src\\main\\java\\com\\gdn\\x\\seoul\\web\\ui\\controller\\MemberOrderController.java"
+			],
+			[
+				"nb-confi",
+				"x-seoul\\seoul-web-ui\\nb-configuration.xml"
+			],
+			[
+				"pom.",
+				"x-seoul\\pom.xml"
+			],
+			[
+				"nb-configura",
+				"nb-configuration.xml"
+			],
+			[
+				"hotel-catalog-controller.js",
+				"x-seoul\\seoul-web-ui\\target\\com.gdn.x.seoul-seoul-web-ui\\resources\\js\\script\\controllers\\hotel-catalog-controller.js"
+			],
+			[
+				"hotelcontroller.java",
+				"x-seoul\\seoul-web-ui\\src\\main\\java\\com\\gdn\\x\\seoul\\web\\ui\\controller\\HotelController.java"
+			],
+			[
+				"mobilehotelcatalog.jsp",
+				"x-seoul\\seoul-web-ui\\src\\main\\webapp\\WEB-INF\\views\\hotel\\mobile\\hotelCatalogMobile.jsp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Data\\App\\sublime\\hotel.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 456.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
