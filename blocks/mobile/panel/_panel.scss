@@ -2,22 +2,24 @@
 	@include transition(all .15s ease-in-out);
 
 	position: fixed; top: 0; bottom: 0; left: 0px;
-	left: -100vw;
+	left: -80vw;
 	z-index: 900;
 	overflow: hidden;
-	width: 100%;
+	width: 80vw;
 	height: 100vh;
 
+	&--notransitions {
+		@include transition(none !important);
+	}
 	&--show {
-		left: 0;
+		margin-left: 80vw;
 
 	}
 	&__content {
 		position: absolute;
 		top: 0; ; bottom: 0; left: 0;
 		z-index: 1;
-		overflow: auto;
-		width: 80%;
+		overflow: auto;		
 		background: $blue;
 		color: #fff;
 		padding: 20px;
@@ -27,6 +29,7 @@
 		top: 0; bottom: 0; left: 0;
 		width: 10px;
 		content: "";
+		background: red;
 	}
 	&__overlay {
 		@include transition(all .15s linear);
