@@ -1,5 +1,5 @@
 body {
-	overflow: hidden;
+	// overflow: hidden;
 }
 // .overlay {
 // 	position: fixed;
@@ -8,6 +8,23 @@ body {
 // 	display: none;
 // 	background: rgba(0,0,0,.1);
 // }
+.app {
+	&__overlay {
+		@include transition(all .15s linear);
+
+		position: fixed;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background: rgba(0, 0, 0, .2);
+		opacity: 0;
+		visibility: hidden;
+		z-index: 800;
+
+		&--show {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
 
 .test-fixed {
 	position: fixed; 
