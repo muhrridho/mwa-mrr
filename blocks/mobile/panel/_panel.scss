@@ -12,7 +12,7 @@
 		@include transition(none !important);
 	}
 	&--show {
-		margin-left: 80vw;
+		left: 0;
 
 	}
 	&__content {

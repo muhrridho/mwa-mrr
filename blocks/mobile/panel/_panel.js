@@ -6,13 +6,13 @@ function togglePanel(){
 function showPanel(){
 	$(".panel")
 		.addClass("panel--show")
-		.css('margin-left', panelWidth);
+		.css('left', 0);
 	$(".app__overlay").addClass("app__overlay--show");
 }
 function hidePanel(){
 	$(".panel")
 		.removeClass("panel--show")
-		.css('margin-left', 0);
+		.css('left', -1 * panelWidth);
 
 	$(".app__overlay").removeClass("app__overlay--show");
 }
