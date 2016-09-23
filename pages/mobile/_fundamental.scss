@@ -28,11 +28,12 @@ body {
 
 .test-fixed {
 	position: fixed;
-	position: sticky; 
-	bottom: 10px; 
-	left: 10px; 
+	bottom: 0px; 
+	left: 0px; 
+	width: 100%;
 	padding: 10px; 
 	background: $orange;
 	color: #fff; 
 	border: none;
+	z-index: 999;
 }

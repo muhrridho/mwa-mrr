@@ -2,13 +2,12 @@
  * @author: Muhammad R Ridho
  */
 .page {
-	position: relative;
-	overflow: hidden;
+	// position: relative;
+	// overflow: hidden;
 	min-height: 100vh;
 	background: #fff;
 	z-index: 100;
 	@include transition(all .15s ease-in-out);
-	transform: translate3d(0px, 0px, 0px);
 
 	line-height: 2em;
 
