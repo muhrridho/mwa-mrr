@@ -25,17 +25,5 @@
 
 		
 	}
-	// PANEL DEPENDENCIES
-	&--show-panel {
-		// transform: translate3d(250px, 0px, 0px);
-		// @include translate(250px, 0);
-
-		.page__item {
-			overflow: hidden;
-		}
-	}
-	&--notransition {
-		@include transition(none !important);
-	}
 
 }

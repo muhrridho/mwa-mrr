@@ -1,13 +1,6 @@
 body {
-	// overflow: hidden;
+
 }
-// .overlay {
-// 	position: fixed;
-// 	top: 0; right: 0; bottom: 0; left: 0;
-// 	z-index: 99;
-// 	display: none;
-// 	background: rgba(0,0,0,.1);
-// }
 .app {
 	&__overlay {
 		@include transition(all .15s linear);
@@ -24,16 +17,4 @@ body {
 			visibility: visible;
 		}
 	}
-}
-
-.test-fixed {
-	position: fixed;
-	bottom: 0px; 
-	left: 0px; 
-	width: 100%;
-	padding: 10px; 
-	background: $orange;
-	color: #fff; 
-	border: none;
-	z-index: 999;
 }
