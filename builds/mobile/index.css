@@ -393,9 +393,11 @@ body { overflow: hidden; }
 
 .bli-usp { font-size: 2em; }
 
-.panel { position: fixed; top: 0; bottom: 0; left: 0px; z-index: 98; overflow: auto; width: 250px; height: 100vh; background: #0095da; }
+.panel { position: fixed; top: 0; bottom: 0; left: 0px; z-index: 900; overflow: auto; width: 100%; height: 100vh; left: -100vw; }
+.panel--show { left: 0; }
+.panel__content { background: #0095da; position: absolute; top: 0; bottom: 0; left: 0; width: 80%; z-index: 1; }
 .panel__handler { position: absolute; top: 0; bottom: 0; left: 0; width: 10px; content: ""; }
-.panel__overlay { -webkit-transition: all 0.15s linear; -o-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -ms-transition: all 0.15s linear; transition: all 0.15s linear; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 99; display: none; background: rgba(0, 0, 0, 0.2); opacity: 0; }
+.panel__overlay { -webkit-transition: all 0.15s linear; -o-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -ms-transition: all 0.15s linear; transition: all 0.15s linear; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); }
 .panel__overlay--is-active { opacity: 1; }
 
 /* @author: Muhammad R Ridho */
