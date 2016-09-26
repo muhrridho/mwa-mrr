@@ -13,7 +13,7 @@ $sidebarWidth 	: 70vw;
 
 	&--notransitions { @include transition(none !important); }
 	&--open { 
-		visibility: visible;
+		// visibility: visible;
 	}
 
 	&__content {
