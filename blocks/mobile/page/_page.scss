@@ -10,9 +10,9 @@
 	background: #fff;
 	line-height: 2em;
 	opacity: 1;
+	@include transition(all .15s ease);
 
 	&__item {
-		@include transition(all .4s ease);
 
 		position: absolute;
 		top: 0; right: 0; bottom: 0; left: 0;
@@ -33,6 +33,10 @@
 	}
 	&__content {
 
+	}
+
+	&--sidebar-open {
+		@include translateX(70vw);
 	}
 
 }

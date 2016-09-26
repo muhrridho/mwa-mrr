@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	initPanel();
+	initSidebar();
 
 	$(".js-header__nav--hamburger").click(function(){
-		togglePanel();
+		toggleSidebar();
 	})
 })

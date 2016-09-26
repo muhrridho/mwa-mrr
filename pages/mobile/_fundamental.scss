@@ -1,6 +1,9 @@
 body {
 
 }
+.no-overflow {
+	overflow: hidden;
+}
 .app {
 	&__overlay {
 		@include transition(all .15s linear);
@@ -15,6 +18,9 @@ body {
 		&--show {
 			opacity: 1;
 			visibility: visible;
+		}
+		&--sidebar-open {
+			@include translateX(70vw);
 		}
 	}
 }
