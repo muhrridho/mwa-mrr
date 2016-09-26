@@ -3,7 +3,6 @@
  */
 .page {
 	// @include transition(all .15s ease-in-out);
-
 	position: relative;
 	z-index: 100;
 	visibility: visible;
@@ -18,18 +17,23 @@
 		position: absolute;
 		top: 0; right: 0; bottom: 0; left: 0;
 		overflow: auto;
+		margin-top: 50px;
 		background: #eaeaea;
 
 		&--fluid {
 			padding: 0;
 		}
 		&--hidden {
-			// @include transition(all .3s ease);
-
 			visibility: hidden;
 			opacity: 0;
 		}
 		
+	}
+	&__header {
+		margin-top: -50px;
+	}
+	&__content {
+
 	}
 
 }
