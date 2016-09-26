@@ -149,7 +149,7 @@ h6 { font-size: 1.12rem; }
 
 .search, .destination { padding: 10px; }
 
-.search__input { padding: 6px 1.2rem; width: 100%; outline: none; border: 1px solid #d0d0d0; }
+.search__input { padding: 6px 1.2rem; width: 100%; outline: none; border: 1px solid #d0d0d0; -webkit-appearance: none; border-radius: 0; }
 .search__btn { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; }
 .search__btn { border-color: #f7931e; background: #f7931e; color: #fff; }
 .search__btn:hover { border-color: #f9ab4f; background: #f9ab4f; color: #fff; }
@@ -448,7 +448,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .search__group { position: relative; float: left; width: 50%; text-align: center; }
 .search__group:first-child { padding-right: 5px; }
 .search__group:last-child { padding-left: 5px; }
-.search__input { padding-left: 40px; }
+.search__input { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-left: 40px; }
 .search__icon { position: absolute; top: 11px; left: 11px; font-size: 2rem; }
 .search__btn { padding: 6px 10px; width: 100%; text-transform: uppercase; }
 

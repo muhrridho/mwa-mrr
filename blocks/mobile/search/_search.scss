@@ -31,6 +31,7 @@
 	}
 	&__input {
 		@extend %form__textfield;
+		@include border-radius(2px);
 
 		padding-left: 40px;
 	}

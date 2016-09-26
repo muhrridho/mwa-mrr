@@ -9,7 +9,7 @@
 		font-style: italic;
 		font-size: 1.2rem;
 	}
-        &__error-text{
+		&__error-text{
 		display: block;
 		margin-top: 5px;
 		color: $red;
@@ -20,11 +20,13 @@
 		width: 100%;
 		outline: none;
 		border: 1px solid $greyLight;
-                
-                &--error{
-                    border: 1px solid $red;
-                }
-                
+		-webkit-appearance: none;
+     	border-radius: 0;
+				
+		&--error{
+			border: 1px solid $red;
+		}
+				
 	}
 	&__checkbox {
 		position: absolute;
@@ -155,7 +157,7 @@
 			color: #fff;
 
 			&:hover {
-                                border-color: $blueLight;
+								border-color: $blueLight;
 				background: $blueLight;
 				color: #fff;
 			}
@@ -217,25 +219,25 @@
 	width: 100%;
 	outline: none;
 	border: 1px solid $greyDark;
-        
-        &--error{
-            border: 1px solid $red;
-        }
+		
+		&--error{
+			border: 1px solid $red;
+		}
 }
 
 %input--big {
-    @extend %input;
+	@extend %input;
 
-    padding: 20px;
+	padding: 20px;
 }
 
 %textfield {
 	@extend %form__textfield;
-        
-        &--error{
-            border: 1px solid $red;
-        }
-        
+		
+		&--error{
+			border: 1px solid $red;
+		}
+		
 }
 
 %textarea {
