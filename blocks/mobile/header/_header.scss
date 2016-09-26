@@ -1,0 +1,32 @@
+.header {
+	position: relative;
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	min-height: 50px;
+	background: #fff;
+	text-align: center;
+
+	&__content {
+		display: flex;
+		padding: 5px;
+	}
+	&__brand {
+		margin: auto;
+		height: 28px;
+	}
+	&__nav {
+		padding: 10px;
+		width: 40px;
+		color: $black;
+		font-size: 2rem;
+
+		&--link {
+			color: $black;
+		}
+		&--btn {
+			@extend %form__button--link;
+			color: $black;
+		}
+	}
+}

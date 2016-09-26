@@ -2,27 +2,33 @@
  * @author: Muhammad R Ridho
  */
 .page {
-	// position: relative;
-	// overflow: hidden;
+	// @include transition(all .15s ease-in-out);
+
+	position: relative;
+	z-index: 100;
+	visibility: visible;
 	min-height: 100vh;
 	background: #fff;
-	z-index: 100;
-	@include transition(all .15s ease-in-out);
-
 	line-height: 2em;
+	opacity: 1;
 
 	&__item {
+		@include transition(all .4s ease);
+
 		position: absolute;
-		top: 0; right: 0; left: 0;
-		bottom: 0;
-		padding: 10px;
-		background: #fff;
+		top: 0; right: 0; bottom: 0; left: 0;
 		overflow: auto;
+		background: #eaeaea;
 
 		&--fluid {
 			padding: 0;
 		}
+		&--hidden {
+			// @include transition(all .3s ease);
 
+			visibility: hidden;
+			opacity: 0;
+		}
 		
 	}
 

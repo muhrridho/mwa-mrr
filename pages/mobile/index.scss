@@ -1,4 +1,4 @@
-@import "../../tools/bootstrap.scss";
+@import "../../tools/bootstrap-mobile.scss";
 @import "fundamental";
 
 // LIBRARY
@@ -7,6 +7,7 @@
 // BLOCK FOUNDATION
 @import "../../blocks/mobile/panel/panel";
 @import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
 
 // SPESIFIC PAGE BLOCK
 

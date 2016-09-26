@@ -143,7 +143,11 @@ h5 { font-size: 1.28rem; }
 
 h6 { font-size: 1.12rem; }
 
+.header__nav--btn { margin: 0; padding: 0; outline: none; border: 0; background: none; color: #0095da; text-align: left; cursor: pointer; }
+.header__nav--btn:hover { text-decoration: underline; }
 /* TODO: Migrate to formatting above and remove below styling*/
+.panel__menu { margin: 0; padding: 0; list-style: none; }
+
 .app__overlay { -webkit-transition: all 0.15s linear; -o-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -ms-transition: all 0.15s linear; transition: all 0.15s linear; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); opacity: 0; visibility: hidden; z-index: 800; }
 .app__overlay--show { opacity: 1; visibility: visible; }
 
@@ -392,15 +396,29 @@ h6 { font-size: 1.12rem; }
 
 .bli-usp { font-size: 2em; }
 
-.panel { -webkit-transition: all 0.15s ease-in-out; -o-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; -ms-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; position: fixed; top: 0; bottom: 0; left: 0px; left: -80vw; z-index: 900; overflow: hidden; width: 80vw; height: 100vh; }
+.panel { -webkit-transition: all 0.15s ease-in-out; -o-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; -ms-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; position: fixed; top: 0; bottom: 0; left: -70vw; z-index: 900; overflow: hidden; width: 70vw; height: 100vh; }
+.panel__content { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; overflow: auto; background: #fff; }
+.panel__link { display: block; padding: 20px 10px 15px 60px; color: #333333; text-decoration: none; line-height: 1.4em; }
+.panel__link i { float: left; margin-top: -3px; margin-left: -35px; width: 20px; font-size: 2rem; }
+.panel__link small { display: block; font-size: 1.0rem; margin-top: -5px; }
+.panel__link--member { padding-top: 50px; padding-bottom: 35px; background: #0095da; color: #ffffff; font-size: 1.6rem; }
+.panel__link--logged { padding-top: 30px; padding-bottom: 30px; }
+.panel__link--logged i { margin-top: 2px; }
+.panel__handler { position: fixed; top: 0; bottom: 0; left: 0; width: 10px; background: red; }
 .panel--notransitions { -webkit-transition: none !important; -o-transition: none !important; -moz-transition: none !important; -ms-transition: none !important; transition: none !important; }
 .panel--show { left: 0; }
-.panel__content { position: absolute; top: 0; bottom: 0; left: 0; z-index: 1; overflow: auto; padding: 20px; background: #0095da; color: #fff; }
-.panel__handler { position: fixed; top: 0; bottom: 0; left: 0; width: 10px; background: red; }
 
 /* @author: Muhammad R Ridho */
-.page { min-height: 100vh; background: #fff; z-index: 100; -webkit-transition: all 0.15s ease-in-out; -o-transition: all 0.15s ease-in-out; -moz-transition: all 0.15s ease-in-out; -ms-transition: all 0.15s ease-in-out; transition: all 0.15s ease-in-out; line-height: 2em; }
-.page__item { position: absolute; top: 0; right: 0; left: 0; bottom: 0; padding: 10px; background: #fff; overflow: auto; }
+.page { position: relative; z-index: 100; visibility: visible; min-height: 100vh; background: #fff; line-height: 2em; opacity: 1; }
+.page__item { -webkit-transition: all 0.4s ease; -o-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transition: all 0.4s ease; transition: all 0.4s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; background: #eaeaea; }
 .page__item--fluid { padding: 0; }
+.page__item--hidden { visibility: hidden; opacity: 0; }
+
+.header { position: relative; display: flex; align-items: center; justify-content: space-between; min-height: 50px; background: #fff; text-align: center; }
+.header__content { display: flex; padding: 5px; }
+.header__brand { margin: auto; height: 28px; }
+.header__nav { padding: 10px; width: 40px; color: #333333; font-size: 2rem; }
+.header__nav--link { color: #333333; }
+.header__nav--btn { color: #333333; }
 
 /*# sourceMappingURL=index.css.map */
