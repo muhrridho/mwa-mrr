@@ -1,6 +1,6 @@
 $sidebarWidth 	: 70vw;
 .sidebar {
-	@include transition(all .15s ease-in-out);
+	// @include transition(all .15s ease-in-out);
 
 	position: fixed; top: 0; bottom: 0; left: 0;
 	// z-index: 900;
@@ -8,12 +8,12 @@ $sidebarWidth 	: 70vw;
 	width: #{$sidebarWidth};
 	height: 100vh;
 	@include backface-visibility(hidden);
-	// visibility: hidden;
+	visibility: hidden;
 
 
 	&--notransitions { @include transition(none !important); }
 	&--open { 
-		// visibility: visible;
+		visibility: visible;
 	}
 
 	&__content {

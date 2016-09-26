@@ -1,8 +1,9 @@
 body {
-	position: relative;
-	width: 100vw;
-	overflow-x: hidden;
 	@include backface-visibility(hidden);
+
+	position: relative;
+	overflow-x: hidden;
+	width: 100vw;
 }
 .app {
 	&__overlay {
@@ -10,22 +11,24 @@ body {
 
 		position: fixed;
 		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 800;
+		visibility: hidden;
 		background: rgba(0, 0, 0, .2);
 		opacity: 0;
-		visibility: hidden;
-		z-index: 800;
 
 		&--show {
-			opacity: 1;
 			visibility: visible;
+			opacity: 1;
 		}
 		&--sidebar-open {
 			@include translateX(70vw);
+			@include transition(all .25s ease);
+
 			overflow-x: hidden;
 		}
 	}
 	&__container {
-		overflow-x: hidden;
 		position: relative;
+		overflow-x: hidden;
 	}
 }

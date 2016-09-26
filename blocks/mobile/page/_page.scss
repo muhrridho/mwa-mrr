@@ -2,7 +2,7 @@
  * @author: Muhammad R Ridho
  */
 .page {
-	// @include transition(all .15s ease-in-out);
+	@include transition(all .25s ease);
 	position: relative;
 	z-index: 100;
 	visibility: visible;
@@ -10,7 +10,6 @@
 	background: #fff;
 	line-height: 2em;
 	opacity: 1;
-	@include transition(all .15s ease);
 
 	&__item {
 
