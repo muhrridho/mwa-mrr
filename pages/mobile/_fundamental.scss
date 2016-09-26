@@ -6,6 +6,9 @@ body {
 	width: 100vw;
 }
 .app {
+	position: relative;
+	overflow-x: hidden;
+
 	&__overlay {
 		@include transition(all .15s linear);
 
@@ -26,9 +29,5 @@ body {
 
 			overflow-x: hidden;
 		}
-	}
-	&__container {
-		position: relative;
-		overflow-x: hidden;
 	}
 }

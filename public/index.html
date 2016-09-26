@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="../builds/mobile/index.css">
 	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
 </head>
-<body class="app">
-	<div class="app__container">
+<body>
+	<div class="app">
 		<aside class="app__sidebar sidebar">
 			<div class="sidebar__content">
 				<ul class="sidebar__menu">
@@ -52,13 +52,55 @@
 					</div>
 				</header>
 				<div class="page__content">
-					<p>Dev 6</p>
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-					</p>
+					<div class="slider">
+						<ul class="slider__container">
+							<li class="slider__item">
+								<div class="slider__image" style="background-image: url('https://www.luxurytraveldiary.com/wp-content/uploads/2016/02/review-of-luxury-beachfront-hotel-tugu-bali-5.jpg'"></div>
+								<div class="slider__content">
+									<p>Keep track of your favorite <br> place at all time</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="search">
+						<div class="search__row">
+							<i class="search__icon bli-search-thin"></i>
+							<input type="text" name="area" class="search__input js-search__ac-trigger" placeholder="Pilih Destinasi" autocomplete="off">
+						</div>
+						<div class="search__row">
+							<div class="search__group">
+								<i class="search__icon bli-calendar"></i>
+								<input type="text" name="area" class="search__input" placeholder="Check In" autocomplete="off">
+							</div>
+							<div class="search__group">
+								<i class="search__icon bli-calendar"></i>
+								<input type="text" name="area" class="search__input" placeholder="Check In" autocomplete="off">
+							</div>
+						</div>
+						<div class="search__row">
+							<button type="button" class="search__btn" onClick="doSearch()">Cari</button>
+						</div>
+					</div>
+					<nav class="destination">
+						<ul class="destination__menu">
+							<li class="destination__item">
+								<a class="destination__link" href="">
+									<i class="destination__icon bli-marker-outline"></i>
+									<p>Destinasi Domestik <small>Jelajahi  tempat tempat menarik di indonesia</small></p>
+									<i class="destination__icon destination__icon--right bli-right-arrow"></i>
+								</a>
+							</li>
+							<li class="destination__item">
+								<a class="destination__link" href="">
+									<i class="destination__icon bli-marker-outline"></i>
+									<p>Destinasi Internasional <small>Jelajahi  tempat tempat menarik di dunia</small></p>
+									<i class="destination__icon destination__icon--right bli-right-arrow"></i>
+								</a>
+							</li>
+							
+						</ul>
+					</nav>
+
 				</div>
 			</article>
 			<article id="page-lipsum" class="page__item page__item--hidden">

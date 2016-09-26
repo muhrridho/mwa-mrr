@@ -1,0 +1,51 @@
+.search {
+	@extend %container;
+
+	position: relative;
+	z-index: 1;
+	margin-top: -165px;
+	background: rgba(255, 255, 255, .3);
+
+	&__row {
+		@extend %clearfix;
+
+		position: relative;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__group {
+		position: relative;
+		float: left;
+		width: 50%;
+		text-align: center;
+
+		&:first-child {
+			padding-right: 5px;
+		}
+		&:last-child {
+			padding-left: 5px;
+		}
+	}
+	&__input {
+		@extend %form__textfield;
+
+		padding-left: 40px;
+	}
+	&__icon {
+		position: absolute;
+		top: 11px; left: 11px;
+		font-size: 2rem;
+	}
+	&__btn {
+		@extend %form__button;
+		@extend %form__button--orange;
+
+		padding: 6px 10px;
+		width: 100%;
+		text-transform: uppercase;
+
+	}
+}
