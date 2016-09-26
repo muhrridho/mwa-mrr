@@ -1,8 +1,5 @@
 body {
-
-}
-.no-overflow {
-	overflow: hidden;
+	position: relative;
 }
 .app {
 	&__overlay {
@@ -21,6 +18,7 @@ body {
 		}
 		&--sidebar-open {
 			@include translateX(70vw);
+			overflow-x: hidden;
 		}
 	}
 }

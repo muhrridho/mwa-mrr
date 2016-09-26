@@ -37,6 +37,7 @@
 
 	&--sidebar-open {
 		@include translateX(70vw);
+		overflow-x: hidden;
 	}
 
 }
