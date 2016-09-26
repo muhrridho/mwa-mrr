@@ -148,7 +148,7 @@ h6 { font-size: 1.12rem; }
 /* TODO: Migrate to formatting above and remove below styling*/
 .sidebar__menu { margin: 0; padding: 0; list-style: none; }
 
-body { position: relative; width: 100vw; overflow-x: hidden; }
+body { position: relative; width: 100vw; overflow-x: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; }
 
 .app__overlay { -webkit-transition: all 0.15s linear; -o-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -ms-transition: all 0.15s linear; transition: all 0.15s linear; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.2); opacity: 0; visibility: hidden; z-index: 800; }
 .app__overlay--show { opacity: 1; visibility: visible; }

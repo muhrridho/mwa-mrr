@@ -2,6 +2,7 @@ body {
 	position: relative;
 	width: 100vw;
 	overflow-x: hidden;
+	@include backface-visibility(hidden);
 }
 .app {
 	&__overlay {
