@@ -7,14 +7,16 @@
 	min-height: 50px;
 	background: #fff;
 	text-align: center;
+	// @include box-shadow(0 2px 2px 0 rgba(0,0,0,.2));
 
 	&__content {
-		display: flex;
 		padding: 5px;
+		width: 100%;
 	}
 	&__brand {
 		margin: auto;
 		height: 28px;
+		margin-bottom: 4px;
 	}
 	&__nav {
 		padding: 10px;
