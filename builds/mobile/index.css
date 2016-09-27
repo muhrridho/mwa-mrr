@@ -555,18 +555,18 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .search__group:first-child { padding-right: 5px; }
 .search__group:last-child { padding-left: 5px; }
 .search__input { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-left: 40px; background: #fff; }
-.search__input--header { padding: 4px 8px; border: 0; background: #f5f6f7; }
+.search__input--header { margin-left: 5px; padding: 6px 8px; border: 0; background: #f5f6f7; }
 .search__input--header:focus { background: #fff; }
 .search__icon { position: absolute; top: 11px; left: 11px; font-size: 2rem; }
 .search__btn { padding: 6px 10px; width: 100%; text-transform: uppercase; }
 .search__ac { border-top: 1px solid #eaeaea; background: #fff; }
-.search__ac-title { margin: 0; padding: 10px 10px; background-color: #f9f9f9; color: #666; font-size: 1.6rem; }
+.search__ac-title { margin: 0; padding: 5px 10px; background-color: #f9f9f9; color: #666; }
 .search__ac-block { margin-bottom: 10px; }
 .search__ac-block--active { display: block; }
 .search__ac-section { margin: 0 10px; padding: 0; border: 0; border-top: 1px solid #d9d9d9; }
 .search__ac-section legend { padding-right: 10px; color: #0095da; text-transform: uppercase; }
 .search__ac-menu { margin: 0; margin-top: 10px; padding: 0; list-style: none; }
-.search__ac-item { padding: 5px 0; color: #8d8d8d; cursor: pointer; }
+.search__ac-item { margin: 0 -10px; padding: 5px 10px; color: #8d8d8d; cursor: pointer; }
 .search__ac-item:hover, .search__ac-item--active { background: #CCEAF8; }
 .search__ac-value { margin: 0; color: #333333; font-weight: normal; font-size: 1.6rem; }
 .search__ac-value span { color: #0095da; font-weight: bold; }

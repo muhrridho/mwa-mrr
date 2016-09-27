@@ -4,8 +4,12 @@ $(document).ready(function(){
 	$(".js-header__nav--hamburger").click(function(){
 		toggleSidebar();
 	})
-	$(".js-search__ac-trigger").click(function(){
+	$(".js-search__ac-open").click(function(){
+		
 		showPage("#page-suggestion");
+
+		setTimeout(function() { $(".js-search__ac-trigger").focus(); }, 250);
+
 	})
 	$(".js-search__close").click(function(){
 		showPage("#page-home");
