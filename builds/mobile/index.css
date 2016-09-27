@@ -426,8 +426,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .page { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: relative; z-index: 100; visibility: visible; min-height: 100vh; background: #F5F6F7; line-height: 2em; opacity: 1; }
 .page__item { -webkit-transition: all 0.15s ease; -o-transition: all 0.15s ease; -moz-transition: all 0.15s ease; -ms-transition: all 0.15s ease; transition: all 0.15s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; }
 .page__item--fluid { padding: 0; }
-.page__item--default { margin-top: 0 !important; }
-.page__item--hidden { visibility: hidden; margin-top: 100vh; opacity: 0; }
+.page__item--hidden { visibility: hidden; opacity: 0; }
 .page__content { padding-top: 50px; min-height: calc(100vh - 50px); }
 .page--sidebar-open { -webkit-transform: translateX(70vw); -ms-transform: translateX(70vw); -o-transform: translateX(70vw); transform: translateX(70vw); overflow-x: hidden; }
 
