@@ -427,10 +427,10 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .page__item { -webkit-transition: all 0.15s ease; -o-transition: all 0.15s ease; -moz-transition: all 0.15s ease; -ms-transition: all 0.15s ease; transition: all 0.15s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; }
 .page__item--fluid { padding: 0; }
 .page__item--hidden { visibility: hidden; opacity: 0; }
-.page__content { padding-top: 50px; min-height: calc(100vh - 50px); }
+.page__content { padding-top: 50px; }
 .page--sidebar-open { -webkit-transform: translateX(70vw); -ms-transform: translateX(70vw); -o-transform: translateX(70vw); transform: translateX(70vw); overflow-x: hidden; }
 
-.header { position: fixed; top: 0; right: 0; left: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; margin: 0; min-height: 50px; background: #fff; text-align: center; }
+.header { position: fixed; top: 0; right: 0; left: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; margin: 0; min-height: 50px; border-bottom: 1px solid #eaeaea; background: #fff; text-align: center; }
 .header__content { padding: 5px; width: 100%; text-align: center; }
 .header__content h1 { margin-bottom: 0; font-size: 1.6rem; }
 .header__brand { margin: auto; height: 28px; }
@@ -559,7 +559,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .search__input--header:focus { background: #fff; }
 .search__icon { position: absolute; top: 11px; left: 11px; font-size: 2rem; }
 .search__btn { padding: 6px 10px; width: 100%; text-transform: uppercase; }
-.search__ac { border-top: 1px solid #eaeaea; background: #fff; }
+.search__ac { background: #fff; }
 .search__ac-title { margin: 0; padding: 7px 10px; background-color: #f9f9f9; color: #666; font-size: 1.6rem; }
 .search__ac-block { margin-bottom: 10px; }
 .search__ac-block--active { display: block; }
