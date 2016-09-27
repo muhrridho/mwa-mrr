@@ -424,18 +424,20 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 /* @author: Muhammad R Ridho */
 .page { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: relative; z-index: 100; visibility: visible; min-height: 100vh; background: #F5F6F7; line-height: 2em; opacity: 1; }
-.page__item { position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; margin-top: 50px; }
+.page__item { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; padding-top: 50px; }
 .page__item--fluid { padding: 0; }
-.page__item--hidden { visibility: hidden; opacity: 0; }
+.page__item--default { -webkit-transform: scale(1) !important; -ms-transform: scale(1) !important; -o-transform: scale(1) !important; transform: scale(1) !important; }
+.page__item--hidden { -webkit-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0); visibility: hidden; opacity: 0; }
 .page__header { margin-top: -50px; }
 .page--sidebar-open { -webkit-transform: translateX(70vw); -ms-transform: translateX(70vw); -o-transform: translateX(70vw); transform: translateX(70vw); overflow-x: hidden; }
 
-.header { position: fixed; top: 0; right: 0; left: 0; margin: 0; display: flex; align-items: center; justify-content: space-between; min-height: 50px; background: #fff; text-align: center; }
-.header__content { padding: 5px; width: 100%; display: flex; }
-.header__brand { margin: auto; height: 28px; margin-bottom: 4px; }
+.header { position: fixed; top: 0; right: 0; left: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; margin: 0; min-height: 50px; background: #fff; text-align: center; }
+.header__content { display: flex; padding: 5px; width: 100%; }
+.header__brand { margin: auto; margin-bottom: 4px; height: 28px; }
 .header__nav { padding: 10px; width: 50px; color: #333333; font-size: 2.6rem; }
 .header__nav--link { color: #333333; }
 .header__nav--btn { color: #333333; }
+.header--static { position: static; margin-top: -50px; }
 
 .slider { position: relative; background: #eaeaea; }
 .slider__item { display: table; width: 100%; height: 400px; }
@@ -448,7 +450,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .search__group { position: relative; float: left; width: 50%; text-align: center; }
 .search__group:first-child { padding-right: 5px; }
 .search__group:last-child { padding-left: 5px; }
-.search__input { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-left: 40px; }
+.search__input { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-left: 40px; background: #fff; }
 .search__icon { position: absolute; top: 11px; left: 11px; font-size: 2rem; }
 .search__btn { padding: 6px 10px; width: 100%; text-transform: uppercase; }
 

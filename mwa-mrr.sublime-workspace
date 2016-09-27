@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"overf",
+				"overflow-x"
+			],
+			[
+				"heade",
+				"header__nav	 index.css"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"include",
+				"include	@include"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
 				"panel",
 				"panelWidthUnit"
 			],
@@ -48,24 +104,12 @@
 				"opacity"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"margin",
 				"margin"
 			],
 			[
 				"jumbotron__con",
 				"jumbotron__container	 desktop-home.css"
-			],
-			[
-				"padd",
-				"padding-left"
-			],
-			[
-				"paddin",
-				"padding"
 			],
 			[
 				"gre",
@@ -78,10 +122,6 @@
 			[
 				"in",
 				"input	Tag"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"bre",
@@ -114,18 +154,6 @@
 			[
 				"cli",
 				"click"
-			],
-			[
-				"border",
-				"border-top"
-			],
-			[
-				"di",
-				"div	Tag"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"wid",
@@ -256,10 +284,6 @@
 				"text-decoration"
 			],
 			[
-				"align",
-				"text-align"
-			],
-			[
 				"inline",
 				"inline-block"
 			],
@@ -274,10 +298,6 @@
 			[
 				"paddi",
 				"padding-top"
-			],
-			[
-				"margin-",
-				"margin-top"
 			],
 			[
 				"cur",
@@ -494,26 +514,6 @@
 			[
 				"p",
 				"p	Tag"
-			],
-			[
-				"line",
-				"lighten	lighten()"
-			],
-			[
-				"per",
-				"permintaanKhusus"
-			],
-			[
-				"bo",
-				"bottom"
-			],
-			[
-				"te",
-				"textarea	Tag"
-			],
-			[
-				"hide",
-				"hideSlider"
 			]
 		]
 	},
@@ -523,58 +523,39 @@
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 7353,
+				"buffer_size": 5972,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": ".header {\n	height: 50px;\n	\n}",
-			"file": "blocks/mobile/header/_header.scss",
-			"file_size": 15,
-			"file_write_time": 131191010158855838,
+			"file": "blocks/mobile/search/_search.scss",
 			"settings":
 			{
-				"buffer_size": 28,
+				"buffer_size": 742,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "blocks/mobile/panel/_panel.scss",
+			"file": "tools/helper/_form.scss",
 			"settings":
 			{
-				"buffer_size": 542,
+				"buffer_size": 4112,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "blocks/mobile/page/_page.scss",
+			"file": "blocks/mobile/destination/_destination.scss",
 			"settings":
 			{
-				"buffer_size": 337,
+				"buffer_size": 583,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tools/helper/_grid-mobile.scss",
+			"file": "blocks/mobile/slider/_slider.scss",
 			"settings":
 			{
-				"buffer_size": 119,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/helper/_grid.scss",
-			"settings":
-			{
-				"buffer_size": 772,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tools/_bootstrap-mobile.scss",
-			"settings":
-			{
-				"buffer_size": 204,
+				"buffer_size": 550,
 				"line_ending": "Windows"
 			}
 		},
@@ -582,7 +563,31 @@
 			"file": "pages/mobile/index.scss",
 			"settings":
 			{
-				"buffer_size": 316,
+				"buffer_size": 465,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/sidebar/_sidebar.scss",
+			"settings":
+			{
+				"buffer_size": 1182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/mobile/index.js",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/sidebar/_sidebar.js",
+			"settings":
+			{
+				"buffer_size": 787,
 				"line_ending": "Windows"
 			}
 		},
@@ -590,7 +595,31 @@
 			"file": "pages/mobile/_fundamental.scss",
 			"settings":
 			{
-				"buffer_size": 276,
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/mobile/_fundamental.js",
+			"settings":
+			{
+				"buffer_size": 34,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/page/_page.js",
+			"settings":
+			{
+				"buffer_size": 205,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/page/_page.scss",
+			"settings":
+			{
+				"buffer_size": 552,
 				"line_ending": "Windows"
 			}
 		}
@@ -649,13 +678,23 @@
 		"/D/Workspace/mwa-mrr/blocks/mobile",
 		"/D/Workspace/mwa-mrr/libs",
 		"/D/Workspace/mwa-mrr/pages",
+		"/D/Workspace/mwa-mrr/pages/mobile",
 		"/D/Workspace/mwa-mrr/public",
 		"/D/Workspace/mwa-mrr/tools",
 		"/D/Workspace/mwa-mrr/tools/helper"
 	],
 	"file_history":
 	[
+		"/D/Workspace/mwa-mrr/tools/_mixins.scss",
+		"/D/Workspace/mwa-mrr/blocks/mobile/header/_header.scss",
 		"/D/Workspace/mwa-mrr/blocks/mobile/panel/_panel.js",
+		"/D/Workspace/mwa-mrr/blocks/mobile/panel/_panel.scss",
+		"/D/Workspace/mwa-mrr/tools/helper/_form.scss",
+		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.scss",
+		"/D/Workspace/mwa-mrr/tools/_bootstrap-mobile.scss",
+		"/D/Workspace/mwa-mrr/tools/helper/_grid.scss",
+		"/D/Workspace/mwa-mrr/tools/helper/_grid-mobile.scss",
+		"/D/Workspace/mwa-mrr/public/index.html",
 		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.js",
 		"/D/Workspace/mwa-mrr/tools/_base.scss",
 		"/D/Workspace/mwa-mrr/tools/_variables.scss",
@@ -773,16 +812,7 @@
 		"/D/Data/App/Project/Hotel/resources/tool/_base.scss",
 		"/D/Data/App/Project/Hotel/resources/block/desktop/jumbotron/_jumbotron--about.scss",
 		"/D/Data/App/Project/Hotel/example/about.html",
-		"/D/Data/App/Project/Hotel/resources/tool/_bootstrap.scss",
-		"/D/Data/App/Project/Hotel/index.html",
-		"/D/Data/App/Project/Hotel/resources/page/desktop/example-home.scss",
-		"/D/Data/App/Project/Hotel/Grunt.js",
-		"/D/Data/App/Project/Hotel/package.json",
-		"/D/Data/App/Project/Convention/resources/page/desktop/example-home.scss",
-		"/D/Data/App/Project/Convention/resources/block/desktop/jumbotron/_jumbotron--about.scss",
-		"/D/Data/App/Project/Convention/resources/block/desktop/jumbotron/_jumbotron.scss",
-		"/D/Data/App/Project/Convention/resources/block/desktop/header/_header.scss",
-		"/D/Data/App/Project/Convention/resources/block/desktop/nav/_nav.scss"
+		"/D/Data/App/Project/Hotel/resources/tool/_bootstrap.scss"
 	],
 	"find":
 	{
@@ -801,6 +831,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"panel",
 			"mobilePagePadding",
 			"%;\n",
 			"distance",
@@ -927,8 +958,7 @@
 			"orange",
 			"auto",
 			"center",
-			"translatey",
-			"translate"
+			"translatey"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -936,6 +966,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"sidebar",
 			"1.2rem",
 			"	",
 			"breadcrumb",
@@ -1028,15 +1059,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7353,
+						"buffer_size": 5972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3527,
-								3527
+								2716,
+								2716
 							]
 						],
 						"settings":
@@ -1056,27 +1087,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 691.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "blocks/mobile/header/_header.scss",
+					"file": "blocks/mobile/search/_search.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28,
-								28
+								519,
+								519
 							]
 						],
 						"settings":
@@ -1092,59 +1123,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "blocks/mobile/panel/_panel.scss",
+					"file": "tools/helper/_form.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 542,
+						"buffer_size": 4112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "ng-controller=\"*",
-									"selector": "punctuation.definition.string"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "blocks/mobile/page/_page.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 337,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								294,
-								294
+								425,
+								393
 							]
 						],
 						"settings":
@@ -1171,20 +1162,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "tools/helper/_grid-mobile.scss",
+					"buffer": 3,
+					"file": "blocks/mobile/destination/_destination.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 119,
+						"buffer_size": 583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								35,
+								16
 							]
 						],
 						"settings":
@@ -1195,24 +1186,91 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "tools/helper/_grid.scss",
+					"buffer": 4,
+					"file": "blocks/mobile/slider/_slider.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 772,
+						"buffer_size": 550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								375
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "pages/mobile/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "blocks/mobile/sidebar/_sidebar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
 							]
 						],
 						"settings":
@@ -1235,29 +1293,109 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "tools/_bootstrap-mobile.scss",
+					"buffer": 7,
+					"file": "pages/mobile/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 204,
+						"buffer_size": 123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								204,
-								204
+								107,
+								107
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "blocks/mobile/sidebar/_sidebar.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "pages/mobile/_fundamental.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1267,20 +1405,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "pages/mobile/index.scss",
+					"buffer": 10,
+					"file": "pages/mobile/_fundamental.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 34,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								31,
+								31
 							]
 						],
 						"settings":
@@ -1296,30 +1434,58 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "pages/mobile/_fundamental.scss",
+					"buffer": 11,
+					"file": "blocks/mobile/page/_page.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 276,
+						"buffer_size": 205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								276,
-								276
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "blocks/mobile/page/_page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
 							]
 						],
 						"settings":
@@ -1335,13 +1501,14 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1394,7 +1561,7 @@
 	"project": "mwa-mrr.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": false,
 	"select_file":
