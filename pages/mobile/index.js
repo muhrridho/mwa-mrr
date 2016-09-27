@@ -7,7 +7,7 @@ $(document).ready(function(){
 	})
 	$(".js-search__ac--open").click(function(){
 		showPage("#page-suggestion");
-		setTimeout(function() { $(".js-search__ac-trigger").focus(); }, 250);
+		setTimeout(function() { $(".js-search__ac-trigger").focus(); }, 150);
 
 	})
 	$(".js-search__datepicker--open").click(function(){
