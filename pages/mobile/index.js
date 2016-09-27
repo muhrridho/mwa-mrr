@@ -13,7 +13,7 @@ $(document).ready(function(){
 	})
 	$('.slider').owlCarousel({
 		autoPlay: true,
-		autoplayTimeout: 5000,
+		autoplayTimeout: 1000,
 		singleItem : true,
 		transitionStyle : "fade",
 
