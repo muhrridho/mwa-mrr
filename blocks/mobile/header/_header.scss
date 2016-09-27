@@ -35,8 +35,17 @@
 			color: $black;
 		}
 	}
+	&__icon {
+
+		&--small {
+			font-size: 1.8rem;
+		}
+	}
 	&--static {
 		position: static;
-		margin-top: -50px;
+
+		+ .page__content {
+			padding-top: 0;
+		}
 	}
 }

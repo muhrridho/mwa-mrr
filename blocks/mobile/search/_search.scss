@@ -35,6 +35,16 @@
 
 		padding-left: 40px;
 		background: #fff;
+
+		&--header {
+			padding: 4px 8px;
+			border: 0;
+			background: #f5f6f7;
+
+			&:focus {
+				background: #fff;
+			}
+		}
 	}
 	&__icon {
 		position: absolute;
@@ -49,5 +59,84 @@
 		width: 100%;
 		text-transform: uppercase;
 
+	}
+	&__ac {
+		border-top: 1px solid #eaeaea;
+		background: #fff;
+
+		&-title {
+			margin: 0;
+			padding: 10px 10px;
+			background-color: #f9f9f9;
+			color: $greyDarker;
+			font-size: 1.6rem;
+		}
+		&-block {
+			// display: none;
+			margin-bottom: 10px;
+
+			&--active {
+				display: block;
+			}
+		}
+		&-section {
+			margin: 0 10px;
+			padding: 0;
+			border: 0;
+			border-top: 1px solid #d9d9d9;
+
+			// display: none;
+			legend {
+				padding-right: 10px;
+				color: $blue;
+				text-transform: uppercase;
+			}
+		}
+		&-menu {
+			margin: 0;
+			margin-top:10px;
+			padding: 0;
+			list-style: none;
+		}
+		&-item {
+			padding: 5px 0;
+			color: #8d8d8d;
+			cursor: pointer;
+
+			&:hover, &--active {
+				background: $blueLighter;
+			}
+		}
+		&-value {
+			margin: 0;
+			color: $black;
+			font-weight: normal;
+			font-size: 1.6rem;
+
+			span {
+				color: $blue;
+				font-weight: bold;
+			}
+		}
+		&-info {
+			margin: 0;
+			margin-top: -8px;
+			color: #8d8d8d;
+			font-size: 1.3rem;
+
+			&-loc {
+				span {
+					color: $blue;
+				}
+			}
+			&-sum {
+				float: right;
+			}
+		}
+		&-error {
+			display: none;
+			margin: 0;
+			text-align: center;
+		}
 	}
 }

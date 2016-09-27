@@ -149,7 +149,7 @@ h6 { font-size: 1.12rem; }
 
 .search, .destination { padding: 10px; }
 
-.search__input { padding: 6px 1.2rem; width: 100%; outline: none; border: 1px solid #d0d0d0; -webkit-appearance: none; border-radius: 0; }
+.search__input { padding: 6px 12px; width: 100%; outline: none; border: 1px solid #d0d0d0; -webkit-appearance: none; border-radius: 0; }
 .search__btn { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; }
 .search__btn { border-color: #f7931e; background: #f7931e; color: #fff; }
 .search__btn:hover { border-color: #f9ab4f; background: #f9ab4f; color: #fff; }
@@ -424,11 +424,11 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 /* @author: Muhammad R Ridho */
 .page { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: relative; z-index: 100; visibility: visible; min-height: 100vh; background: #F5F6F7; line-height: 2em; opacity: 1; }
-.page__item { -webkit-transition: all 0.15s ease; -o-transition: all 0.15s ease; -moz-transition: all 0.15s ease; -ms-transition: all 0.15s ease; transition: all 0.15s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; padding-top: 50px; }
+.page__item { -webkit-transition: all 0.15s ease; -o-transition: all 0.15s ease; -moz-transition: all 0.15s ease; -ms-transition: all 0.15s ease; transition: all 0.15s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; }
 .page__item--fluid { padding: 0; }
 .page__item--default { margin-top: 0 !important; }
 .page__item--hidden { visibility: hidden; margin-top: 100vh; opacity: 0; }
-.page__header { margin-top: -50px; }
+.page__content { padding-top: 50px; min-height: calc(100vh - 50px); }
 .page--sidebar-open { -webkit-transform: translateX(70vw); -ms-transform: translateX(70vw); -o-transform: translateX(70vw); transform: translateX(70vw); overflow-x: hidden; }
 
 .header { position: fixed; top: 0; right: 0; left: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; margin: 0; min-height: 50px; background: #fff; text-align: center; }
@@ -437,7 +437,9 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .header__nav { padding: 10px; width: 50px; color: #333333; font-size: 2.6rem; }
 .header__nav--link { color: #333333; }
 .header__nav--btn { color: #333333; }
-.header--static { position: static; margin-top: -50px; }
+.header__icon--small { font-size: 1.8rem; }
+.header--static { position: static; }
+.header--static + .page__content { padding-top: 0; }
 
 /*  	Core Owl Carousel CSS File 	v1.3.3 */
 /* clearfix */
@@ -553,8 +555,25 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .search__group:first-child { padding-right: 5px; }
 .search__group:last-child { padding-left: 5px; }
 .search__input { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-left: 40px; background: #fff; }
+.search__input--header { padding: 4px 8px; border: 0; background: #f5f6f7; }
+.search__input--header:focus { background: #fff; }
 .search__icon { position: absolute; top: 11px; left: 11px; font-size: 2rem; }
 .search__btn { padding: 6px 10px; width: 100%; text-transform: uppercase; }
+.search__ac { border-top: 1px solid #eaeaea; background: #fff; }
+.search__ac-title { margin: 0; padding: 10px 10px; background-color: #f9f9f9; color: #666; font-size: 1.6rem; }
+.search__ac-block { margin-bottom: 10px; }
+.search__ac-block--active { display: block; }
+.search__ac-section { margin: 0 10px; padding: 0; border: 0; border-top: 1px solid #d9d9d9; }
+.search__ac-section legend { padding-right: 10px; color: #0095da; text-transform: uppercase; }
+.search__ac-menu { margin: 0; margin-top: 10px; padding: 0; list-style: none; }
+.search__ac-item { padding: 5px 0; color: #8d8d8d; cursor: pointer; }
+.search__ac-item:hover, .search__ac-item--active { background: #CCEAF8; }
+.search__ac-value { margin: 0; color: #333333; font-weight: normal; font-size: 1.6rem; }
+.search__ac-value span { color: #0095da; font-weight: bold; }
+.search__ac-info { margin: 0; margin-top: -8px; color: #8d8d8d; font-size: 1.3rem; }
+.search__ac-info-loc span { color: #0095da; }
+.search__ac-info-sum { float: right; }
+.search__ac-error { display: none; margin: 0; text-align: center; }
 
 .destination__item { margin-bottom: 10px; }
 .destination__link { display: flex; align-items: center; padding: 20px 10px; background: #fff; color: #333333; text-decoration: none; }

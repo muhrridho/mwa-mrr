@@ -111,15 +111,106 @@
 			<article id="page-suggestion" class="page__item page__item--hidden">
 				<header class="page__header header header--static">
 					<div class="header__content">
-						
-						<input type="text" name="area" class="search__input js-search__ac-trigger" placeholder="Pilih Destinasi" autocomplete="off">
+						<input type="text" name="area" class="search__input search__input--header js-search__ac-trigger" placeholder="Pilih Destinasi" autocomplete="off">
 					</div>
 					<div class="header__nav">
-						<a class="header__nav--link" href=""><i class="bli-close js-search__close"></i></a>
+						<a class="header__nav--link" href=""><i class="header__icon header__icon--small bli-close js-search__close"></i></a>
 					</div>
 				</header>
-				<div class="page__content">
-					<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				<div class="page__content search__ac" id="search__ac">
+					<div class="search__ac-block" id="search__ac-suggest">
+						<p class="search__ac-title">Pencarian Terakhir Anda</p>
+						<fieldset id="search__as-region" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu">
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value"><span>Li</span>sbon</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Portugal</span><span class="search__ac-info-sum">20 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset id="search__as-hotel" class="search__ac-section">
+							<legend>Hotel</legend>
+							<ul class="search__ac-menu">
+								<li class="search__ac-item">
+									<p class="search__ac-value"><span>Li</span>ma</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Peru</span><span class="search__ac-info-sum">1 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+							</ul>
+						</fieldset>
+						<p class="search__ac-title">Destinasi Populer</p>
+						<fieldset id="search__as-popular" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu">
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Ba<span>li</span></p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+							</ul>
+						</fieldset>
+					</div>
+					<!-- <div class="search__ac-block" id="search__ac-complete">
+						<fieldset id="search__ac-region" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+						<fieldset id="search__ac-hotel" class="search__ac-section">
+							<legend>Hotel</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+					</div> -->
+					<p class="search__ac-error">No item match your search</p>
 				</div>
 			</article>
 		</main>
