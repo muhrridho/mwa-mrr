@@ -13,7 +13,7 @@
 	opacity: 1;
 
 	&__item {
-		@include transition(all .25s ease);
+		@include transition(all .15s ease);
 
 		position: absolute;
 		top: 0; right: 0; bottom: 0; left: 0;
