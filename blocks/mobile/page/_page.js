@@ -7,4 +7,9 @@ function showPage(id){
 
 function initPage(){
 	// alert();
+
+	$(".js-show-page__item--default").click(function(){
+		showPage(".page__item--default");
+		return false;
+	})
 }

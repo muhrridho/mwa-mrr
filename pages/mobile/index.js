@@ -1,20 +1,20 @@
 $(document).ready(function(){
 	initSidebar();
+	initPage();
 
 	$(".js-header__nav--hamburger").click(function(){
 		toggleSidebar();
 	})
-	$(".js-search__ac-open").click(function(){
-		
+	$(".js-search__ac--open").click(function(){
 		showPage("#page-suggestion");
-
 		setTimeout(function() { $(".js-search__ac-trigger").focus(); }, 250);
 
 	})
-	$(".js-search__close").click(function(){
-		showPage("#page-home");
-		return false;
+	$(".js-search__datepicker--open").click(function(){
+		showPage("#page-datepicker");
+
 	})
+
 	$('.slider').owlCarousel({
 		autoPlay: true,
 		autoplayTimeout: 1000,

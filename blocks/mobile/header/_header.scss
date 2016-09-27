@@ -11,13 +11,17 @@
 
 	// @include box-shadow(0 2px 2px 0 rgba(0,0,0,.2));
 	&__content {
-		display: flex;
 		padding: 5px;
 		width: 100%;
+		text-align: center;
+
+		h1 {
+			margin-bottom: 0;
+			font-size: 1.6rem;
+		}
 	}
 	&__brand {
 		margin: auto;
-		margin-bottom: 4px;
 		height: 28px;
 	}
 	&__nav {
@@ -36,7 +40,6 @@
 		}
 	}
 	&__icon {
-
 		&--small {
 			font-size: 1.8rem;
 		}
