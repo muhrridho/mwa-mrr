@@ -8,7 +8,7 @@ function showPage(id){
 
 function initPage(){
 	$(".js-page--show").click(function(e){
-		var page = $(this).attr("href");
+		var page = $(this).attr("testHref");
 
 		// Testing
 		var url = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/muhrridho/mwa-mrr/dev/public/index.html";
