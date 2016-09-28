@@ -7,13 +7,17 @@ function showPage(id){
 }
 
 function initPage(){
-	$(".js-page--show").click(function(){
+	$(".js-page--show").click(function(e){
 		var page = $(this).attr("href");
 
-		// For testing on real device
-		page = page.replace(window.location.href, "")
+		// Testing
+		var url = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/muhrridho/mwa-mrr/dev/public/index.html";
+		var temp = url.replace("https:", "");
+		page = page.replace(temp, "");
 
+		console.log(page);
 		showPage(page);
+		e.preventDefault();
 		return false;
 	})
 
