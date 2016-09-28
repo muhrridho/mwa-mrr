@@ -11,6 +11,7 @@ $(document).ready(function(){
 
 	})
 	$(".js-search__datepicker--open").click(function(){
+		$(this).blur();
 		showPage("#page-datepicker");
 
 	})

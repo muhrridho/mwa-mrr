@@ -1,4 +1,4 @@
- /*
+/*
  * @author: Muhammad R Ridho
  */
 .page {
@@ -13,7 +13,7 @@
 	opacity: 1;
 
 	&__item {
-		// @include transition(all .15s ease);
+		@include transition(all .15s ease);
 
 		position: absolute;
 		top: 0; right: 0; bottom: 0; left: 0;
@@ -27,11 +27,10 @@
 			// margin-top: 0 !important;
 		}
 		&--hidden {
-			// visibility: hidden;
+			visibility: hidden;
 			// @include transform(scale(0));
 			// margin-top: 100vh;
-			// opacity: 0;
-			display: none;
+			opacity: 0;
 		}
 		
 	}

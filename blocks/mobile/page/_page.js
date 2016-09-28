@@ -1,10 +1,6 @@
 function showPage(id){
-	// $(".page__item").not($(id)).addClass("page__item--hidden");
-	// $(id).removeClass("page__item--hidden");
-
-	$(".page__item").not($(id)).fadeOut(150);
-	$(id).fadeIn(150);
-
+	$(".page__item").not($(id)).addClass("page__item--hidden");
+	$(id).removeClass("page__item--hidden");
 	// $(id).fadeIn(300, function(){
 	// })
 }
