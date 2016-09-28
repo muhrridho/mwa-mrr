@@ -27,6 +27,7 @@
 			// margin-top: 0 !important;
 		}
 		&--hidden {
+			@include transition(none !important);
 			visibility: hidden;
 			@include transform(scale(0));
 			// margin-top: 100vh;

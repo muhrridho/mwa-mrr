@@ -18,6 +18,15 @@ $(document).ready(function(){
 		$(this).blur();
 	})
 
+	$(".js-destination__link--domestic").click(function(){
+		showPage("#page-domestic");
+		return false;
+	})
+	$(".js-destination__link--international").click(function(){
+		showPage("#page-international");
+		return false;	
+	})
+
 	$('.slider').owlCarousel({
 		autoPlay: true,
 		autoplayTimeout: 1000,
