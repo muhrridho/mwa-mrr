@@ -1,8 +1,8 @@
 function showPage(id){
 	$(".page__item").not($(id)).addClass("page__item--hidden");
 	$(id).removeClass("page__item--hidden");
-	// $(id).fadeIn(300, function(){
-	// })
+	// Fix an issue on iPhone when orientation is landscape. Header is not displayed properly
+	$(window).scrollTop(0);
 }
 
 function initPage(){

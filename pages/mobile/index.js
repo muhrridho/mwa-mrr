@@ -9,8 +9,6 @@ $(document).ready(function(){
 		showPage("#page-suggestion");
 		setTimeout(function() { 
 			$(".js-search__ac-trigger").focus(); 
-			// Fix an issue on iPhone when orientation is landscape. Header is not displayed properly
-			$(window).scrollTop(0);
 		}, 150);
 
 	})
