@@ -4,8 +4,32 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
 				"border",
-				"border-radius"
+				"border"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"tran",
+				"transform"
 			],
 			[
 				"padd",
@@ -102,10 +126,6 @@
 			[
 				"opac",
 				"opacity"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"jumbotron__con",
@@ -372,10 +392,6 @@
 				"contact__form-item	 example-contact.css"
 			],
 			[
-				"trans",
-				"transparent"
-			],
-			[
 				"__",
 				"__container"
 			],
@@ -406,10 +422,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"le",
-				"left"
 			],
 			[
 				"defa",
@@ -502,18 +514,6 @@
 			[
 				"box-",
 				"box-sizing"
-			],
-			[
-				"ce",
-				"center"
-			],
-			[
-				"fl",
-				"float"
-			],
-			[
-				"p",
-				"p	Tag"
 			]
 		]
 	},
@@ -523,7 +523,23 @@
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 5972,
+				"buffer_size": 14703,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/mobile/index.js",
+			"settings":
+			{
+				"buffer_size": 955,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/slider/_slider.scss",
+			"settings":
+			{
+				"buffer_size": 1066,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +547,47 @@
 			"file": "blocks/mobile/search/_search.scss",
 			"settings":
 			{
-				"buffer_size": 742,
+				"buffer_size": 2009,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 2073,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/page/_page.scss",
+			"settings":
+			{
+				"buffer_size": 766,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tools/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3826,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/header/_header.scss",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blocks/mobile/page/_page.js",
+			"settings":
+			{
+				"buffer_size": 315,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +595,7 @@
 			"file": "tools/helper/_form.scss",
 			"settings":
 			{
-				"buffer_size": 4112,
+				"buffer_size": 4110,
 				"line_ending": "Windows"
 			}
 		},
@@ -552,74 +608,10 @@
 			}
 		},
 		{
-			"file": "blocks/mobile/slider/_slider.scss",
-			"settings":
-			{
-				"buffer_size": 550,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "pages/mobile/index.scss",
 			"settings":
 			{
 				"buffer_size": 465,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blocks/mobile/sidebar/_sidebar.scss",
-			"settings":
-			{
-				"buffer_size": 1182,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/mobile/index.js",
-			"settings":
-			{
-				"buffer_size": 123,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blocks/mobile/sidebar/_sidebar.js",
-			"settings":
-			{
-				"buffer_size": 787,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/mobile/_fundamental.scss",
-			"settings":
-			{
-				"buffer_size": 532,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "pages/mobile/_fundamental.js",
-			"settings":
-			{
-				"buffer_size": 34,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blocks/mobile/page/_page.js",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "blocks/mobile/page/_page.scss",
-			"settings":
-			{
-				"buffer_size": 552,
 				"line_ending": "Windows"
 			}
 		}
@@ -676,7 +668,12 @@
 		"/D/Workspace/mwa-mrr",
 		"/D/Workspace/mwa-mrr/blocks",
 		"/D/Workspace/mwa-mrr/blocks/mobile",
+		"/D/Workspace/mwa-mrr/blocks/mobile/header",
+		"/D/Workspace/mwa-mrr/blocks/mobile/page",
+		"/D/Workspace/mwa-mrr/blocks/mobile/search",
+		"/D/Workspace/mwa-mrr/blocks/mobile/slider",
 		"/D/Workspace/mwa-mrr/libs",
+		"/D/Workspace/mwa-mrr/libs/jquery",
 		"/D/Workspace/mwa-mrr/pages",
 		"/D/Workspace/mwa-mrr/pages/mobile",
 		"/D/Workspace/mwa-mrr/public",
@@ -685,17 +682,28 @@
 	],
 	"file_history":
 	[
+		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.js",
+		"/D/Workspace/mwa-mrr/libs/owl.carousel/owl.carousel.scss",
+		"/D/Workspace/mwa-mrr/libs/owl.carousel/_owl.transitions.scss",
+		"/D/Workspace/mwa-mrr/libs/owl.carousel/_owl.carousel.scss",
+		"/D/Workspace/mwa-mrr/libs/owl.carousel/owl.transitions.scss",
+		"/D/Workspace/mwa-mrr/libs/owl.carousel/owl.carousel.css",
+		"/D/Data/App/Project/Lib/owl.carousel/owl-carousel/owl.transitions.css",
+		"/D/Data/App/Project/Lib/owl.carousel/owl-carousel/owl.carousel.css",
+		"/D/Data/App/Project/Lib/owl.carousel/owl-carousel/owl.theme.css",
+		"/D/Workspace/mwa-mrr/libs/jquery/jquery.event.move.js",
+		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.scss",
+		"/D/Workspace/mwa-mrr/blocks/mobile/sidebar/_sidebar.js",
+		"/D/Workspace/mwa-mrr/blocks/mobile/sidebar/_sidebar.scss",
 		"/D/Workspace/mwa-mrr/tools/_mixins.scss",
 		"/D/Workspace/mwa-mrr/blocks/mobile/header/_header.scss",
 		"/D/Workspace/mwa-mrr/blocks/mobile/panel/_panel.js",
 		"/D/Workspace/mwa-mrr/blocks/mobile/panel/_panel.scss",
 		"/D/Workspace/mwa-mrr/tools/helper/_form.scss",
-		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.scss",
 		"/D/Workspace/mwa-mrr/tools/_bootstrap-mobile.scss",
 		"/D/Workspace/mwa-mrr/tools/helper/_grid.scss",
 		"/D/Workspace/mwa-mrr/tools/helper/_grid-mobile.scss",
 		"/D/Workspace/mwa-mrr/public/index.html",
-		"/D/Workspace/mwa-mrr/pages/mobile/_fundamental.js",
 		"/D/Workspace/mwa-mrr/tools/_base.scss",
 		"/D/Workspace/mwa-mrr/tools/_variables.scss",
 		"/D/Workspace/mwa-mrr/pages/mobile/index.scss",
@@ -801,22 +809,11 @@
 		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/pikaday/_pikaday.scss",
 		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/pages/desktop/old.desktop-detail.scss",
 		"/D/Workspace/x-seoul/seoul-web-ui/Gruntfile.js",
-		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/moment.js",
-		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/builds/desktop/desktop-home.css.map",
-		"/D/Data/App/Project/Hotel/resources/page/desktop/desktop-home.scss",
-		"/D/Data/App/Project/Hotel/resources/block/desktop/footer/_footer.scss",
-		"/D/Data/App/Project/Hotel/resources/tool/helper/_form.scss",
-		"/D/Data/App/Project/Hotel/resources/block/desktop/destinasi/_destinasi.scss",
-		"/D/Data/App/Project/Hotel/resources/tool/helper/_grid.scss",
-		"/D/Data/App/Project/Hotel/resources/block/desktop/jumbotron/_jumbotron--home.scss",
-		"/D/Data/App/Project/Hotel/resources/tool/_base.scss",
-		"/D/Data/App/Project/Hotel/resources/block/desktop/jumbotron/_jumbotron--about.scss",
-		"/D/Data/App/Project/Hotel/example/about.html",
-		"/D/Data/App/Project/Hotel/resources/tool/_bootstrap.scss"
+		"/D/Workspace/x-seoul/seoul-web-ui/src/main/webapp/resources/hotel/libs/moment.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -831,6 +828,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"								\n",
+			" header--static",
+			"js-search__ac-trigger",
+			"carousel",
+			";\n",
 			"panel",
 			"mobilePagePadding",
 			"%;\n",
@@ -953,12 +955,7 @@
 			".m",
 			" !important",
 			"---",
-			"bli-usp",
-			"border",
-			"orange",
-			"auto",
-			"center",
-			"translatey"
+			"bli-usp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -966,6 +963,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"sidebar",
 			"1.2rem",
 			"	",
@@ -1050,7 +1048,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1059,15 +1057,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5972,
+						"buffer_size": 14703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2716,
-								2716
+								13479,
+								13479
 							]
 						],
 						"settings":
@@ -1087,27 +1085,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 691.0,
+						"translation.y": 2733.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "blocks/mobile/search/_search.scss",
+					"file": "pages/mobile/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 742,
+						"buffer_size": 955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								519,
-								519
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "blocks/mobile/slider/_slider.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
 							]
 						],
 						"settings":
@@ -1118,24 +1144,92 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "tools/helper/_form.scss",
+					"buffer": 3,
+					"file": "blocks/mobile/search/_search.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4112,
+						"buffer_size": 2009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								425,
-								393
+								910,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 736.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tools/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1010,
+								1013
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "blocks/mobile/page/_page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								655
 							]
 						],
 						"settings":
@@ -1162,76 +1256,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "blocks/mobile/destination/_destination.scss",
+					"buffer": 6,
+					"file": "tools/_mixins.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 583,
+						"buffer_size": 3826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "blocks/mobile/slider/_slider.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								545,
-								545
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "pages/mobile/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								350,
-								350
+								153,
+								153
 							]
 						],
 						"settings":
@@ -1247,30 +1285,100 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "blocks/mobile/sidebar/_sidebar.scss",
+					"buffer": 7,
+					"file": "blocks/mobile/header/_header.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1182,
+						"buffer_size": 795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "ng-controller=\"*",
+									"selector": "punctuation.definition.string"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "blocks/mobile/page/_page.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tools/helper/_form.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								306,
+								306
 							]
 						],
 						"settings":
@@ -1297,172 +1405,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "pages/mobile/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "blocks/mobile/sidebar/_sidebar.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 787,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								318,
-								318
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "ng-controller=\"*",
-									"selector": "punctuation.definition.string"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "pages/mobile/_fundamental.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 532,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								530,
-								530
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "ng-controller=\"*",
-									"selector": "punctuation.definition.string"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
 					"buffer": 10,
-					"file": "pages/mobile/_fundamental.js",
+					"file": "blocks/mobile/destination/_destination.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34,
+						"buffer_size": 583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								35,
+								16
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "ng-controller=\"*",
-									"selector": "punctuation.definition.string"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "blocks/mobile/page/_page.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								203
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1472,20 +1433,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "blocks/mobile/page/_page.scss",
+					"buffer": 11,
+					"file": "pages/mobile/index.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 552,
+						"buffer_size": 465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								179,
-								179
+								108,
+								108
 							]
 						],
 						"settings":
@@ -1501,14 +1462,13 @@
 									"selector": "text.html"
 								}
 							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1561,7 +1521,7 @@
 	"project": "mwa-mrr.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 86.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1643,7 +1603,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
