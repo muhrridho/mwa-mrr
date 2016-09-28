@@ -8,15 +8,16 @@ function showPage(id){
 
 function initPage(){
 	$(".js-page--show").click(function(e){
-		var page = $(this).attr("testHref");
+		var page = $(this).attr("test-href");
 
 		// Testing
-		var url = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/muhrridho/mwa-mrr/dev/public/index.html";
-		var temp = url.replace("https:", "");
-		page = page.replace(temp, "");
+		// var url = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/muhrridho/mwa-mrr/dev/public/index.html";
+		// var temp = url.replace("https:", "");
+		// page = page.replace(temp, "");
 
 		console.log(page);
 		showPage(page);
+		// alert();
 		e.preventDefault();
 		return false;
 	})
