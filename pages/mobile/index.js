@@ -7,13 +7,17 @@ $(document).ready(function(){
 	})
 	$(".js-search__ac--open").click(function(){
 		showPage("#page-suggestion");
-		setTimeout(function() { $(".js-search__ac-trigger").focus(); }, 150);
+		setTimeout(function() { 
+			$(".js-search__ac-trigger").focus(); 
+			// Fix an issue on iPhone when orientation is landscape. Header is not displayed properly
+			$(window).scrollTop(0);
+		}, 150);
 
 	})
 	$(".js-search__datepicker--open").click(function(){
-		$(this).blur();
 		showPage("#page-datepicker");
-
+		// Fix an issue on iPhone. Header is not displayed properly
+		$(this).blur();
 	})
 
 	$('.slider').owlCarousel({
@@ -23,17 +27,4 @@ $(document).ready(function(){
 		transitionStyle : "fade",
 
 	});
-
-	// //  Let's say we want to use $.getScript to load our scripts for some reason
-	// var scripts = [
-	// 	'http://stephband.info/jquery.event.move/js/jquery.event.move.js',
-	// 	'http://stephband.info/jquery.event.swipe/js/jquery.event.swipe.js'
-	// ];
-
-	// $.getScript(scripts[0]);
-
-	// //  Once our script is loaded, we can initSwipe to add swipe support
-	// $.getScript(scripts[1], function() {
-	// 	$('.slider').unslider('initSwipe');
-	// });
 })
