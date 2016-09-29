@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	initSidebar();
-	initPage();
 
 	$(".js-header__nav--hamburger").click(function(){
 		toggleSidebar();
