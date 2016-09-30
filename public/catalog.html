@@ -169,10 +169,134 @@
 					</div>
 				</header>
 				<div class="page__content">
-					<div class="filter__group filter__group--is-hideable">
-						<input class="filter__check" type="checkbox" checked id="area-3" />
-						<label for="area-3">Sanur</label>
-					</div>
+					<section class="filter__section">
+						<h3>Harga</h3>
+						<div class="filter__group">
+							<input id="price-start" class="filter__price" type="text" name="">
+							<span class="filter__group__dash"></span>
+							<input id="price-end" class="filter__price" type="text" name="">
+						</div>
+						<div id="js-filter__price-slider" class="filter__price-slider"></div>
+					</section>
+					<section class="filter__section filter__section--star">
+						<h3>Bintang</h3>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="bintang-0" />
+							<label for="bintang-0">
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+							</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="bintang-1" />
+							<label for="bintang-1">
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+							</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="bintang-2" />
+							<label for="bintang-2">
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+								<i class="bli-star-fill"></i>
+							</label>
+						</div>
+					</section>
+					<section class="filter__section">
+						<h3>Area</h3>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="area-0" />
+							<label for="area-0">Kuta</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="area-1" />
+							<label for="area-1">Seminyak</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="area-2" />
+							<label for="area-2">Ubud</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-3" />
+							<label for="area-3">Sanur</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-4" />
+							<label for="area-4">Kuta</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-5" />
+							<label for="area-5">Badung</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-6" />
+							<label for="area-6">Tanah Lot</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-7" />
+							<label for="area-7">Nusa Dua</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-8" />
+							<label for="area-8">Amed</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="area-9" />
+							<label for="area-9">Lovina</label>
+						</div>
+						<a href="#" class="filter__more-btn js-filter__more-btn">
+							<span>Selengkapnya</span>
+							<span style="display:none">Sembunyikan</span>
+						</a>
+					</section>
+					<section class="filter__section">
+						<h3>Fasilias</h3>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="facilitas-0" />
+							<label for="facilitas-0">Wifi</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="facilitas-1" />
+							<label for="facilitas-1">Elevator</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="facilitas-2" />
+							<label for="facilitas-2">Swimming Pool</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="facilitas-3" />
+							<label for="facilitas-3">Spa &amp; Sauna</label>
+						</div>
+						<div class="filter__group filter__group--is-hideable">
+							<input class="filter__check" type="checkbox" checked id="facilitas-4" />
+							<label for="facilitas-4">Gym</label>
+						</div>
+						<a href="#" class="filter__more-btn js-filter__more-btn">
+							<span>Selengkapnya</span>
+							<span style="display:none">Sembunyikan</span>
+						</a>
+					</section>
+					<section class="filter__section">
+						<h3>Akomodasi</h3>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="akomodasi-0" />
+							<label for="akomodasi-0">Kuta</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="akomodasi-1" />
+							<label for="akomodasi-1">Seminyak</label>
+						</div>
+						<div class="filter__group">
+							<input class="filter__check" type="checkbox" checked id="akomodasi-2" />
+							<label for="akomodasi-2">Ubud</label>
+						</div>
+					</section>
 				</div>
 			</article>
 			<article id="page-sort" class="page__item page__item--hidden">
@@ -229,16 +353,17 @@
 
 	<!-- LIBRARY -->
 	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+	<script type="text/javascript" src="../libs/nouislider/_nouislider.js" defer="defer"></script>
 
 	<!-- FUNDAMENTAL -->
 	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
 	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
 
 	<!-- BLOCKS -->
-	<!-- <script type="text/javascript" src="../blocks/mobile/sidebar/_sidebar.js" defer="defer"></script> -->
+	<script type="text/javascript" src="../blocks/mobile/filter/_filter.js" defer="defer"></script>
 
 	<!-- MAIN -->
-	<!-- <script type="text/javascript" src="../pages/mobile/index.js" defer="defer"></script> -->
+	<script type="text/javascript" src="../pages/mobile/catalog.js" defer="defer"></script>
 
 </body>
 </html>
