@@ -1,12 +1,16 @@
-@import "../../tools/bootstrap.scss";
+@import "../../tools/bootstrap-mobile.scss";
 @import "fundamental";
 
 // LIBRARY
 @import "../../libs/blicon";
 
 // BLOCK FOUNDATION
-@import "../../blocks/mobile/panel/panel";
+@import "../../blocks/mobile/sidebar/sidebar";
 @import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
+@import "../../blocks/mobile/slider/slider";
+@import "../../blocks/mobile/search/search";
+@import "../../blocks/mobile/destination/destination";
 
 // SPESIFIC PAGE BLOCK
 

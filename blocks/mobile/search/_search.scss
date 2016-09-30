@@ -1,0 +1,142 @@
+.search {
+	@extend %container;
+
+	position: relative;
+	z-index: 10;
+	margin-top: -165px;
+	background: rgba(255, 255, 255, .3);
+
+	&__row {
+		@extend %clearfix;
+
+		position: relative;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__group {
+		position: relative;
+		float: left;
+		width: 50%;
+		text-align: center;
+
+		&:first-child {
+			padding-right: 5px;
+		}
+		&:last-child {
+			padding-left: 5px;
+		}
+	}
+	&__input {
+		@extend %form__textfield;
+		@include border-radius(2px);
+
+		padding-left: 40px;
+		background: #fff;
+
+		&--header {
+			margin-left: 5px;
+			padding: 6px 8px;
+			border: 0;
+			background: #f5f6f7;
+
+			&:focus {
+				background: #fff;
+			}
+		}
+	}
+	&__icon {
+		position: absolute;
+		top: 11px; left: 11px;
+		font-size: 2rem;
+	}
+	&__btn {
+		@extend %form__button;
+		@extend %form__button--orange;
+
+		padding: 6px 10px;
+		width: 100%;
+		text-transform: uppercase;
+
+	}
+	&__ac {
+		background: #fff;
+
+		&-title {
+			margin: 0;
+			padding: 7px 10px;
+			background-color: #f9f9f9;
+			color: $greyDarker;
+			font-size: 1.6rem;
+		}
+		&-block {
+			// display: none;
+			margin-bottom: 10px;
+
+			&--active {
+				display: block;
+			}
+		}
+		&-section {
+			margin: 10px 10px 0 10px;
+			padding: 0;
+			border: 0;
+			border-top: 1px solid #d9d9d9;
+
+			// display: none;
+			legend {
+				padding-right: 10px;
+				color: $blue;
+				text-transform: uppercase;
+			}
+		}
+		&-menu {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		&-item {
+			margin: 0 -10px;
+			padding: 5px 10px;
+			color: #8d8d8d;
+			cursor: pointer;
+
+			&:hover, &--active {
+				background: $blueLighter;
+			}
+		}
+		&-value {
+			margin: 0;
+			color: $black;
+			font-weight: normal;
+			font-size: 1.6rem;
+
+			span {
+				color: $blue;
+				font-weight: bold;
+			}
+		}
+		&-info {
+			margin: 0;
+			margin-top: -8px;
+			color: #8d8d8d;
+			font-size: 1.3rem;
+
+			&-loc {
+				span {
+					color: $blue;
+				}
+			}
+			&-sum {
+				float: right;
+			}
+		}
+		&-error {
+			display: none;
+			margin: 0;
+			text-align: center;
+		}
+	}
+}

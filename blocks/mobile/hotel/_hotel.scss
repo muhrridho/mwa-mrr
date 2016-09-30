@@ -1,0 +1,64 @@
+.hotel {
+	@extend %container;
+
+	background: #fff;
+
+	&__image {
+		position: relative;
+		margin: -10px;
+		margin-bottom: 0;
+		height: 150px;
+		background-color: #aaa;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__type {
+		@include border-radius(9px);
+
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		padding: 0 15px;
+		min-width: 50px;
+		color: #fff;
+		text-align: center;
+		font-size: 1rem;
+		line-height: 1.8em;
+
+		&--hotel { background: $green; }
+		&--villa { background: $blue; }
+		&--apartement { background: #89C747; }
+	}
+	&__header {
+		padding: 10px 0;
+
+		h1 {
+			margin-bottom: 0;
+			font-size: 1.5rem;
+			line-height: 1.2em;
+		}
+	}
+	&__rating {
+		margin: 0;
+		font-size: 1.1rem;
+		line-height: 2em;
+
+		i { color: #ffd600; }
+	}
+	&__location {
+		margin: 0;
+		margin-top: 5px;
+		font-size: 1.2rem;
+		line-height: 2em;
+
+		i {
+			margin-right: 5px;
+		}
+	}
+	&__price {
+		margin: 0;
+		color: $yellow;
+		font-size: 1.2rem;
+	}
+}

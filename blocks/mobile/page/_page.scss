@@ -2,41 +2,49 @@
  * @author: Muhammad R Ridho
  */
 .page {
-	position: relative;
-	overflow: hidden;
-	min-height: 100vh;
-	background: #fff;
-	z-index: 100;
-	@include transition(all .15s ease-in-out);
-	transform: translate3d(0px, 0px, 0px);
+	@include transition(all .25s ease);
 
+	position: relative;
+	z-index: 100;
+	visibility: visible;
+	min-height: 100vh;
+	background: #F5F6F7;
 	line-height: 2em;
+	opacity: 1;
 
 	&__item {
+		@include transition(all .25s ease);
+
 		position: absolute;
-		top: 0; right: 0; left: 0;
-		bottom: 0;
-		padding: 10px;
-		background: #fff;
+		top: 0; right: 0; bottom: 0; left: 0;
 		overflow: auto;
 
 		&--fluid {
 			padding: 0;
 		}
-
+		&--default {
+			// @include transform(scale(1) !important);
+			// margin-top: 0 !important;
+		}
+		&--hidden {
+			@include transition(none !important);
+			visibility: hidden;
+			// @include transform(scale(0));
+			// margin-top: 100vh;
+			opacity: 0;
+		}
 		
 	}
-	// PANEL DEPENDENCIES
-	&--show-panel {
-		// transform: translate3d(250px, 0px, 0px);
-		// @include translate(250px, 0);
-
-		.page__item {
-			overflow: hidden;
-		}
+	&__header {
 	}
-	&--notransition {
-		@include transition(none !important);
+	&__content {
+		padding-top: 50px;
+		// min-height: calc(100vh - 50px);
+	}
+	&--sidebar-open {
+		@include translateX(70vw);
+
+		overflow-x: hidden;
 	}
 
 }

@@ -1,0 +1,61 @@
+@import "../../../libs/owl.carousel/owl.carousel";
+@import "../../../libs/owl.carousel/owl.transitions";
+
+.slider {
+	position: relative;
+	height: 400px;
+	background: #eaeaea;
+
+	&__container {
+		@extend %reset-list;
+	}
+	&__item {
+		display: table;
+		width: 100%;
+		height: 400px;
+	}
+	&__image {
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 0;
+		background-position: center center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		   -moz-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+	}
+	&__content {
+		position: relative;
+		z-index: 1;
+		display: table-cell;
+		padding: 20px;
+		padding-bottom: 160px;
+		color: #fff;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 1.6rem;
+	}
+}
+.owl-controls {
+	position: absolute;
+	bottom: 180px;
+	left: 50%;
+}
+.owl-pagination {
+	position: relative;
+	left: -50%;
+}
+.owl-page {
+	@include border-radius(7px);
+
+	float: left;
+	margin: 0 3px;
+	width: 7px;
+	height: 7px;
+	border: 1px solid #fff;
+
+	&.active {
+		background: #fff;
+	}
+}

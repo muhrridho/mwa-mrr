@@ -1,0 +1,12 @@
+%container, 
+%row, 
+%clearfix {
+	@include clearfix();
+}
+
+%container {
+	padding: 10px;
+}
+%row {
+	margin-bottom: 20px;
+}

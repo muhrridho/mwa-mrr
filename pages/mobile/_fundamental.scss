@@ -1,20 +1,33 @@
 body {
-	overflow: hidden;
-}
-// .overlay {
-// 	position: fixed;
-// 	top: 0; right: 0; bottom: 0; left: 0;
-// 	z-index: 99;
-// 	display: none;
-// 	background: rgba(0,0,0,.1);
-// }
+	@include backface-visibility(hidden);
 
-.test-fixed {
-	position: fixed; 
-	bottom: 10px; 
-	left: 10px; 
-	padding: 10px; 
-	background: $orange;
-	color: #fff; 
-	border: none;
+	position: relative;
+	overflow-x: hidden;
+	width: 100vw;
+}
+.app {
+	position: relative;
+	overflow-x: hidden;
+
+	&__overlay {
+		@include transition(all .15s linear);
+
+		position: fixed;
+		top: 0; right: 0; bottom: 0; left: 0;
+		z-index: 800;
+		visibility: hidden;
+		background: rgba(0, 0, 0, .2);
+		opacity: 0;
+
+		&--show {
+			visibility: visible;
+			opacity: 1;
+		}
+		&--sidebar-open {
+			@include translateX(70vw);
+			@include transition(all .25s ease);
+
+			overflow-x: hidden;
+		}
+	}
 }

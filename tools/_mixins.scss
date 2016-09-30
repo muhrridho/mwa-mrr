@@ -1,3 +1,12 @@
+// Scale
+// General Transform
+@mixin transform($val) {
+    -webkit-transform: $val;
+    -ms-transform: $val;
+    -o-transform: $val;
+    transform: $val;
+}
+
 // Transform: translate3d
 @mixin translate3d($x, $y, $z) {
     -webkit-transform: translate3d($x, $y, $z);

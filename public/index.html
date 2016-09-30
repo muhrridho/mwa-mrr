@@ -8,27 +8,319 @@
 	<link rel="stylesheet" type="text/css" href="../builds/mobile/index.css">
 	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
 </head>
-<body class="app">
-	<aside class="app__panel panel">
-		<div class="panel__content"></div>
-		<div class="panel__overlay"></div>
-	</aside>
-	<main class="app__page page">
-		<article class="page__item">
-			<header>
-				<h1>Lorem Ipsum</h1>
-			</header>
-			<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-			<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-			<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-			<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-			<p>Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta.</p>
-			</p>
-			<button class="test-fixed">
-				inside
-			</button>
-		</article>
-	</main>
+<body>
+	<div class="app">
+		<aside class="app__sidebar sidebar">
+			<div class="sidebar__content">
+				<ul class="sidebar__menu">
+					<li class="sidebar__item">
+						<a class="sidebar__link sidebar__link--member sidebar__link--logged" href=""><i class="bli-user"></i> Hi Muhammad Ridho<small>Signature Member</small></a>
+					</li>
+					<!-- <li class="sidebar__item">
+						<a class="sidebar__link sidebar__link--member" href=""><i class="bli-user"></i> Login / Register</a>
+					</li> -->
+					<li class="sidebar__item">
+						<a class="sidebar__link" href=""><i class="bli-home"></i> Beranda</a>
+					</li>
+					<li class="sidebar__item">
+						<a class="sidebar__link" href=""><i class="bli-cc-call"></i> Hubungi Kami</a>
+					</li>
+					<li class="sidebar__item">
+						<a class="sidebar__link" href=""><i class="bli-bag"></i> Ke Blibli.com</a>
+					</li>
+					<li class="sidebar__item">
+						<a class="sidebar__link" href=""><i class=""></i> Riwayat Pesanan</a>
+					</li>
+					<li class="sidebar__item">
+						<a class="sidebar__link" href=""><i class=""></i> Logout</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<main class="app__page page">
+			<article id="page-home" class="page__item page__item--default">
+				<header class="page__header header">
+					<div class="header__nav">
+						<button class="header__nav--btn js-header__nav--hamburger"><i class="bli-menu-hamburger"></i></button>
+					</div>
+					<div class="header__content">
+						<img class="header__brand" src="../images/thumbnail-blibli-travel.png" alt="">
+						<!-- Lorem Ipsum Dolor Sit Amet<span>test</span> -->
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link" href="catalog.html"><i class="bli-cat-gi"></i></a>
+					</div>
+				</header>
+				<div class="page__content">
+					<div class="slider">
+						<div class="slider__item">
+							<div class="slider__image" style="background-image: url('../images/sun-1619126_1920.jpg')"></div>
+							<div class="slider__content">
+								<p>Keep track of your favorite <br> place at all time</p>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="slider__image" style="background-image: url('../images/cities-paris.jpg')"></div>
+							<div class="slider__content">
+								<p>Lorem ipsum <br> dolor sit amet</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="search">
+						<div class="search__row">
+							<i class="search__icon bli-search-thin"></i>
+							<input type="text" name="area" class="search__input js-search__ac--open" placeholder="Pilih Destinasi" autocomplete="off" readonly>
+						</div>
+						<div class="search__row">
+							<div class="search__group"
+>								<i class="search__icon bli-calendar"></i>
+								<input type="text" name="area" class="search__input js-search__datepicker--open" placeholder="Check In" autocomplete="off" readonly>
+							</div>
+							<div class="search__group">
+								<i class="search__icon bli-calendar"></i>
+								<input type="text" name="area" class="search__input js-search__datepicker--open" placeholder="Check In" autocomplete="off" readonly>
+							</div>
+						</div>
+						<div class="search__row">
+							<button type="button" class="search__btn" onClick="doSearch()">Cari</button>
+						</div>
+					</div>
+					<nav class="destination">
+						<ul class="destination__group">
+							<li class="destination__group-list">
+								<a class="destination__button js-page--show" href="" test-href="#page-domestic">
+									<i class="destination__icon bli-marker-outline"></i>
+									<p>Destinasi Domestik <small>Jelajahi  tempat tempat menarik di indonesia</small></p>
+									<i class="destination__icon destination__icon--right bli-right-arrow"></i>
+								</a>
+							</li>
+							<li class="destination__group-list">
+								<a class="destination__button js-page--show" href="" test-href="#page-international">
+									<i class="destination__icon bli-marker-outline"></i>
+									<p>Destinasi Internasional <small>Jelajahi  tempat tempat menarik di dunia</small></p>
+									<i class="destination__icon destination__icon--right bli-right-arrow"></i>
+								</a>
+							</li>
+							
+						</ul>
+					</nav>
+
+				</div>
+			</article>
+			<article id="page-suggestion" class="page__item page__item--hidden">
+				<header class="page__header header header--static">
+					<div class="header__content">
+						<input type="text" name="area" class="search__input search__input--header js-search__ac-trigger" placeholder="Pilih Destinasi" autocomplete="off">
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-home"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content search__ac" id="search__ac">
+					<div class="search__ac-block" id="search__ac-suggest">
+						<p class="search__ac-title">Pencarian Terakhir Anda</p>
+						<fieldset id="search__as-region" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu">
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+								<li class="search__ac-item">
+									<p class="search__ac-value">Jakarta</p>
+									<p class="search__ac-info"><span class="search__ac-info-loc">Indonesia</span><span class="search__ac-info-sum">1.000 Hotels</span></p>
+									<input type="hidden" class="search__ac-real-value" value="Bali">
+									<input type="hidden" class="search__ac-url" value="http://localhost:8080/seoul-web/travel/search?area=bali&amp;ac=HA-1000062935">
+									<input type="hidden" class="search__ac-area" value="Indonesia">
+								</li>
+
+							</ul>
+						</fieldset>
+						<fieldset id="search__as-hotel" class="search__ac-section">
+							<legend>Hotel</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+						<p class="search__ac-title">Destinasi Populer</p>
+						<fieldset id="search__as-popular" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+					</div>
+					<div class="search__ac-block" id="search__ac-complete">
+						<fieldset id="search__ac-region" class="search__ac-section">
+							<legend>Region</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+						<fieldset id="search__ac-hotel" class="search__ac-section">
+							<legend>Hotel</legend>
+							<ul class="search__ac-menu"></ul>
+						</fieldset>
+					</div>
+					<p class="search__ac-error">No item match your search</p>
+				</div>
+			</article>
+			<article id="page-datepicker" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Pilih Tanggal</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-home"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu"></ul>
+				</nav>
+			</article>
+			<article id="page-domestic" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-home"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<img class="header__brand" src="../images/thumbnail-blibli-travel.png" alt="">
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu">
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Med.jpg)" href="">
+								<span>Hotel di<strong>Jakarta</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Jak.jpg)" href="">
+								<span>Hotel di<strong>Bali</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/HON.jpg)" href="">
+								<span>Hotel di<strong>Yogjakarta</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/YOG1.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Bangalore_Palace.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/HON.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Med.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Jak.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</article>
+			<article id="page-international" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="#page-home" test-href="#page-home"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<img class="header__brand" src="../images/thumbnail-blibli-travel.png" alt="">
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu">
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Med.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Jak.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/HON.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/YOG1.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Bangalore_Palace.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/HON.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Med.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+						<li class="destination__item">
+							<a class="destination__link" style="background-image: url(https://static-uat5.gdn-app.com/siva/asset/08_2016/Jak.jpg)" href="">
+								<span>Hotel di<strong>Paris</strong></span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</article>
+		</main>
+		<div class="app__overlay"></div>
+	</div>
 
 
 	<!-- <p style="position: fixed; bottom: 10px; left: 10px; z-index: 999; padding: 10px; background: #000; color: #fff">
@@ -37,15 +329,21 @@
 	</p> -->
 
 	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
-	<script type="text/javascript" src="../blocks/mobile/panel/_panel.js" defer="defer"></script>
+	<script type="text/javascript" src="../libs/owl.carousel/_owl.carousel.min.js" defer="defer"></script>
+
 	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/sidebar/_sidebar.js" defer="defer"></script>
+
+	<script type="text/javascript" src="../pages/mobile/index.js" defer="defer"></script>
 
 
 	<!-- <script type="text/javascript" src="jquery-3.1.0.min.js" defer="defer"></script>
-	<script type="text/javascript" src="_panel.js" defer="defer"></script>
+	<script type="text/javascript" src="_sidebar.js" defer="defer"></script>
 	<script type="text/javascript" src="_fundamental.js" defer="defer"></script> -->
 
 	<!-- BLOCKS -->
-	<!-- <script type="text/javascript" src="../blocks/mobile/panel/_panel.js" defer="defer"></script> -->
+	<!-- <script type="text/javascript" src="../blocks/mobile/sidebar/_sidebar.js" defer="defer"></script> -->
 </body>
 </html>

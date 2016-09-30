@@ -1,0 +1,79 @@
+.destination {
+	@extend %container;
+
+	&__group, &__menu {
+		@extend %reset-list;
+	}
+	&__group-list {
+		margin-bottom: 10px;
+	}
+	&__button {
+		display: flex;
+		align-items: center;
+		padding: 20px 10px;
+		background: #fff;
+		color: $black;
+		text-decoration: none;
+
+		p {
+			margin: 0;
+			width: 100%;
+			color: $blue;
+			font-size: 1.7rem;
+			line-height: 1.4em;
+		}
+		small {
+			display: block;
+			color: $greyDarker;
+			font-size: 12px;
+			line-height: 1.4em;
+		}
+	}
+	&__icon {
+		padding: 10px;
+		padding-right: 20px;
+		font-size: 2.6rem;
+
+		&--right {
+			padding: 0;
+			padding-left: 10px;
+		}
+	}
+	&__menu {
+	}
+	&__item {
+		float: left;
+		display: table;
+		width: 50%;
+
+	}
+	&__link {
+		@include transition(all 200ms ease);
+
+		display: block;
+		display: table-cell;
+		padding: 10px 20px;
+		width: 50%;
+		height: 140px;
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		background-color: #aaa;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #fff;
+		vertical-align: middle;
+		text-align: center;
+		text-decoration: none;
+
+		strong {
+			display: block;
+			margin-top: -10px;
+			text-transform: uppercase;
+			font-size: 1.6rem;
+		}
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
