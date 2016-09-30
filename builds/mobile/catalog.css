@@ -453,7 +453,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 .hotel { background: #fff; }
 .hotel__image { position: relative; margin: -10px; margin-bottom: 0; height: 150px; background-color: #aaa; background-position: center center; background-size: cover; background-repeat: no-repeat; }
-.hotel__type { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; position: absolute; top: 10px; left: 10px; padding: 0 15px; min-width: 50px; color: #fff; text-align: center; font-size: 1rem; line-height: 1.8em; }
+.hotel__type { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; position: absolute; top: 10px; left: 10px; padding: 4px 15px; min-width: 50px; color: #fff; text-align: center; font-size: 1rem; line-height: 1em; }
 .hotel__type--hotel { background: #00b25a; }
 .hotel__type--villa { background: #0095da; }
 .hotel__type--apartement { background: #89C747; }
@@ -567,12 +567,14 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .filter__group--is-show { display: block; }
 .filter__group__dash { display: inline-table; margin: 0 -4px; width: 9px; width: 10%; height: 6px; }
 .filter__group__dash:before { display: block; margin: auto; margin-top: -5px; width: 50%; height: 1px; background: #ccc; content: ""; }
+.filter__check + label { -webkit-tap-highlight-color: transparent; }
 .filter__price { -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; padding: 5px; width: 45%; outline: none; border: 1px solid #ddd; color: #666; text-align: center; }
 .filter__more-btn { display: block; margin: 20px -20px; padding: 5px; background: #f7f7f7; color: #0095da; text-align: center; text-decoration: none; font-size: 1.2rem; }
 .filter__price-slider { margin: 30px 0px 30px 20px; }
 .filter__price-slider .noUi-origin { right: auto; width: 0; }
 .filter__price-slider .connect { position: absolute; top: 0; bottom: 0; background: #0095DA; }
 .filter__price-slider .noUi-state-tap .connect { -webkit-transition: left 300ms, right 300ms; transition: left 300ms, right 300ms; }
+.filter__price-slider .noUi-handle { width: 20px; height: 20px; top: -8px; }
 
 .disc-ribbon { color: #fff; }
 .disc-ribbon .rectangle { text-align: center; }
@@ -580,7 +582,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 .sort { min-height: 100vh; background: #fff; padding-top: 70px; }
 .sort__group { padding: 0 10px; }
-.sort__radio + label { display: block; padding: 10px 0 10px 45px; }
+.sort__radio + label { display: block; padding: 10px 0 10px 45px; -webkit-tap-highlight-color: transparent; }
 .sort__radio + label:before, .sort__radio + label:after { top: 10px; }
 
 /*# sourceMappingURL=catalog.css.map */

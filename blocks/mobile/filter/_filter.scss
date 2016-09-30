@@ -46,6 +46,9 @@
     }
 	&__check {
 		@extend %form__checkbox;
+		& + label {
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
 	}
 	&__price {
         @include border-radius(50px);
@@ -71,6 +74,11 @@
         .noUi-origin { right: auto; width: 0; }
         .connect { position: absolute; top: 0; bottom: 0; background: #0095DA; }
         .noUi-state-tap .connect { -webkit-transition: left 300ms, right 300ms; transition: left 300ms, right 300ms; }
+        .noUi-handle {
+        	width: 20px;
+        	height: 20px;
+        	top: -8px;
+        }
 
         margin: 30px 0px 30px 20px;
     }
