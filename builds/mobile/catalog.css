@@ -559,7 +559,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 .noUi-vertical .noUi-handle-upper .noUi-tooltip { right: 120%; }
 
-.filter__section { padding: 20px 20px 0 20px; background: #fff; -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; }
+.filter__section { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; padding: 20px 20px 0 20px; background: #fff; }
 .filter__section h3 { margin-bottom: 15px; color: #282828; font-weight: normal; font-size: 1.5rem; }
 .filter__section--star { color: #ffd600; }
 .filter__group { margin-bottom: 12px; }
@@ -567,14 +567,14 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .filter__group--is-show { display: block; }
 .filter__group__dash { display: inline-table; margin: 0 -4px; width: 9px; width: 10%; height: 6px; }
 .filter__group__dash:before { display: block; margin: auto; margin-top: -5px; width: 50%; height: 1px; background: #ccc; content: ""; }
-.filter__check + label { -webkit-tap-highlight-color: transparent; }
+.filter__check + label { display: block; padding: 5px 0 5px 35px; line-height: 1; -webkit-tap-highlight-color: transparent; }
 .filter__price { -webkit-border-radius: 50px; -moz-border-radius: 50px; border-radius: 50px; padding: 5px; width: 45%; outline: none; border: 1px solid #ddd; color: #666; text-align: center; }
 .filter__more-btn { display: block; margin: 20px -20px; padding: 5px; background: #f7f7f7; color: #0095da; text-align: center; text-decoration: none; font-size: 1.2rem; }
 .filter__price-slider { margin: 30px 0px 30px 20px; }
 .filter__price-slider .noUi-origin { right: auto; width: 0; }
 .filter__price-slider .connect { position: absolute; top: 0; bottom: 0; background: #0095DA; }
 .filter__price-slider .noUi-state-tap .connect { -webkit-transition: left 300ms, right 300ms; transition: left 300ms, right 300ms; }
-.filter__price-slider .noUi-handle { width: 20px; height: 20px; top: -8px; }
+.filter__price-slider .noUi-handle { top: -8px; width: 20px; height: 20px; }
 
 .disc-ribbon { color: #fff; }
 .disc-ribbon .rectangle { text-align: center; }
