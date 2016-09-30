@@ -1,0 +1,5 @@
+.filter {
+	&__check {
+		@extend %form__checkbox;
+	}
+}

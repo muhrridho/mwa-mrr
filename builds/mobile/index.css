@@ -149,7 +149,7 @@ h6 { font-size: 1.12rem; }
 
 .search, .destination { padding: 10px; }
 
-.search__input { padding: 6px 12px; width: 100%; outline: none; border: 1px solid #d0d0d0; -webkit-appearance: none; border-radius: 0; }
+.search__input { padding: 6px 12px; width: 100%; outline: none; border: 1px solid #d0d0d0; border-radius: 0; -webkit-appearance: none; }
 .search__btn { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; }
 .search__btn { border-color: #f7931e; background: #f7931e; color: #fff; }
 .search__btn:hover { border-color: #f9ab4f; background: #f9ab4f; color: #fff; }
