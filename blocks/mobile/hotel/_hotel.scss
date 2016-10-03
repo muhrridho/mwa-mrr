@@ -1,8 +1,14 @@
 .hotel {
-	@extend %container;
-
 	background: #fff;
 
+	&__link {
+		@extend %clearfix;
+		@extend %container;
+
+		display: block;
+		color: $black;
+		text-decoration: none;
+	}
 	&__image {
 		position: relative;
 		margin: -10px;

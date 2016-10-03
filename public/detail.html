@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Hotel Detail</title>
+	<link rel="stylesheet" type="text/css" href="../builds/mobile/detail.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+</head>
+<body>
+	<div class="app">
+		<main class="app__page page">
+			<article id="page-detail" class="page__item page__item--no-header page__item--default">
+				<div class="page__content">
+					<div class="hotel-slider">
+						<div class="hotel-slider__image" style="background-image: url('../images/hotel-medium.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/cities-jogja.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/hotel-image.jpg')"></div>
+					</div>
+				</div>
+			</article>
+			<article id="page-sort" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Filter</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-catalog"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content sort">
+				</div>
+			</article>
+		</main>
+		<div class="app__overlay"></div>
+	</div>
+
+
+	<!-- <p style="position: fixed; bottom: 10px; left: 10px; z-index: 999; padding: 10px; background: #000; color: #fff">
+		<span id="status">start</span>
+		<span></span>
+	</p> -->
+
+	<!-- LIBRARY -->
+	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+	<script type="text/javascript" src="../libs/owl.carousel/_owl.carousel.min.js" defer="defer"></script>
+
+	<!-- FUNDAMENTAL -->
+	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+
+	<!-- BLOCKS -->
+	<script type="text/javascript" src="../blocks/mobile/hotel-slider/_hotel-slider.js" defer="defer"></script>
+
+	<!-- MAIN -->
+	<script type="text/javascript" src="../pages/mobile/detail.js" defer="defer"></script>
+
+</body>
+</html>
