@@ -1,0 +1,68 @@
+
+.thankyou {
+    color: $white; 
+    text-align: center;
+    margin: 30px auto; 
+    display: table;
+    min-height: 100vh;
+
+    &__breadcrumb {
+		position: fixed;
+		background-color: white;
+		color: $blue;
+		text-align: center;
+		width: 100%;
+		left: 0;
+		top: 50px;
+		padding: 10px;  
+
+		i {
+			font-size: 0.9rem;
+			font-weight: bold;
+			margin: 0 14px;
+		}      	
+    }
+
+	&__content {
+        display: table-cell;
+        height: 100%;
+        padding: 15% 5%;
+        vertical-align: middle;
+	    h1 {
+	        font-size: 2.0rem;
+	        margin: 18px 0;
+	    }
+	    h4 {
+	        font-size: 1.4rem;
+	        font-weight: lighter;
+	    }
+	    	    
+	    &--success {
+		    i {
+		        font-size: 2.0rem;
+		        border: 2px solid $white;
+		        border-radius: 50%;
+		        padding: 16px;
+		    }
+	    }
+	    &--fail {
+		    i {
+		        font-size: 5.5rem;
+		    }
+	    }
+	}	
+}
+
+
+.button {
+    &--orange {
+        @extend %form__link--button;
+        @extend %form__button--orange;
+        margin: 30px 10% 0;
+    }
+    &--inverse-white {
+        @extend %form__link--button;
+        @extend %form__button--inverse-white;
+        margin: 20px 10% 0;
+    }
+}

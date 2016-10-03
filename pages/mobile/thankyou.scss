@@ -1,0 +1,26 @@
+@import "../../tools/bootstrap-mobile.scss";
+@import "fundamental";
+
+// LIBRARY
+@import "../../libs/blicon";
+
+// BLOCK FOUNDATION
+@import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
+@import "../../blocks/mobile/thankyou/thankyou";
+
+// SPESIFIC PAGE BLOCK
+
+// FOOTER AND POPUP
+
+.app {
+    color: #333;
+    background: $grey url("../../images/background_thank_you.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    line-height: 1.6em; 
+}
+.header {
+    color: $black;
+    border-bottom: none;
+}

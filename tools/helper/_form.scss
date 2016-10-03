@@ -178,6 +178,11 @@
 			background: #fff;
 			color: $blue;
 		}
+		&--inverse-white {
+			border-color: $white;
+			background: none;
+			color: $white;
+		}
 		&--link {
 			margin: 0;
 			padding: 0;

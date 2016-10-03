@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Mobile</title>
+	<link rel="stylesheet" type="text/css" href="../builds/mobile/thankyou.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+</head>
+<body>
+	<div class="app">
+		<main class="thankyou">
+			<header class="page__header header">
+				<div class="header__nav">
+					<a class="header__nav--link" href="index.html"><i class="bli-left-arrow"></i></a>
+				</div>
+				<div class="header__content">
+					<h1>Konfirmasi</h1>
+				</div>
+			</header>		
+
+			<div class="thankyou__breadcrumb">
+                <span>Isi Data </span>
+                <i class="bli-arrow-right font-12"></i>
+                <span>Bayar</span>
+                <i class="bli-arrow-right font-12"></i>
+                <span>Selesai</span>
+            </div>
+			
+		    <div class="thankyou__content">
+
+		    	<!-- START - TRANSACTION SUCCESS -->
+<!-- 		        <div class="thankyou__content--success">
+		            <i class="bli-check-list"></i><br />
+		            <h1>Pembayaran Berhasil</h1>
+		            <h4>Terima kasih untuk pembayarannya.<br />
+		            	Konfirmasi sudak dikirimkan ke email@email.com atau bisa dilihat langsung di menu berikut:</h4>
+		            <a class="button--orange" href="">Lihat pesanan saya</a>
+		            <a class="button--inverse-white" href="">Belanja di Blibli.com</a>
+		        </div> -->
+		    	<!-- START - TRANSACTION SUCCESS -->
+
+		    	<!-- END - TRANSACTION FAIL -->
+		        <div class="thankyou__content--fail">
+		            <i class="bli-smile2"></i><br />
+		            <h1>Pembayaran Tidak Berhasil</h1>
+		            <h4>Maaf, transaksi pembayaran Anda saat ini belum berhasil. Silahkan hubungi Bank Kartu Kredit yang Anda gunakan atau hubungi Customer Care Blibli.com.</h4>
+		            <a class="button--orange" href="">Lanjutkan Pembayaran</a>
+		        </div>
+		    	<!-- END - TRANSACTION FAIL -->
+		    </div>   				
+				    	            
+		    <!-- TRANSACTION FAILED START -->
+		    <!-- <div class="heading-info">
+		        <div class="heading-info__fail">
+		            <i class="bli bli-close bli1"></i><br />
+		            <h1>Pembayaran Tidak Berhasil</h1>
+		            <h4>Maaf, transaksi pembayaran Anda saat ini belum berhasil. Silahkan hubungi Bank Kartu Kredit yang Anda gunakan atau hubungi Customer Care Blibli.com.</h4>
+		            <a class="button--orange" href="">Lihat Pesanan Saya</a>
+		        </div>
+		    </div> -->      
+
+
+			<!-- TRANSACTION FAILED END -->		
+		</main>
+	</div>
+
+	<!-- LIBRARY -->
+	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+
+	<!-- FUNDAMENTAL -->
+	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+
+	<!-- BLOCKS -->
+	<!-- <script type="text/javascript" src="../blocks/mobile/sidebar/_sidebar.js" defer="defer"></script> -->
+
+	<!-- MAIN -->
+	<!-- <script type="text/javascript" src="../pages/mobile/index.js" defer="defer"></script> -->
+
+</body>
+</html>
