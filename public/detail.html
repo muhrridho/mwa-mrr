@@ -10,8 +10,8 @@
 </head>
 <body>
 	<div class="app">
-		<main class="app__page app__page--space-bottom page">
-			<article id="page-detail" class="page__item page__item--no-header page__item--default">
+		<main class="app__page page">
+			<article id="page-detail" class="page__item page__item--no-header page__item--default app__page-item--space-bottom">
 				<div class="page__content">
 					<div class="hotel-slider">
 						<div class="hotel-slider__image" style="background-image: url('../images/hotel-medium.jpg')"></div>
@@ -72,7 +72,7 @@
 							</address>
 						</footer>
 						<div class="hotel-summary__desc">
-							<h2>Hotel Description</h2>
+							<h3>Hotel Description</h3>
 							<p>Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta.</p>
 						</div>
 					</div>
@@ -80,20 +80,6 @@
 						<span class="hotel-book__price">Rp. 320.000 /Malam</span>
 						<a class="hotel-book__btn js-page--show" href="" test-href="#page-room">Pesan Kamar</a>
 					</div>
-				</div>
-			</article>
-			<article id="page-sort" class="page__item page__item--hidden">
-				<header class="page__header header">
-					<div class="header__nav">
-					</div>
-					<div class="header__content">
-						<h1>Filter</h1>
-					</div>
-					<div class="header__nav">
-						<a class="header__nav--link js-page--show" href="" test-href="#page-catalog"><i class="header__icon header__icon--small bli-close"></i></a>
-					</div>
-				</header>
-				<div class="page__content sort">
 				</div>
 			</article>
 			<article id="page-datepicker" class="page__item page__item--hidden">
@@ -107,9 +93,8 @@
 						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
 					</div>
 				</header>
-				<nav class="page__content destination__nav" id="">
-					<ul class="destination__menu"></ul>
-				</nav>
+				<div class="page__content" id="">
+				</div>
 			</article>
 			<article id="page-facility" class="page__item page__item--hidden">
 				<header class="page__header header">
@@ -122,9 +107,25 @@
 						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
 					</div>
 				</header>
-				<nav class="page__content destination__nav" id="">
-					<ul class="destination__menu"></ul>
-				</nav>
+				<div class="page__content facility">
+					<ul class="facility__menu">
+						<li class="facility__item">Elevator</li>
+						<li class="facility__item">Restaurant</li>
+						<li class="facility__item">Coffee Shop</li>
+						<li class="facility__item">Computer Station</li>
+						<li class="facility__item">Meeting Facilities</li>
+						<li class="facility__item">Conference Room</li>
+						<li class="facility__item">Prejector</li>
+						<li class="facility__item">Internet</li>
+						<li class="facility__item">AC</li>
+						<li class="facility__item">Family Room</li>
+						<li class="facility__item">Hot Breakfast</li>
+						<li class="facility__item">Free Wifi</li>
+						<li class="facility__item">Gym</li>
+						<li class="facility__item">Sauna</li>
+						<li class="facility__item">Pool</li>
+					</ul>
+				</div>
 			</article>
 			<article id="page-review" class="page__item page__item--hidden">
 				<header class="page__header header">
@@ -137,14 +138,13 @@
 						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
 					</div>
 				</header>
-				<nav class="page__content destination__nav" id="">
-					<ul class="destination__menu"></ul>
-				</nav>
+				<div class="page__content" id="">
+				</div>
 			</article>
 			<article id="page-room" class="page__item page__item--hidden">
 				<header class="page__header header">
 					<div class="header__nav">
-						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="bli-left-arrow"></i></a>
+						<a class="header__nav--link js-page--show js-room-qty__close" href="" test-href="#page-detail"><i class="bli-left-arrow"></i></a>
 					</div>
 					<div class="header__content">
 						<h1>Atanaya Central Park</h1>
@@ -153,9 +153,130 @@
 					<div class="header__nav">
 					</div>
 				</header>
-				<nav class="page__content destination__nav" id="">
-					<ul class="destination__menu"></ul>
-				</nav>
+				<div class="page__content" id="">
+					<button class="room-qty__nav js-room-qty__open">
+						<i class="bli-bed room-qty__icon"></i> Kamar: 1 Kamar <i class="room-qty__arrow bli-triangle-down"></i>
+					</button>
+					<ul class="room-list">
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><button class="room-list__policy">Tarif rendah (tidak dapat diuangkan kembali)</button></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<button class="room-list__detail-btn">Info Kamar</button>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><button class="room-list__policy">Tarif rendah (tidak dapat diuangkan kembali)</button></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<button class="room-list__detail-btn">Info Kamar</button>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><button class="room-list__policy">Tarif rendah (tidak dapat diuangkan kembali)</button></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<button class="room-list__detail-btn">Info Kamar</button>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><button class="room-list__policy">Tarif rendah (tidak dapat diuangkan kembali)</button></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<button class="room-list__detail-btn">Info Kamar</button>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><button class="room-list__policy">Tarif rendah (tidak dapat diuangkan kembali)</button></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<button class="room-list__detail-btn">Info Kamar</button>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+					</ul>
+					<div class="room-qty__overlay js-room-qty__close"></div>
+					<ul class="room-qty__select">
+						<li class="room-qty__item js-room-qty__close" onClick="">1 Room(s)</li>
+						<li class="room-qty__item room-qty__item--is-selected js-room-qty__close" onClick="">2 Room(s)</li>
+						<li class="room-qty__item js-room-qty__close" onClick="">3 Room(s)</li>
+						<li class="room-qty__item js-room-qty__close" onClick="">4 Room(s)</li>
+					</ul>
+				</div>
 			</article>
 		</main>
 		<div class="app__overlay"></div>
@@ -177,6 +298,7 @@
 
 	<!-- BLOCKS -->
 	<script type="text/javascript" src="../blocks/mobile/hotel-slider/_hotel-slider.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/room-qty/_room-qty.js" defer="defer"></script>
 
 	<!-- MAIN -->
 	<script type="text/javascript" src="../pages/mobile/detail.js" defer="defer"></script>

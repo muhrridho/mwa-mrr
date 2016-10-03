@@ -156,6 +156,7 @@
 		color: $greyDarker;
 		text-align: center;
 		cursor: pointer;
+		-webkit-appearance: none;
 
 		&--blue {
 			border-color: $blue;

@@ -117,15 +117,15 @@
 
 			position: relative;
 			margin: 0;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 			padding-left: 30px;
 			color: $greyDarker;
 			font-style: normal;
 			font-size: 1.2rem;
+			line-height: 1.6em;
 		}
 		i {
 			position: absolute;
-			top: 5px;
 			left: 0;
 			width: 25px;
 			font-size: 2rem;
@@ -139,7 +139,7 @@
 		font-size: 1.2rem;
 		line-height: 1.6em;
 
-		h2 {
+		h3 {
 			margin: 0;
 			font-weight: bold;
 			font-size: 1.3rem;

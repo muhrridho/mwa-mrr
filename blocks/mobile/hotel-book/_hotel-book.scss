@@ -13,14 +13,17 @@
 
 	&__price {
 		color: $orange;
-		font-size: 16px;
+		font-size: 1.6rem;
+		width: 100%;
+		display: block;
 	}
 	&__btn {
 		@extend %form__link--button;
 		@extend %form__button--orange;
-    	@include border-radius(2px);
+		@include border-radius(2px);
 
 		padding: 10px 20px;
-    	line-height: 1em;
+		line-height: 1em;
+		min-width: 130px;
 	}
 }
