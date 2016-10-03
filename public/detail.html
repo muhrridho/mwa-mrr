@@ -10,13 +10,75 @@
 </head>
 <body>
 	<div class="app">
-		<main class="app__page page">
+		<main class="app__page app__page--space-bottom page">
 			<article id="page-detail" class="page__item page__item--no-header page__item--default">
 				<div class="page__content">
 					<div class="hotel-slider">
 						<div class="hotel-slider__image" style="background-image: url('../images/hotel-medium.jpg')"></div>
 						<div class="hotel-slider__image" style="background-image: url('../images/cities-jogja.jpg')"></div>
 						<div class="hotel-slider__image" style="background-image: url('../images/hotel-image.jpg')"></div>
+					</div>
+					<div class="search search--date">
+						<a class="search__checkin js-page--show" href="" test-href="#page-datepicker">
+							<label>Check In</label>
+							<p>Kam, 25 Jul 2016 <i class="bli-triangle-down"></i></p>
+						</a>
+						<i class="search__arrow bli-arrow-right"></i>
+						<a class="search__checkout js-page--show" href="" test-href="#page-datepicker">
+							<label>Check Out</label>
+							<p>Sab, 27 Jul 2016 <i class="bli-triangle-down"></i></p>
+						</a>
+					</div>
+					<div class="hotel-summary">
+						<header class="hotel-summary__header">
+							<h1>Atanaya Central Park Resort</h1>
+							<p class="hotel-summary__location">
+								<i class="bli-marker-outline"></i>
+								Ubud, Bali
+							</p>
+						</header>
+						<div class="hotel-summary__rating-overall">
+							<div class="hotel-summary__star">
+								<p class="hotel-summary__rating">
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+								</p>
+								<span class="hotel-summary__rating-text">5 Star Hotel</span>
+							</div>
+							<div class="hotel-summary__tadvsr">
+								Trip Advisor
+							</div>
+						</div>
+						<a class="hotel-summary__facilities js-page--show" href="" test-href="#page-facility">
+							<span><i class="bli-wifi"></i>Wifi</span>
+							<span><i class="bli-bed"></i>Restaurant dan Bar</span>
+							<span><i class="bli-breakfast"></i>Kolam Renang</span>
+							<span><i class="bli-cat-ele"></i>Sarapan</span>
+							<span><i class="bli-cat-mvg"></i>Fitness</span>
+							<br>
+						</a>
+						<a class="hotel-summary__review js-page--show" href="" test-href="#page-review">
+							<p>Bersih, nyaman, recommend buat menginap</p>
+						</a>
+						<div class="hotel-summary__map"></div>
+						<footer class="hotel-summary__footer">
+							<address>
+								<p><i class="bli-marker-outline"></i> Jl. Sunset Road No.88A, Kuta, Kabupaten Badung, Bali, Indonesia</p>
+								<p><i class="bli-globe"></i> www.atanaya.com</p>
+								<p><i class="bli-cc-call"></i> +62 361 8468600</p>
+							</address>
+						</footer>
+						<div class="hotel-summary__desc">
+							<h2>Hotel Description</h2>
+							<p>Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+					<div class="hotel-book">
+						<span class="hotel-book__price">Rp. 320.000 /Malam</span>
+						<a class="hotel-book__btn js-page--show" href="" test-href="#page-room">Pesan Kamar</a>
 					</div>
 				</div>
 			</article>
@@ -33,6 +95,67 @@
 				</header>
 				<div class="page__content sort">
 				</div>
+			</article>
+			<article id="page-datepicker" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Pilih Tanggal</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu"></ul>
+				</nav>
+			</article>
+			<article id="page-facility" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Semua Fasilitas</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu"></ul>
+				</nav>
+			</article>
+			<article id="page-review" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Semua Review</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu"></ul>
+				</nav>
+			</article>
+			<article id="page-room" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<h1>Atanaya Central Park</h1>
+						<span class="header__content-text--small">Ubud, Bali</span>
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<nav class="page__content destination__nav" id="">
+					<ul class="destination__menu"></ul>
+				</nav>
 			</article>
 		</main>
 		<div class="app__overlay"></div>

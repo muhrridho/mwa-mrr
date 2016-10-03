@@ -8,11 +8,18 @@
 @import "../../blocks/mobile/page/page";
 @import "../../blocks/mobile/header/header";
 @import "../../blocks/mobile/hotel-slider/hotel-slider";
+@import "../../blocks/mobile/search/search--date";
+@import "../../blocks/mobile/hotel-summary/hotel-summary";
+@import "../../blocks/mobile/hotel-book/hotel-book";
 
 // SPESIFIC PAGE BLOCK
 
 // FOOTER AND POPUP
 
 .app {
-	
+	&__page {
+		&--space-bottom .page__content {
+			padding-bottom: 30px;
+		}
+	}
 }
