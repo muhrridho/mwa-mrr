@@ -1,0 +1,38 @@
+.search--date {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+
+	.search {
+		&__checkin, &__checkout {
+			@extend %container;
+
+			width: 100%;
+			color: $black;
+			text-align: center;
+			text-decoration: none;
+			line-height: 1.6em;
+
+			label {
+				display: block;
+				font-size: 1.2rem;
+			}
+			p {
+				margin: 0;
+				font-weight: bold;
+				font-size: 1.2rem;
+
+				i {
+					display: inline-block;
+					margin-top: -5px;
+					margin-left: 5px;
+				}
+			}
+		}
+		&__arrow {
+			padding: 0 10px;
+			color: #666;
+			font-size: 1rem;
+		}
+	}
+}

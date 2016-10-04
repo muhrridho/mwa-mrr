@@ -33,6 +33,11 @@
 			// margin-top: 100vh;
 			opacity: 0;
 		}
+		&--no-header {
+			.page__content {
+				padding-top: 0;
+			}
+		}
 		
 	}
 	&__header {

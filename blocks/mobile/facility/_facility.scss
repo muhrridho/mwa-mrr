@@ -1,0 +1,23 @@
+.facility {
+	&__menu {
+		@extend %reset-list;
+
+		background: #fff;
+	}
+	&__item {
+		position: relative;
+		padding: 10px;
+		padding-left: 50px;
+		border-bottom: 1px solid #ddd;
+
+		&:before {
+			@extend .bli-check-list:before;
+
+			position: absolute;
+			top: 9px;
+			left: 10px;
+			color: $green;
+			font-family: 'blicon';
+		}
+	}
+}
