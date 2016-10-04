@@ -1,0 +1,34 @@
+@import "../../../libs/owl.carousel/owl.carousel";
+@import "../../../libs/owl.carousel/owl.transitions";
+
+.hotel-slider {
+	position: relative;
+	height: 250px;
+	background-color: #eaeaea;
+
+	&__image {
+		z-index: 0;
+		height: 250px;
+		background-color: #eaeaea;
+		background-position: center center;
+		-webkit-background-size: cover;
+		   -moz-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__nav {
+		position: absolute;
+		top: 105px;
+		color: #fff;
+		font-size: 2.6rem;
+		background: rgba(255,255,255,0.5);
+		text-align: center;
+		padding: 5px 0;
+		&:before {
+		}
+
+		&--prev { left: 0; }
+		&--next { right: 0; }
+	}
+}

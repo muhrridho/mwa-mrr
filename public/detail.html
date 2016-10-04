@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Hotel Detail</title>
+	<link rel="stylesheet" type="text/css" href="../builds/mobile/detail.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+</head>
+<body>
+	<div class="app">
+		<main class="app__page page">
+
+			<!-- START HOTEL DETAIL -->
+			<article id="page-detail" class="page__item page__item--no-header page__item--default app__page-item--space-bottom">
+				<div class="page__content">
+					<div class="hotel-slider">
+						<div class="hotel-slider__image" style="background-image: url('../images/hotel-medium.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/cities-jogja.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/hotel-image.jpg')"></div>
+					</div>
+					<div class="search search--date">
+						<a class="search__checkin js-page--show" href="" test-href="#page-datepicker">
+							<label>Check In</label>
+							<p>Kam, 25 Jul 2016 <i class="bli-triangle-down"></i></p>
+						</a>
+						<i class="search__arrow bli-arrow-right"></i>
+						<a class="search__checkout js-page--show" href="" test-href="#page-datepicker">
+							<label>Check Out</label>
+							<p>Sab, 27 Jul 2016 <i class="bli-triangle-down"></i></p>
+						</a>
+					</div>
+					<div class="hotel-summary">
+						<header class="hotel-summary__header">
+							<h1>Atanaya Central Park Resort 4</h1>
+							<p class="hotel-summary__location">
+								<i class="bli-marker-outline"></i>
+								Ubud, Bali
+							</p>
+						</header>
+						<div class="hotel-summary__rating-overall">
+							<div class="hotel-summary__star">
+								<p class="hotel-summary__rating">
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+								</p>
+								<span class="hotel-summary__rating-text">5 Star Hotel</span>
+							</div>
+							<div class="hotel-summary__tadvsr">
+								Trip Advisor
+							</div>
+						</div>
+						<a class="hotel-summary__facilities js-page--show" href="" test-href="#page-facility">
+							<span><i class="bli-wifi"></i>Wifi</span>
+							<span><i class="bli-bed"></i>Restaurant dan Bar</span>
+							<span><i class="bli-breakfast"></i>Kolam Renang</span>
+							<span><i class="bli-cat-ele"></i>Sarapan</span>
+							<span><i class="bli-cat-mvg"></i>Fitness</span>
+							<br>
+						</a>
+						<a class="hotel-summary__review js-page--show" href="" test-href="#page-review">
+							<p>Bersih, nyaman, recommend buat menginap</p>
+						</a>
+						<div class="hotel-summary__map"></div>
+						<footer class="hotel-summary__footer">
+							<address>
+								<p><i class="bli-marker-outline"></i> Jl. Sunset Road No.88A, Kuta, Kabupaten Badung, Bali, Indonesia</p>
+								<p><i class="bli-globe"></i> www.atanaya.com</p>
+								<p><i class="bli-cc-call"></i> +62 361 8468600</p>
+							</address>
+						</footer>
+						<div class="hotel-summary__desc">
+							<h3>Hotel Description</h3>
+							<p>Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Proin eget tortor risus. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Cras ultricies ligula sed magna dictum porta.</p>
+						</div>
+					</div>
+					<div class="hotel-book">
+						<span class="hotel-book__price">Rp. 320.000 /Malam</span>
+						<a class="hotel-book__btn js-page--show" href="" test-href="#page-room">Pesan Kamar</a>
+					</div>
+				</div>
+			</article>
+			<!-- END HOTEL DETAIL -->
+
+			<!-- START DATEPICKER -->
+			<article id="page-datepicker" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Pilih Tanggal</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content" id="">
+				</div>
+			</article>
+			<!-- END DATEPICKER -->
+
+			<!-- START FACILITY -->
+			<article id="page-facility" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Semua Fasilitas</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content facility">
+					<ul class="facility__menu">
+						<li class="facility__item">Elevator</li>
+						<li class="facility__item">Restaurant</li>
+						<li class="facility__item">Coffee Shop</li>
+						<li class="facility__item">Computer Station</li>
+						<li class="facility__item">Meeting Facilities</li>
+						<li class="facility__item">Conference Room</li>
+						<li class="facility__item">Prejector</li>
+						<li class="facility__item">Internet</li>
+						<li class="facility__item">AC</li>
+						<li class="facility__item">Family Room</li>
+						<li class="facility__item">Hot Breakfast</li>
+						<li class="facility__item">Free Wifi</li>
+						<li class="facility__item">Gym</li>
+						<li class="facility__item">Sauna</li>
+						<li class="facility__item">Pool</li>
+					</ul>
+				</div>
+			</article>
+			<!-- END FACILITY -->
+
+			<!-- START TRIP ADVISOR REVIEW -->
+			<article id="page-review" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Semua Review</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-detail"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content" id="">
+				</div>
+			</article>
+			<!-- END TRIP ADVISOR REVIEW -->
+
+			<!-- START ROOMS LIST -->
+			<article id="page-room" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show js-room-qty__close" href="" test-href="#page-detail"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<h1>Atanaya Central Park</h1>
+						<span class="header__content-text--small">Ubud, Bali</span>
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<div class="page__content" id="">
+					<button class="room-qty__nav js-room-qty__open">
+						<i class="bli-bed room-qty__icon"></i> Kamar: 2 Kamar <i class="room-qty__arrow bli-triangle-down"></i>
+					</button>
+					<ul class="room-list">
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+						<li class="room-list__item">
+							<div class="room-list__container">
+								<div class="room-list__content">
+									<h2>Double Deluxe</h2>
+									<ul class="room-list__benefit">
+										<li class="room-list__benefit-item">Termasuk sarapan</li>
+										<li class="room-list__benefit-item"><a href="" test-href="#cancelation-policy-00001" class="room-list__policy js-popup--show">Tarif rendah (tidak dapat diuangkan kembali)</a></li>
+									</ul>
+								</div>
+								<div class="room-list__info">
+									<p class="room-list__guest">
+										<span>2 <i class="bli-two-people"></i></span>
+										<a href="" test-href="#page-room-00001" class="room-list__detail-btn js-page--show">Info Kamar</a>
+									</p>
+									<p class="room-list__availability">2 Kamar Tersedia</p>
+								</div>
+							</div>
+							<div class="room-list__book">
+								<span class="room-list__price">Rp. 320.000 /Malam</span>
+								<a class="room-list__btn" href="">Pesan Kamar</a>
+							</div>
+						</li>
+					</ul>
+					<div class="room-qty__overlay js-room-qty__close"></div>
+					<ul class="room-qty__select">
+						<li class="room-qty__item js-room-qty__close" onClick="">1 Room(s)</li>
+						<li class="room-qty__item room-qty__item--is-selected js-room-qty__close" onClick="">2 Room(s)</li>
+						<li class="room-qty__item js-room-qty__close" onClick="">3 Room(s)</li>
+						<li class="room-qty__item js-room-qty__close" onClick="">4 Room(s)</li>
+					</ul>
+				</div>
+			</article>
+			<!-- END ROOMS LIST -->
+
+			<!-- START ROOMS DETAIL -->
+			<article id="page-room-00001" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Rooms Name</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-room"><i class="header__icon header__icon--small bli-close"></i></a>
+					</div>
+				</header>
+				<div class="page__content room-detail" id="">
+					<div class="room-detail__slider hotel-slider">
+						<div class="hotel-slider__image" style="background-image: url('../images/cities-bali.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/bg-blihotel.jpg')"></div>
+						<div class="hotel-slider__image" style="background-image: url('../images/tp.png')"></div>
+					</div>
+					<div class="room-detail__section">
+						<h2>Harga Permalam</h2>
+						<p class="room-detail__price">Rp. 320.000</p>
+					</div>
+					<div class="room-detail__section">
+						<h2>Fitur</h2>
+						<p class="room-detail__feature">Kamar dan Sarapan</p>
+					</div>
+					<div class="room-detail__section">
+						<h2>Fasilitas</h2>
+						<ul class="room-detail__facility">
+							<li>Lorem ipsum dolor</li>
+							<li>Hairdryer</li>
+							<li>Nulla porttitor </li>
+							<li>Convallis </li>
+							<li>Nulla </li>
+							<li>Eget malesuada. </li>
+							<li>Pellentesque </li>
+							<li>Mauris blandit </li>
+							<li>Cras ultricies </li>
+							<li>Vivamus </li>
+							<li>Proin eget tortor risus lorem</li>
+							<li>Proin eget </li>
+						</ul>
+					</div>
+					<a class="room-detail__btn" href="">Pilih</a>
+				</div>
+			</article>
+			<!-- END ROOMS DETAIL -->
+		</main>
+		<div class="app__overlay"></div>
+		<article class="popup" id="cancelation-policy-00001">
+			<a class="popup__close js-popup--hide" href=""><i class="bli-close"></i></a>
+			<h1>Tarif Rendah (Tidak dapat diuangkan kembali)</h1>
+			<p>Penawaran ini memberikan tarif spesial yang super rendah, namun tidak dapat diuangkan kembali dan tidak dapat diubah. Apabila Anda tidak datang, maka tidak akan ada pengembalian uang (kebijakan hotel).Apabila tanggal perjalanan Anda sudah pasti, maka Anda dapat menikmati keuntungan dari penawaran spesial ini.</p>
+		</article>
+	</div>
+
+
+	<!-- <p style="position: fixed; bottom: 10px; left: 10px; z-index: 999; padding: 10px; background: #000; color: #fff">
+		<span id="status">start</span>
+		<span></span>
+	</p> -->
+
+	<!-- LIBRARY -->
+	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+	<script type="text/javascript" src="../libs/owl.carousel/_owl.carousel.min.js" defer="defer"></script>
+
+	<!-- FUNDAMENTAL -->
+	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+
+	<!-- BLOCKS -->
+	<script type="text/javascript" src="../blocks/mobile/hotel-slider/_hotel-slider.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/room-qty/_room-qty.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/popup/_popup.js" defer="defer"></script>
+
+	<!-- MAIN -->
+	<script type="text/javascript" src="../pages/mobile/detail.js" defer="defer"></script>
+
+</body>
+</html>
