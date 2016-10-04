@@ -9,10 +9,10 @@ function initRoomQty() {
 function showRoomQty(){
 	$(".room-qty__overlay").addClass("room-qty__overlay--is-show");
 	$(".room-qty__select").addClass("room-qty__select--is-show");
-	$("body").css("overflow", "hidden");
+	$(".app").css("overflow-y", "hidden");
 }
 function hideRoomQty(){
 	$(".room-qty__overlay").removeClass("room-qty__overlay--is-show");
 	$(".room-qty__select").removeClass("room-qty__select--is-show");
-	$("body").css("overflow", "auto");
+	$(".app").css("overflow-y", "auto");
 }
