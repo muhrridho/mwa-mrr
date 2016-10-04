@@ -455,7 +455,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .hotel { background: #fff; }
 .hotel__link { display: block; color: #333333; text-decoration: none; }
 .hotel__image { position: relative; margin: -10px; margin-bottom: 0; height: 150px; background-color: #aaa; background-position: center center; background-size: cover; background-repeat: no-repeat; }
-.hotel__type { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; position: absolute; top: 10px; left: 10px; padding: 4px 15px; min-width: 50px; color: #fff; text-align: center; font-size: 1rem; line-height: 1em; }
+.hotel__type { -webkit-border-radius: 9px; -moz-border-radius: 9px; border-radius: 9px; position: absolute; top: 10px; left: 10px; padding: 4px 15px; min-width: 50px; color: #fff; text-align: center; font-size: 1rem; line-height: 1; }
 .hotel__type--hotel { background: #00b25a; }
 .hotel__type--villa { background: #0095da; }
 .hotel__type--apartement { background: #89C747; }
