@@ -75,7 +75,7 @@
 		}
 	}
 	&__detail-btn {
-		@extend %form__button--link;
+		color: $blue;
 	}
 	&__availability {
 		display: block;

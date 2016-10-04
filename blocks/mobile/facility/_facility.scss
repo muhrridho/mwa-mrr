@@ -1,6 +1,8 @@
 .facility {
 	&__menu {
 		@extend %reset-list;
+
+		background: #fff;
 	}
 	&__item {
 		position: relative;
