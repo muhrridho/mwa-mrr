@@ -1,10 +1,34 @@
 .popup {
+	@include transition(all .25s ease);
+
 	position: fixed;
 	z-index: 810;
-	padding: 20px;
+	visibility: hidden;
+	padding: 30px 20px 20px 20px;
 	max-width: 400px;
 	max-height: 80vh;
 	width: 80vw;
 	background: #fff;
-	top: 0
+	opacity: 0;
+
+	&--is-show {
+		visibility: visible;
+		opacity: 1;
+	}
+	&__close {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		color: $greyDark;
+		font-size: 2.6rem;
+		line-height: 1;
+	}
+	h1 {
+		font-size: 1.8rem;
+		line-height: 1.4em;
+	}
+	p {
+		color: $greyDarker;
+		line-height: 1.6em;
+	}
 }
