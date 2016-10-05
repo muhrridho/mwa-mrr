@@ -480,7 +480,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 
 .special-request { font-size: 1.3rem; line-height: 1.4em; }
 .special-request__heading-btn { display: block; margin-bottom: 10px; padding: 5px 0; width: 100%; }
-.special-request__heading-btn i { margin-right: 2px; vertical-align: middle; font-size: 1.6rem; }
+.special-request__heading-btn i { margin-right: 2px; vertical-align: middle; font-size: 1.6rem; font-style: normal; }
 .special-request__heading-btn:hover { text-decoration: none; }
 .special-request__content--is-hidden { display: none; }
 .special-request__info { margin: 0; }
