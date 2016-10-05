@@ -1,0 +1,19 @@
+.timer {
+	position: fixed;
+	top: 85px;
+	padding: 9px 10px;
+	width: 100%;
+	background: $blueLight;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 1;
+
+	p {
+		margin: 0;
+	}
+	span {
+		font-weight: normal;
+	}
+}
