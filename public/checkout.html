@@ -78,13 +78,13 @@
 						</div>
 					</section>
 
-					<section class="checkout__section">
+					<section class="checkout__section js-checkout__guest-empty">
 						<h2>Informasi Tamu</h2>
 						<div class="checkout__group">
 							<a class="checkout__label checkout__label--full js-page--show" href="" test-href="#page-guestinfo">Isi info</a>
 						</div>
 					</section>
-					<section class="checkout__section checkout__section--is-hidden">
+					<section class="checkout__section checkout__section--is-hidden js-checkout__guest-fill">
 						<h2>Informasi Tamu</h2>
 						<div class="checkout__group">
 							<span class="checkout__value">
@@ -190,10 +190,29 @@
 						<h1>Informasi Tamu</h1>
 					</div>
 					<div class="header__nav">
-						<a class="header__nav--link js-page--show" href="" test-href="#page-fillinfo"><i class="header__icon header__icon--small bli-close"></i></a>
+						<a class="header__nav--link js-page--show" href="" test-href="#page-fillinfo">
+							<i class="header__icon header__icon--small bli-close"></i>
+						</a>
 					</div>
 				</header>
-				<div class="page__content" id="">
+				<div class="page__content form-guest">
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__first-name">Nama Depan</label>
+						<input class="form-guest__textfield" type="text" id="guest__first-name" placeholder="Isi nama depan">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__last-name">Nama Belakang</label>
+						<input class="form-guest__textfield" type="text" id="guest__last-name" placeholder="Isi nama belakang">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__mobile">Nomor Mobile</label>
+						<input class="form-guest__textfield" type="text" id="guest__mobile" placeholder="Isi nomor mobile">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__email">Alamat Email</label>
+						<input class="form-guest__textfield" type="email" id="guest__email" placeholder="Isi alamat email">
+					</div>
+					<button class="form-guest__btn">Simpan</button>
 				</div>
 			</article>
 			<!-- END GUESTINFO -->
