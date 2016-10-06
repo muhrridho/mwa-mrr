@@ -131,5 +131,28 @@
 	}
 	&__detail-payment {
 		display: none;
+		border-top: 1px solid #eaeaea;
+	}
+	&__promo {
+		@extend %form__textfield;
+		width: 70%;
+		height: 35px;
+		line-height: 1;
+	}
+	&__promo-btn {
+		@extend %form__button;
+		margin-left: 5px;
+		width: 30%;
+		height: 35px;
+		padding: 6px;
+		line-height: 1;
+	}
+	&__promo-msg {
+		margin: 0;
+		font-size: 1.3rem;
+		line-height: 1;
+
+		&--success { color: $blueLight; }
+		&--failed { color: $red; }
 	}
 }

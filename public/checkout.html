@@ -84,6 +84,7 @@
 							<a class="checkout__label checkout__label--full js-page--show" href="" test-href="#page-guestinfo">Isi info</a>
 						</div>
 					</section>
+					<!--  TODO: toggle class checkout__section--is-hidden -->
 					<section class="checkout__section checkout__section--is-hidden js-checkout__guest-fill">
 						<h2>Informasi Tamu</h2>
 						<div class="checkout__group">
@@ -255,7 +256,7 @@
 					<section class="checkout__section checkout__section--small">
 						<div class="checkout__group checkout__group--highlight checkout__group--no-border">
 							<h2 class="checkout__label">Total Pembayaran</h2>
-							<button class="checkout__value checkout__show-payment js-checkout__show-paymeny">Rp. 1.500.000 <i class="bli-triangle-down"></i></button>
+							<button class="checkout__value checkout__show-payment js-checkout__show-payment">Rp. 1.500.000 <i class="bli-triangle-down"></i></button>
 						</div>
 						<div class="checkout__detail-payment">
 							<div class="checkout__group checkout__group--no-border">
@@ -268,6 +269,56 @@
 							</div>
 						</div>
 					</section>
+					<section class="checkout__section">
+						<h2>Promo</h2>
+						<div class="checkout__group checkout__group--no-border">
+							<input class="checkout__promo" type="text" name="" disabled placeholder="Masukkan kode promo disini">
+							<button class="checkout__promo-btn">Gunakan</button>
+						</div>
+						<!-- <p class="checkout__promo-msg checkout__promo-msg--failed">Kode voucher yang anda masukkan salah</p> -->
+						<p class="checkout__promo-msg checkout__promo-msg--success">Selamat anda mendapatkan potongan Rp. 100.000 !</p>
+					</section>
+					<section class="checkout__section">
+						<h2>Pilih Metode Pembayaran</h2>
+						<ul class="payment">
+							<li class="payment__item payment__item--is-active">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-0" />
+									<label for="payment-item-0">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+							<li class="payment__item">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-1" />
+									<label for="payment-item-1">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+							<li class="payment__item">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-2" />
+									<label for="payment-item-2">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<div class="checkout__next">
+						<a href="" id="" class="checkout__next-btn" ng-click="">Bayar Sekarang</a>
+					</div>
 				</div>
 			</article>
 			<!-- END GUESTINFO -->
@@ -297,6 +348,7 @@
 	<!-- BLOCKS -->
 	<script type="text/javascript" src="../blocks/mobile/special-request/_special-request.js" defer="defer"></script>
 	<script type="text/javascript" src="../blocks/mobile/popup/_popup.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/checkout/_checkout.js" defer="defer"></script>
 
 	<!-- MAIN -->
 	<script type="text/javascript" src="../pages/mobile/checkout.js" defer="defer"></script>

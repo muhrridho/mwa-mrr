@@ -1,0 +1,48 @@
+.payment {
+	@extend %reset-list;
+	border: 1px solid #f4f4f4;
+
+	&__item {
+		padding: 10px;
+		background: #fff;
+		border-bottom: 1px solid #f4f4f4;
+
+		&--is-active {
+			background: #f4f4f4;
+
+			.payment__content {
+				display: block;
+			}
+		}
+		&:first-child {
+			border-top: 0;
+		}
+
+	}
+	&__group {}
+	&__content {
+		display: none;
+	}
+	&__radio {
+		@extend %form__radio;
+
+		& + label {
+			display: block;
+			padding-left: 25px;
+			font-size: 1.4rem;
+			line-height: 1.2;
+			font-weight: bold;
+
+			small {
+				display: block;
+				font-size: 1rem;
+				font-weight: normal;
+				color: $greyDarker;
+			}
+			&:before, &:after {
+				top: 7px;
+				font-size: 1.4rem;
+			}
+		}
+	}
+}

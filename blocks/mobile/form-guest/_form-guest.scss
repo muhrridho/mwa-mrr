@@ -24,6 +24,10 @@
 		border-radius: 0;
 		background: transparent;
 		-webkit-appearance: none;
+		&::-webkit-input-placeholder { color: $grey;font-style: italic}
+		&:-moz-placeholder { color: $grey;font-style: italic}
+		&::-moz-placeholder { color: $grey;font-style: italic}
+		&:-ms-input-placeholder { color: $grey;font-style: italic}
 	}
 	&__btn {
 		@extend %form__button;
@@ -36,8 +40,3 @@
 	}
 
 }
-
-::-webkit-input-placeholder { color: $grey;font-style: italic}
-:-moz-placeholder { color: $grey;font-style: italic}
-::-moz-placeholder { color: $grey;font-style: italic}
-:-ms-input-placeholder { color: $grey;font-style: italic}
