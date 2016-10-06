@@ -1,0 +1,41 @@
+@import "../../tools/bootstrap-mobile.scss";
+@import "fundamental";
+
+// LIBRARY
+@import "../../libs/blicon";
+
+// BLOCK FOUNDATION
+@import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
+
+// SPESIFIC PAGE BLOCK
+@import "../../blocks/mobile/login/login";
+
+// FOOTER AND POPUP
+
+
+input[type=password], input[type=text] {
+    border: none;
+    width: 230px;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+    outline: 0;
+}
+input {
+    font-size: 16px;
+}
+input[type=text], textarea {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    outline: 0;
+}
+
+
+.app {
+	background-color: $white;
+	display: table;
+    width: 100%;
+	min-height: 100vh;
+} 
