@@ -53,10 +53,10 @@
 	    }
 	}	
 	&__button {
-	    &--orange {ss
+	    &--orange {
 	        @extend %form__link--button;
 	        @extend %form__button--orange;
-	        margin: 30px 10% 0;
+	        margin: 30px 10% 0; 
 	    }
 	    &--inverse-white {
 	        @extend %form__link--button;
