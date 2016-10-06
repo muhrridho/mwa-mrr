@@ -492,7 +492,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .checkout-step__item--done, .checkout-step__item--done .checkout-step__link { color: #0095da; opacity: 1; }
 .checkout-step__link { color: #333333; text-decoration: none; font-size: 1.3rem; }
 
-.timer { position: fixed; top: 85px; z-index: 100; padding: 9px 10px; width: 100%; background: #0eb3ff; color: #fff; text-align: center; font-weight: bold; font-size: 1.2rem; line-height: 1; }
+.timer { position: fixed; top: 84px; z-index: 100; padding: 9px 10px; width: 100%; background: #0eb3ff; color: #fff; text-align: center; font-weight: bold; font-size: 1.2rem; line-height: 1; }
 .timer p { margin: 0; }
 .timer span { font-weight: normal; }
 
