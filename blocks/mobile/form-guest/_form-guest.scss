@@ -6,6 +6,7 @@
 	&__group {
 		@extend %container;
 
+		padding-bottom: 5px;
 		border-bottom: 1px solid #eaeaea;
 	}
 	&__label {
@@ -17,7 +18,6 @@
 	}
 	&__textfield {
 		display: block;
-		padding-bottom: 5px;
 		width: 100%;
 		outline: 0;
 		border: 0;

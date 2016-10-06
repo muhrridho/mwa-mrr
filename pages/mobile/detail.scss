@@ -29,14 +29,22 @@
 	}
 	&__back {
 		position: absolute;
-		z-index: 999;
-		color: #fff;
-		left: 0px;
 		top: 0px;
-		line-height: 1;
-		font-size: 3rem;
-		letter-spacing: 0;
+		left: 0px;
+		z-index: 999;
 		padding: 9px 8px;
+		color: #fff;
+		letter-spacing: 0;
+		font-size: 3rem;
+		line-height: 1;
 
+	}
+	&__header--transparent {
+		border-bottom: 0;
+		background: rgba(0,0,0,.2);
+
+		a {
+			color: #fff;
+		}
 	}
 }

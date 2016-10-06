@@ -165,8 +165,8 @@ h6 { font-size: 1.12rem; }
 .checkout__next-btn, .form-guest__btn { border-color: #f7931e; background: #f7931e; color: #fff; }
 .checkout__next-btn:hover, .form-guest__btn:hover { border-color: #f9ab4f; background: #f9ab4f; color: #fff; }
 .special-request__submit { border-color: #0095da; background: #fff; color: #0095da; }
-.header__nav--btn, .special-request__heading-btn { margin: 0; padding: 0; outline: none; border: 0; background: none; color: #0095da; text-align: left; cursor: pointer; }
-.header__nav--btn:hover, .special-request__heading-btn:hover { text-decoration: underline; }
+.header__nav--btn, .checkout__show-payment, .special-request__heading-btn { margin: 0; padding: 0; outline: none; border: 0; background: none; color: #0095da; text-align: left; cursor: pointer; }
+.header__nav--btn:hover, .checkout__show-payment:hover, .special-request__heading-btn:hover { text-decoration: underline; }
 .checkout__next-btn { display: block; text-decoration: none; }
 
 /* TODO: Migrate to formatting above and remove below styling*/
@@ -449,6 +449,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .checkout__section { margin-top: 10px; padding: 15px 10px; background: #fff; }
 .checkout__section h2 { margin: 0; color: #333333; font-weight: bold; font-size: 1.5rem; }
 .checkout__section--is-hidden { display: none; }
+.checkout__section--small { padding: 5px 10px; }
 .checkout__group { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eaeaea; color: #333333; font-size: 1.3rem; }
 .checkout__group--no-border { border: 0; }
 .checkout__group--highlight .checkout__value { color: #ff9700; font-size: 1.5rem; }
@@ -466,8 +467,11 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .checkout__benefit-item a { color: #333333; }
 .checkout__next { background: #F5F6F7; }
 .checkout__next-btn { display: block; padding: 5px 10px; width: 100%; }
+.checkout__show-payment:hover { text-decoration: none; }
+.checkout__show-payment i { margin-top: -4px; margin-left: 5px; color: #333333; font-size: 1.2rem; }
+.checkout__detail-payment { display: none; }
 
-.checkout-step { position: fixed; top: 50px; width: 100%; background: #fff; }
+.checkout-step { position: fixed; top: 50px; width: 100%; background: #fff; z-index: 100; }
 .checkout-step__menu { margin: auto; width: 270px; }
 .checkout-step__item { display: inline-block; padding: 3px 15px; color: #333333; font-weight: bold; opacity: .5; }
 .checkout-step__item--arrow { padding: 3px 5px; }
@@ -475,7 +479,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .checkout-step__item--done, .checkout-step__item--done .checkout-step__link { color: #0095da; opacity: 1; }
 .checkout-step__link { color: #333333; text-decoration: none; font-size: 1.3rem; }
 
-.timer { position: fixed; top: 85px; padding: 9px 10px; width: 100%; background: #0eb3ff; color: #fff; text-align: center; font-weight: bold; font-size: 1.2rem; line-height: 1; }
+.timer { position: fixed; top: 85px; z-index: 100; padding: 9px 10px; width: 100%; background: #0eb3ff; color: #fff; text-align: center; font-weight: bold; font-size: 1.2rem; line-height: 1; }
 .timer p { margin: 0; }
 .timer span { font-weight: normal; }
 
@@ -494,9 +498,9 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .special-request__submit:disabled { border-color: #9d9d9d; color: #9d9d9d; }
 
 .form-guest { padding-top: 70px; min-height: 100vh; background: #fff; }
-.form-guest__group { border-bottom: 1px solid #eaeaea; }
+.form-guest__group { padding-bottom: 5px; border-bottom: 1px solid #eaeaea; }
 .form-guest__label { display: block; color: #9d9d9d; text-transform: uppercase; font-size: 1.2rem; line-height: 1; }
-.form-guest__textfield { display: block; padding-bottom: 5px; width: 100%; outline: 0; border: 0; border-radius: 0; background: transparent; -webkit-appearance: none; }
+.form-guest__textfield { display: block; width: 100%; outline: 0; border: 0; border-radius: 0; background: transparent; -webkit-appearance: none; }
 .form-guest__btn { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; margin: 20px 5%; padding: 5px 10px; width: 90%; }
 
 ::-webkit-input-placeholder { color: #B6B6B6; font-style: italic; }
@@ -506,5 +510,11 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 ::-moz-placeholder { color: #B6B6B6; font-style: italic; }
 
 :-ms-input-placeholder { color: #B6B6B6; font-style: italic; }
+
+.popup { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: fixed; z-index: 810; visibility: hidden; padding: 30px 20px 20px 20px; max-width: 400px; max-height: 80vh; width: 80vw; background: #fff; opacity: 0; }
+.popup--is-show { visibility: visible; opacity: 1; }
+.popup__close { position: absolute; top: 5px; right: 5px; color: #9d9d9d; font-size: 2.6rem; line-height: 1; }
+.popup h1 { font-size: 1.8rem; line-height: 1.4em; }
+.popup p { color: #666; line-height: 1.6em; }
 
 /*# sourceMappingURL=checkout.css.map */

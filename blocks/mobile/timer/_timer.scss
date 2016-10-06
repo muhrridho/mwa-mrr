@@ -1,6 +1,7 @@
 .timer {
 	position: fixed;
 	top: 85px;
+	z-index: 100;
 	padding: 9px 10px;
 	width: 100%;
 	background: $blueLight;

@@ -3,6 +3,7 @@
 	top: 50px;
 	width: 100%;
 	background: #fff;
+	z-index: 100;
 
 	&__menu {
 		@extend %reset-list;

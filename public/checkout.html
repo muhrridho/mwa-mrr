@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<title>Check Out</title>
 	<link rel="stylesheet" type="text/css" href="../builds/mobile/checkout.css">
-	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 </head>
 <body>
 	<div class="app">
 		<main class="app__page page">
 
-			<!-- START FILLINF O-->
+			<!-- START FILLINFO -->
 			<article id="page-fillinfo" class="page__item page__item--default">
 				<header class="page__header header">
 					<div class="header__nav">
@@ -34,7 +34,7 @@
 								<i class="bli-arrow-right"></i>
 							</li>
 							<li class="checkout-step__item">
-								<a class="checkout-step__link js-page--show" href="" test-href="#page-payment">Bayar</a>
+								<a class="checkout-step__link" href="">Bayar</a>
 							</li>
 							<li class="checkout-step__item checkout-step__item--arrow">
 								<i class="bli-arrow-right"></i>
@@ -114,7 +114,7 @@
 						<ul class="checkout__benefit">
 							<li class="checkout__benefit-item">Deluxe double</li>
 							<li class="checkout__benefit-item">Hemat dengan pemesanan diawal tarif termasuk 30% diskon!</li>
-							<li class="checkout__benefit-item"><a href="" test-href="">Tidak dapat diuangkan kembali</a></li>
+							<li class="checkout__benefit-item"><a class="js-popup--show" href="" test-href="#cancelation-policy-00001">Tidak dapat diuangkan kembali</a></li>
 						</ul>
 						<div class="checkout__special-request special-request">
 							<button class="special-request__heading-btn js-special-request__heading-btn"><i>+</i> Permintaan Khusus</button>
@@ -229,7 +229,7 @@
 					<div class="header__nav">
 					</div>
 				</header>
-				<div class="page__content" id="">
+				<div class="page__content checkout" id="">
 					<div class="checkout-step">
 						<ul class="checkout-step__menu">
 							<li class="checkout-step__item checkout-step__item--done">
@@ -252,12 +252,33 @@
 					<div class="timer">
 						<p>Tersisa Waktu : <span>29 Menit 20 Detik</span></p>
 					</div>
+					<section class="checkout__section checkout__section--small">
+						<div class="checkout__group checkout__group--highlight checkout__group--no-border">
+							<h2 class="checkout__label">Total Pembayaran</h2>
+							<button class="checkout__value checkout__show-payment js-checkout__show-paymeny">Rp. 1.500.000 <i class="bli-triangle-down"></i></button>
+						</div>
+						<div class="checkout__detail-payment">
+							<div class="checkout__group checkout__group--no-border">
+								<label class="checkout__label">Harga Total <small>1 Kamar x 2 Malam</small></label>
+								<span class="checkout__value">Rp. 1.600.000</span>
+							</div>
+							<div class="checkout__group checkout__group--discount checkout__group--no-border">
+								<label class="checkout__label">Promo Voucher</label>
+								<span class="checkout__value">Rp. 100.000</span>
+							</div>
+						</div>
+					</section>
 				</div>
 			</article>
 			<!-- END GUESTINFO -->
 
 		</main>
 		<div class="app__overlay"></div>
+		<article class="popup" id="cancelation-policy-00001">
+			<a class="popup__close js-popup--hide" href=""><i class="bli-close"></i></a>
+			<h1>Tarif Rendah (Tidak dapat diuangkan kembali)</h1>
+			<p>Penawaran ini memberikan tarif spesial yang super rendah, namun tidak dapat diuangkan kembali dan tidak dapat diubah. Apabila Anda tidak datang, maka tidak akan ada pengembalian uang (kebijakan hotel).Apabila tanggal perjalanan Anda sudah pasti, maka Anda dapat menikmati keuntungan dari penawaran spesial ini.</p>
+		</article>
 	</div>
 
 
@@ -275,6 +296,7 @@
 
 	<!-- BLOCKS -->
 	<script type="text/javascript" src="../blocks/mobile/special-request/_special-request.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/popup/_popup.js" defer="defer"></script>
 
 	<!-- MAIN -->
 	<script type="text/javascript" src="../pages/mobile/checkout.js" defer="defer"></script>
