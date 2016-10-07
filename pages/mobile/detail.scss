@@ -27,4 +27,24 @@
 			padding-bottom: 30px;
 		}
 	}
+	&__back {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 999;
+		padding: 9px 8px;
+		color: #fff;
+		letter-spacing: 0;
+		font-size: 3rem;
+		line-height: 1;
+
+	}
+	&__header--transparent {
+		border-bottom: 0;
+		background: rgba(0,0,0,.2);
+
+		a {
+			color: #fff;
+		}
+	}
 }

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Check Out</title>
+	<link rel="stylesheet" type="text/css" href="../builds/mobile/checkout.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+	<div class="app">
+		<main class="app__page page">
+
+			<!-- START FILLINFO -->
+			<article id="page-fillinfo" class="page__item page__item--default">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link" href="detail.html"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<h1>Pembayaran</h1>
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<div class="page__content checkout">
+					<div class="checkout-step">
+						<ul class="checkout-step__menu">
+							<li class="checkout-step__item checkout-step__item--done">
+								<a class="checkout-step__link js-page--show" href="" test-href="#page-fillinfo">Isi Info</a>
+							</li>
+							<li class="checkout-step__item checkout-step__item--arrow checkout-step__item--done">
+								<i class="bli-arrow-right"></i>
+							</li>
+							<li class="checkout-step__item">
+								<a class="checkout-step__link" href="">Bayar</a>
+							</li>
+							<li class="checkout-step__item checkout-step__item--arrow">
+								<i class="bli-arrow-right"></i>
+							</li>
+							<li class="checkout-step__item">
+								<a class="checkout-step__link js-page--show" href="" test-href="#page-fillinfo">Selesai</a>
+							</li>
+						</ul>
+					</div>
+					<div class="timer">
+						<p>Tersisa Waktu : <span>29 Menit 20 Detik</span></p>
+					</div>
+					<section class="checkout__section">
+						<h2>Rincian Order</h2>
+						<div class="checkout__group">
+							<p class="checkout__hotel-name">
+								Hotel Santika Resort
+								<span class="checkout__hotel-rating">
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+									<i class="bli-star-fill"></i>
+								</span>
+							</p>
+						</div>
+						<div class="checkout__group">
+							<label class="checkout__label">Check In Date</label>
+							<span class="checkout__value">Kam, 27 Jul 2016</span>
+						</div>
+						<div class="checkout__group">
+							<label class="checkout__label">Check Out Date</label>
+							<span class="checkout__value">Kam, 27 Jul 2016</span>
+						</div>
+						<div class="checkout__group">
+							<label class="checkout__label">Tipe Kamar</label>
+							<span class="checkout__value">Double Deluxe</span>
+						</div>
+						<div class="checkout__group checkout__group--no-border">
+							<label class="checkout__label">Jumlah Kamar</label>
+							<span class="checkout__value">1 Kamar</span>
+						</div>
+					</section>
+
+					<section class="checkout__section js-checkout__guest-empty">
+						<h2>Informasi Tamu</h2>
+						<div class="checkout__group">
+							<a class="checkout__label checkout__label--full js-page--show" href="" test-href="#page-guestinfo">Isi info</a>
+						</div>
+					</section>
+					<!--  TODO: toggle class checkout__section--is-hidden -->
+					<section class="checkout__section checkout__section--is-hidden js-checkout__guest-fill">
+						<h2>Informasi Tamu</h2>
+						<div class="checkout__group">
+							<span class="checkout__value">
+								Muhammad R Ridho
+								<small>08123456789 muh.r.ridho@gmail.com</small>
+							</span>
+						</div>
+					</section>
+
+					<section class="checkout__section">
+						<div class="checkout__group checkout__group--highlight">
+							<h2 class="checkout__label">Total Pembayaran</h2>
+							<span class="checkout__value">Rp. 1.500.000</span>
+						</div>
+						<div class="checkout__group checkout__group--no-border">
+							<label class="checkout__label">Harga Total <small>1 Kamar x 2 Malam</small></label>
+							<span class="checkout__value">Rp. 1.600.000</span>
+						</div>
+						<div class="checkout__group checkout__group--discount checkout__group--no-border">
+							<label class="checkout__label">Promo Voucher</label>
+							<span class="checkout__value">Rp. 100.000</span>
+						</div>
+					</section>
+					<section class="checkout__section">
+						<h2>Informasi Kamar</h2>
+						<div class="checkout__thumbnail" style="background-image: url('../images/sun-1619126_1920.jpg')"></div>
+						<ul class="checkout__benefit">
+							<li class="checkout__benefit-item">Deluxe double</li>
+							<li class="checkout__benefit-item">Hemat dengan pemesanan diawal tarif termasuk 30% diskon!</li>
+							<li class="checkout__benefit-item"><a class="js-popup--show" href="" test-href="#cancelation-policy-00001">Tidak dapat diuangkan kembali</a></li>
+						</ul>
+						<div class="checkout__special-request special-request">
+							<button class="special-request__heading-btn js-special-request__heading-btn"><i>+</i> Permintaan Khusus</button>
+							<div class="special-request__content special-request__content--is-hidden">
+								<p class="special-request__info">Permintaan Khusus bergantung pada persediaan di setiap properti dan tidak dapat dijamin.</p>
+								<div class="special-request__options">
+									<div class="special-request__group">
+										<input class="special-request__check" type="checkbox" 
+											   ng-model="specialRequestObj[0]"
+											   ng-true-value="'Saya ingin kamar bebas asap rokok'" ng-false-value="'n'"
+											   id="special-request-0" />
+										<label for="special-request-0">Saya ingin kamar bebas asap rokok</label>
+									</div>
+									<div class="special-request__group">
+                                        <input class="special-request__check" type="checkbox" 
+                                               ng-model="specialRequestObj[1]"
+                                               ng-true-value="'Saya ingin check-in lebih awal'" ng-false-value="'n'"
+                                               id="special-request-1" />
+                                        <label for="special-request-1">Saya ingin check-in lebih awal</label>
+                                    </div>
+                                    <div class="special-request__group">
+                                        <input class="special-request__check" type="checkbox" 
+                                               ng-model="specialRequestObj[2]"
+                                               ng-true-value="'Saya ingin check-in terlambat'" ng-false-value="'n'"
+                                               id="special-request-2" />
+                                        <label for="special-request-2">Saya ingin check-in terlambat</label>
+                                    </div>
+                                    <div class="special-request__group">
+                                        <input class="special-request__check" type="checkbox" 
+                                               ng-model="specialRequestObj[3]"
+                                               ng-true-value="'Saya ingin lantai bawah'" ng-false-value="'n'"
+                                               id="special-request-3" />
+                                        <label for="special-request-3">Saya ingin lantai bawah</label>
+                                    </div>
+                                    <div class="special-request__group">
+                                        <input class="special-request__check" type="checkbox" 
+                                               ng-model="specialRequestObj[4]"
+                                               ng-true-value="'Saya ingin lantai atas'" ng-false-value="'n'"
+                                               id="special-request-4" />
+                                        <label for="special-request-4">Saya ingin lantai atas</label>
+                                    </div>
+                                    <div class="special-request__group">
+                                        <input class="special-request__check" type="checkbox" 
+                                               ng-model="specialRequestObj[5]"
+                                               ng-true-value="'Saya ingin ranjang twin'" ng-false-value="'n'"
+                                               id="special-request-5" />
+                                        <label for="special-request-5">Saya ingin ranjang twin</label>
+                                    </div>
+								</div>
+								<div class="special-request__group">
+                                    <label class="special-request__label" for="special-request__comment">Silahkan masukkan komentar</label>
+                                    <textarea name="request" rows="5"
+                                              placeholder=""
+                                              ng-model="checkoutSubmitData.specialRequest"
+                                              class="ng-pristine ng-valid ng-empty ng-touched special-request__textarea"></textarea>
+                                </div>
+							</div>
+						</div>
+					</section>
+					<div class="checkout__next">
+						<a href="" test-href="#page-payment" id="nextButton" class="checkout__next-btn js-page--show" ng-click="continueToStep2()">Lanjut</a>
+					</div>
+				</div>
+			</article>
+			<!-- END FILLINFO -->
+
+			<!-- START GUESTINFO -->
+			<article id="page-guestinfo" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+					</div>
+					<div class="header__content">
+						<h1>Informasi Tamu</h1>
+					</div>
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-fillinfo">
+							<i class="header__icon header__icon--small bli-close"></i>
+						</a>
+					</div>
+				</header>
+				<div class="page__content form-guest">
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__first-name">Nama Depan</label>
+						<input class="form-guest__textfield" type="text" id="guest__first-name" placeholder="Isi nama depan">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__last-name">Nama Belakang</label>
+						<input class="form-guest__textfield" type="text" id="guest__last-name" placeholder="Isi nama belakang">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__mobile">Nomor Mobile</label>
+						<input class="form-guest__textfield" type="text" id="guest__mobile" placeholder="Isi nomor mobile">
+					</div>
+					<div class="form-guest__group">
+						<label class="form-guest__label" for="guest__email">Alamat Email</label>
+						<input class="form-guest__textfield" type="email" id="guest__email" placeholder="Isi alamat email">
+					</div>
+					<button class="form-guest__btn">Simpan</button>
+				</div>
+			</article>
+			<!-- END GUESTINFO -->
+
+			<!-- START BAYAR -->
+			<article id="page-payment" class="page__item page__item--hidden">
+				<header class="page__header header">
+					<div class="header__nav">
+						<a class="header__nav--link js-page--show" href="" test-href="#page-fillinfo"><i class="bli-left-arrow"></i></a>
+					</div>
+					<div class="header__content">
+						<h1>Pembayaran</h1>
+					</div>
+					<div class="header__nav">
+					</div>
+				</header>
+				<div class="page__content checkout" id="">
+					<div class="checkout-step">
+						<ul class="checkout-step__menu">
+							<li class="checkout-step__item checkout-step__item--done">
+								<a class="checkout-step__link js-page--show" href="" test-href="#page-fillinfo">Isi Info</a>
+							</li>
+							<li class="checkout-step__item checkout-step__item--arrow checkout-step__item--done">
+								<i class="bli-arrow-right"></i>
+							</li>
+							<li class="checkout-step__item checkout-step__item--done">
+								<a class="checkout-step__link js-page--show" href="" test-href="#page-payment">Bayar</a>
+							</li>
+							<li class="checkout-step__item checkout-step__item--arrow ">
+								<i class="bli-arrow-right"></i>
+							</li>
+							<li class="checkout-step__item">
+								<a class="checkout-step__link js-page--show" href="" test-href="#page-fillinfo">Selesai</a>
+							</li>
+						</ul>
+					</div>
+					<div class="timer">
+						<p>Tersisa Waktu : <span>29 Menit 20 Detik</span></p>
+					</div>
+					<section class="checkout__section checkout__section--small">
+						<div class="checkout__group checkout__group--highlight checkout__group--no-border">
+							<h2 class="checkout__label">Total Pembayaran</h2>
+							<button class="checkout__value checkout__show-payment js-checkout__show-payment">Rp. 1.500.000 <i class="bli-triangle-down"></i></button>
+						</div>
+						<div class="checkout__detail-payment">
+							<div class="checkout__group checkout__group--no-border">
+								<label class="checkout__label">Harga Total <small>1 Kamar x 2 Malam</small></label>
+								<span class="checkout__value">Rp. 1.600.000</span>
+							</div>
+							<div class="checkout__group checkout__group--discount checkout__group--no-border">
+								<label class="checkout__label">Promo Voucher</label>
+								<span class="checkout__value">Rp. 100.000</span>
+							</div>
+						</div>
+					</section>
+					<section class="checkout__section">
+						<h2>Promo</h2>
+						<div class="checkout__group checkout__group--no-border">
+							<input class="checkout__promo" type="text" name="" disabled placeholder="Masukkan kode promo disini">
+							<button class="checkout__promo-btn">Gunakan</button>
+						</div>
+						<!-- <p class="checkout__promo-msg checkout__promo-msg--failed">Kode voucher yang anda masukkan salah</p> -->
+						<p class="checkout__promo-msg checkout__promo-msg--success">Selamat anda mendapatkan potongan Rp. 100.000 !</p>
+					</section>
+					<section class="checkout__section">
+						<h2>Pilih Metode Pembayaran</h2>
+						<ul class="payment">
+							<li class="payment__item payment__item--is-active">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-0" />
+									<label for="payment-item-0">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+							<li class="payment__item">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-1" />
+									<label for="payment-item-1">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+							<li class="payment__item">
+								<div class="payment__group">
+									<input class="payment__radio" type="radio" name="payment" id="payment-item-2" />
+									<label for="payment-item-2">Internet Banking<small>BCA KlikPay, CIMB Clicks, KlikBCA</small> </label>
+								</div>
+								<div class="payment__content">
+									<div class="payment__group">
+										<p>Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</section>
+					<div class="checkout__next">
+						<a href="" id="" class="checkout__next-btn" ng-click="">Bayar Sekarang</a>
+					</div>
+				</div>
+			</article>
+			<!-- END GUESTINFO -->
+
+		</main>
+		<div class="app__overlay"></div>
+		<article class="popup" id="cancelation-policy-00001">
+			<a class="popup__close js-popup--hide" href=""><i class="bli-close"></i></a>
+			<h1>Tarif Rendah (Tidak dapat diuangkan kembali)</h1>
+			<p>Penawaran ini memberikan tarif spesial yang super rendah, namun tidak dapat diuangkan kembali dan tidak dapat diubah. Apabila Anda tidak datang, maka tidak akan ada pengembalian uang (kebijakan hotel).Apabila tanggal perjalanan Anda sudah pasti, maka Anda dapat menikmati keuntungan dari penawaran spesial ini.</p>
+		</article>
+	</div>
+
+
+	<!-- <p style="position: fixed; bottom: 10px; left: 10px; z-index: 999; padding: 10px; background: #000; color: #fff">
+		<span id="status">start</span>
+		<span></span>
+	</p> -->
+
+	<!-- LIBRARY -->
+	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+
+	<!-- FUNDAMENTAL -->
+	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+
+	<!-- BLOCKS -->
+	<script type="text/javascript" src="../blocks/mobile/special-request/_special-request.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/popup/_popup.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/checkout/_checkout.js" defer="defer"></script>
+
+	<!-- MAIN -->
+	<script type="text/javascript" src="../pages/mobile/checkout.js" defer="defer"></script>
+
+</body>
+</html>
