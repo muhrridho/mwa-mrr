@@ -1,0 +1,158 @@
+.checkout {
+	padding-top: 115px;
+
+	&__section {
+		margin-top: 10px;
+		padding: 15px 10px;
+		background: #fff;
+
+		h2 {
+			margin: 0;
+			color: $black;
+			font-weight: bold;
+			font-size: 1.5rem
+		}
+		&--is-hidden {
+			display: none;
+		}
+		&--small {
+			padding: 5px 10px;
+		}
+	}
+	&__group {
+		display: flex;
+		justify-content: space-between;
+		padding: 8px 0;
+		border-bottom: 1px solid #eaeaea;
+		color: $black;
+		font-size: 1.3rem;
+
+		&--no-border {
+			border: 0;
+		}
+		&--highlight {
+			.checkout__value {
+				color: $yellow;
+				font-size: 1.5rem;
+			}
+		}
+		&--discount {
+			.checkout__value {
+				color: $red;
+			}
+		}
+	}
+	&__label {
+		color: $greyDarker;
+		text-decoration: none;
+
+		small {
+			display: block;
+			color: $greyDark;
+			font-size: 1.1rem;
+			line-height: 1;
+		}
+		&--full {
+			display: block;
+			width: 100%;
+		}
+	}
+	&__value {
+		font-weight: bold;
+
+		small {
+			display: block;
+			color: $greyDark;
+			font-weight: normal;
+			font-size: 1.2rem;
+			line-height: 1;
+		}
+	}
+	&__hotel-name {
+		margin: 0;
+		font-size: 1.8rem;
+		line-height: 1.4em;
+	}
+	&__hotel-rating {
+		display: block;
+		color: #ffd600;
+		font-size: 1.1rem;
+	}
+	&__thumbnail {
+		margin-top: 10px;
+		height: 100px;
+		background-color: #ccc;
+		background-position: center center;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+	 -o-background-size: cover;
+	    background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__benefit {
+		padding-left: 15px;
+		color: $greyDarker;
+		font-size: 1.2rem;
+		line-height: 1.4em;
+
+		&-item {
+			margin-bottom: 8px;
+			padding-left: 0;
+
+			a {
+				color: $black;
+			}
+		}
+	}
+	&__next {
+		@extend %container;
+
+		background: #F5F6F7;
+
+		&-btn {
+			@extend %form__link--button;
+			@extend %form__button--orange;
+
+			display: block;
+			padding: 5px 10px;
+			width: 100%;
+		}
+	}
+	&__show-payment {
+		@extend %form__button--link;
+
+		&:hover {text-decoration: none}
+		i {
+			margin-top: -4px;
+			margin-left: 5px;
+			color: $black;
+			font-size: 1.2rem;
+		}
+	}
+	&__detail-payment {
+		display: none;
+		border-top: 1px solid #eaeaea;
+	}
+	&__promo {
+		@extend %form__textfield;
+		width: 70%;
+		height: 35px;
+		line-height: 1;
+	}
+	&__promo-btn {
+		@extend %form__button;
+		margin-left: 5px;
+		width: 30%;
+		height: 35px;
+		padding: 6px;
+		line-height: 1;
+	}
+	&__promo-msg {
+		margin: 0;
+		font-size: 1.3rem;
+		line-height: 1;
+
+		&--success { color: $blueLight; }
+		&--failed { color: $red; }
+	}
+}

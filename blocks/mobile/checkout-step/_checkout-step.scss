@@ -1,0 +1,39 @@
+.checkout-step {
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	background: #fff;
+	z-index: 100;
+
+	&__menu {
+		@extend %reset-list;
+
+		margin: auto;
+		width: 270px;
+	}
+	&__item {
+		display: inline-block;
+		padding: 3px 15px;
+		color: $black;
+		font-weight: bold;
+		opacity: .5;
+
+		&--arrow {
+			padding: 3px 5px;
+
+			i {
+				font-weight: bold;
+				font-size: 1rem;
+			}
+		}
+		&--done, &--done .checkout-step__link {
+			color: $blue;
+			opacity: 1;
+		}
+	}
+	&__link {
+		color: $black;
+		text-decoration: none;
+		font-size: 1.3rem;
+	}
+}
