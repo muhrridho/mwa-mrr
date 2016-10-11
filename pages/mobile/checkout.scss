@@ -1,0 +1,24 @@
+@import "../../tools/bootstrap-mobile.scss";
+@import "fundamental";
+
+// LIBRARY
+@import "../../libs/blicon";
+
+// BLOCK FOUNDATION
+@import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
+@import "../../blocks/mobile/checkout/checkout";
+@import "../../blocks/mobile/checkout-step/checkout-step";
+@import "../../blocks/mobile/timer/timer";
+@import "../../blocks/mobile/special-request/special-request";
+@import "../../blocks/mobile/form-guest/form-guest";
+@import "../../blocks/mobile/popup/popup";
+@import "../../blocks/mobile/payment/payment";
+
+// SPESIFIC PAGE BLOCK
+
+// FOOTER AND POPUP
+
+.app {
+	
+}

@@ -1,0 +1,76 @@
+.special-request {
+	font-size: 1.3rem;
+	line-height: 1.4em;
+
+	&__heading-btn {
+		@extend %form__button--link;
+
+		display: block;
+		margin-bottom: 10px;
+		padding: 5px 0;
+		width: 100%;
+
+		i {
+			margin-right: 2px;
+			vertical-align: middle;
+			font-size: 2rem;
+			font-style: normal;
+			display: inline-block;
+			margin-top: -4px;
+		}
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__content {
+		&--is-hidden { display: none; }
+		
+	}
+	&__info {
+		margin: 0;
+	}
+	&__options {
+		@extend %clearfix;
+
+		padding: 20px 0;
+	}
+	&__group {
+		margin-bottom: 5px;
+	}
+	&__check {
+		@extend %form__checkbox;
+
+		& + label {
+			display: block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+
+		}
+	}
+	&__textarea {
+		@extend %form__textarea;
+	}
+	&__label {
+		display: block;
+		margin-bottom: 5px;
+	}
+	&__submit {
+		@extend %form__button;
+		@extend %form__button--inverse-blue;
+
+		float: right;
+		padding: 10px 40px 12px 40px;
+		border-width: 2px;
+		font-size: 1.8rem;
+
+		&:hover {
+			border-color: $blue;
+			background: $blue;
+			color: #fff;	
+		}
+		&:disabled{
+			border-color: $greyDark;
+			color: $greyDark;	
+		}
+	}
+}

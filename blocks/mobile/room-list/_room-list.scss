@@ -1,0 +1,113 @@
+.room-list {
+	@extend %reset-list;
+
+	margin-top: 50px;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+
+	&__item {
+		@extend %container;
+		@extend %clearfix;
+
+		padding-bottom: 0;
+		border-bottom: 1px solid #eaeaea;
+		background: #fff;
+	}
+	&__container {
+		display: flex;
+		 justify-content: space-between;
+		 padding: 10px 0;
+	}
+	&__content {
+		width: 60%;
+
+		h2 {
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+	}
+	&__benefit {
+		@extend %reset-list;
+
+		&-item {
+			position: relative;
+			margin-bottom: 5px;
+			padding-left: 20px;
+			color: $green;
+
+			&:before {
+				@extend .bli-check-list:before;
+
+				position: absolute;
+				left: 0;
+				color: $green;
+				font-family: 'blicon';
+			}
+		}
+	}
+	&__policy {
+		@extend %form__button--link;
+
+		color: $green;
+		text-decoration: underline;
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 40%;
+		text-align: right;
+
+		p {
+			margin: 0;
+		}
+	}
+	&__guest {
+		span {
+			display: block;
+			margin-bottom: 5px;
+
+			i {
+				margin-top: -4px;
+				margin-left: 3px;
+				font-size: 2rem;
+			}
+		}
+	}
+	&__detail-btn {
+		color: $blue;
+	}
+	&__availability {
+		display: block;
+		margin-bottom: 5px;
+		color: $green;
+	}
+	&__book {
+		@extend %container;
+
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		clear: both;
+		padding: 15px 0px;
+		width: 100%;
+		border-top: 1px solid #eaeaea;
+	}
+	&__price {
+		display: block;
+		width: 100%;
+		color: $orange;
+		font-size: 1.4rem;
+	}
+	&__btn {
+		@extend %form__link--button;
+		@extend %form__button--orange;
+		@include border-radius(2px);
+
+		padding: 10px 20px;
+		min-width: 125px;
+		font-size: 1.3rem;
+		line-height: 1em;
+	}
+}

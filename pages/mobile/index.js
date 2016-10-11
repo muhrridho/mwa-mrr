@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	initSidebar();
+	initSlider();
 
 	$(".js-header__nav--hamburger").click(function(){
 		toggleSidebar();
@@ -25,12 +26,4 @@ $(document).ready(function(){
 		showPage("#page-international");
 		return false;	
 	})
-
-	$('.slider').owlCarousel({
-		autoPlay: true,
-		autoplayTimeout: 1000,
-		singleItem : true,
-		transitionStyle : "fade",
-
-	});
 })
