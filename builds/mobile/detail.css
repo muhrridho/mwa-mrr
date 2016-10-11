@@ -143,11 +143,11 @@ h5 { font-size: 1.28rem; }
 
 h6 { font-size: 1.12rem; }
 
-.search--date .search__checkin, .search--date .search__checkout, .hotel-summary__star, .hotel-summary__tadvsr, .hotel-summary__footer, .hotel-summary__desc, .hotel-book, .room-qty__nav, .room-list__item, .room-list__book, .room-detail__section, .hotel-summary__footer p, .room-list__item, .room-detail__facility { *zoom: 1; }
-.search--date .search__checkin:before, .search--date .search__checkout:before, .hotel-summary__star:before, .hotel-summary__tadvsr:before, .hotel-summary__footer:before, .hotel-summary__desc:before, .hotel-book:before, .room-qty__nav:before, .room-list__item:before, .room-list__book:before, .room-detail__section:before, .search--date .search__checkin:after, .search--date .search__checkout:after, .hotel-summary__star:after, .hotel-summary__tadvsr:after, .hotel-summary__footer:after, .hotel-summary__desc:after, .hotel-book:after, .room-qty__nav:after, .room-list__item:after, .room-list__book:after, .room-detail__section:after, .hotel-summary__footer p:before, .room-list__item:before, .room-detail__facility:before, .hotel-summary__footer p:after, .room-list__item:after, .room-detail__facility:after { content: " "; display: table; }
-.search--date .search__checkin:after, .search--date .search__checkout:after, .hotel-summary__star:after, .hotel-summary__tadvsr:after, .hotel-summary__footer:after, .hotel-summary__desc:after, .hotel-book:after, .room-qty__nav:after, .room-list__item:after, .room-list__book:after, .room-detail__section:after, .hotel-summary__footer p:after, .room-list__item:after, .room-detail__facility:after { clear: both; }
+.search--date .search__checkin, .search--date .search__checkout, .hotel-summary__star, .hotel-summary__tadvsr, .hotel-summary__footer, .hotel-summary__desc, .hotel-book, .room-qty__nav, .room-list__item, .room-list__book, .room-detail__section, .room-type__content, .room-type__book, .hotel-summary__footer p, .room-list__item, .room-detail__facility { *zoom: 1; }
+.search--date .search__checkin:before, .search--date .search__checkout:before, .hotel-summary__star:before, .hotel-summary__tadvsr:before, .hotel-summary__footer:before, .hotel-summary__desc:before, .hotel-book:before, .room-qty__nav:before, .room-list__item:before, .room-list__book:before, .room-detail__section:before, .room-type__content:before, .room-type__book:before, .search--date .search__checkin:after, .search--date .search__checkout:after, .hotel-summary__star:after, .hotel-summary__tadvsr:after, .hotel-summary__footer:after, .hotel-summary__desc:after, .hotel-book:after, .room-qty__nav:after, .room-list__item:after, .room-list__book:after, .room-detail__section:after, .room-type__content:after, .room-type__book:after, .hotel-summary__footer p:before, .room-list__item:before, .room-detail__facility:before, .hotel-summary__footer p:after, .room-list__item:after, .room-detail__facility:after { content: " "; display: table; }
+.search--date .search__checkin:after, .search--date .search__checkout:after, .hotel-summary__star:after, .hotel-summary__tadvsr:after, .hotel-summary__footer:after, .hotel-summary__desc:after, .hotel-book:after, .room-qty__nav:after, .room-list__item:after, .room-list__book:after, .room-detail__section:after, .room-type__content:after, .room-type__book:after, .hotel-summary__footer p:after, .room-list__item:after, .room-detail__facility:after { clear: both; }
 
-.search--date .search__checkin, .search--date .search__checkout, .hotel-summary__star, .hotel-summary__tadvsr, .hotel-summary__footer, .hotel-summary__desc, .hotel-book, .room-qty__nav, .room-list__item, .room-list__book, .room-detail__section { padding: 10px; }
+.search--date .search__checkin, .search--date .search__checkout, .hotel-summary__star, .hotel-summary__tadvsr, .hotel-summary__footer, .hotel-summary__desc, .hotel-book, .room-qty__nav, .room-list__item, .room-list__book, .room-detail__section, .room-type__content, .room-type__book { padding: 10px; }
 
 .hotel-book__btn, .room-list__btn, .room-detail__btn, .room-qty__nav { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; -webkit-appearance: none; }
 .hotel-book__btn, .room-list__btn, .room-detail__btn { border-color: #f7931e; background: #f7931e; color: #fff; }
@@ -157,7 +157,7 @@ h6 { font-size: 1.12rem; }
 .hotel-book__btn, .room-list__btn, .room-detail__btn { display: block; text-decoration: none; }
 
 /* TODO: Migrate to formatting above and remove below styling*/
-.facility__menu, .room-qty__select, .room-list, .room-list__benefit, .room-detail__facility { margin: 0; padding: 0; list-style: none; }
+.facility__menu, .room-qty__select, .room-list, .room-list__benefit, .room-detail__facility, .room-type { margin: 0; padding: 0; list-style: none; }
 
 body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; position: relative; overflow-x: hidden; width: 100vw; }
 
@@ -620,6 +620,19 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .popup__close { position: absolute; top: 5px; right: 5px; color: #9d9d9d; font-size: 2.6rem; line-height: 1; }
 .popup h1 { font-size: 1.8rem; line-height: 1.4em; }
 .popup p { color: #666; line-height: 1.6em; }
+
+.room-type { padding: 5px; }
+.room-type__item { display: flex; margin-bottom: 5px; min-height: 120px; background: #fff; }
+.room-type__thumbnail { width: 180px; background-color: #ccc; background-position: center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.room-type__container { display: flex; flex-direction: column; justify-content: space-between; width: 100%; }
+.room-type__content { display: flex; justify-content: space-between; width: 100%; }
+.room-type__content h2 { width: 100%; font-size: 1.6rem; line-height: 1.2em; }
+.room-type__guest { min-width: 30px; text-align: right; font-size: 1.2rem; }
+.room-type__guest i { margin-top: -3px; font-size: 1.8rem; }
+.room-type__book { display: flex; align-items: center; justify-content: space-between; width: 100%; border-top: 1px solid #ddd; color: #ff9700; text-decoration: none; font-size: 1.6rem; line-height: 1.8; }
+.room-type__book small { display: block; color: #333333; font-size: 1.1rem; line-height: 1; }
+.room-type__book-content { width: 100%; }
+.room-type__book-arrow { margin-left: 10px; width: 1.8rem; color: #0095da; font-size: 2.6rem; }
 
 .app__page-item--space-bottom .page__content { padding-bottom: 30px; }
 .app__back { position: absolute; top: 0px; left: 0px; z-index: 999; padding: 9px 8px; color: #fff; letter-spacing: 0; font-size: 3rem; line-height: 1; }

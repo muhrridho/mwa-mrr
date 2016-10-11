@@ -180,6 +180,17 @@
 				color: #fff;
 			}
 		}
+		&--grey {
+			border-color: $grey;
+			background: $grey;
+			color: #fff;
+
+			&:hover {
+				border-color: $greyLight;
+				background: $greyLight;
+				color: #fff;
+			}
+		}
 		&--inverse-blue {
 			border-color: $blue;
 			background: #fff;
