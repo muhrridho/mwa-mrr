@@ -1,0 +1,50 @@
+@import "../../tools/bootstrap-mobile.scss";
+@import "fundamental";
+
+// LIBRARY
+@import "../../libs/blicon";
+
+// BLOCK FOUNDATION
+@import "../../blocks/mobile/page/page";
+@import "../../blocks/mobile/header/header";
+@import "../../blocks/mobile/hotel-slider/hotel-slider";
+@import "../../blocks/mobile/search/search--date";
+@import "../../blocks/mobile/hotel-summary/hotel-summary";
+@import "../../blocks/mobile/hotel-book/hotel-book";
+@import "../../blocks/mobile/facility/facility";
+@import "../../blocks/mobile/room-qty/room-qty";
+@import "../../blocks/mobile/room-list/room-list";
+@import "../../blocks/mobile/room-detail/room-detail";
+@import "../../blocks/mobile/popup/popup";
+
+// SPESIFIC PAGE BLOCK
+
+// FOOTER AND POPUP
+
+.app {
+	&__page-item {
+		&--space-bottom .page__content {
+			padding-bottom: 30px;
+		}
+	}
+	&__back {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 999;
+		padding: 9px 8px;
+		color: #fff;
+		letter-spacing: 0;
+		font-size: 3rem;
+		line-height: 1;
+
+	}
+	&__header--transparent {
+		border-bottom: 0;
+		background: rgba(0,0,0,.2);
+
+		a {
+			color: #fff;
+		}
+	}
+}

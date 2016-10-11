@@ -1,0 +1,62 @@
+.room-detail {
+	padding-bottom: 50px;
+	text-align: center;
+
+	&__section {
+		@extend %container;
+
+		border-top: 1px solid #eaeaea;
+
+		h2 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.5rem;
+		}
+		p { margin: 0;}
+	}
+	&__price {
+		@extend .room-list__price;
+
+		font-size: 1.6rem;
+	}
+	&__feature {
+		font-size: 1.3rem;
+	}
+	&__facility {
+		@extend .room-list__benefit;
+		@extend %clearfix;
+
+		margin-top: 10px;
+
+		li {
+			@extend .room-list__benefit-item;
+
+			float: left;
+			margin-bottom: 0;
+			width: 50%;
+			color: $black;
+			text-align: left;
+			font-size: 1.2rem;
+			line-height: 1.2em;
+			margin-bottom: 5px;
+
+			&:before {
+				color: $black;
+			}
+			&:nth-child(odd) {
+				padding-right: 10px;	
+			}
+		}
+	}
+	&__btn {
+		@extend %form__link--button;
+		@extend %form__button--orange;
+
+		position: fixed;
+		bottom: 0;
+		padding: 15px 10px;
+		width: 100%;
+		font-size: 1.6rem;
+		line-height: 1em;
+	}
+}

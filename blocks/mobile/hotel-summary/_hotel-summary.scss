@@ -1,0 +1,151 @@
+.hotel-summary {
+	&__header {
+		padding: 20px 10px;
+
+		h1 {
+			margin-bottom: 0;
+			font-size: 1.8rem;
+			line-height: 1.2em;
+		}
+
+	}
+	&__location {
+		margin: 0;
+		font-size: 1.2rem;
+		line-height: 2em;
+
+		i {
+			margin-right: 5px;
+		}
+	}
+	&__rating-overall {
+		display: table;
+		width: 100%;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+	}
+	&__star, &__tadvsr {
+		@extend %container;
+
+		display: table-cell;
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+	}
+	&__star { border-right: 1px solid #ddd; }
+	&__rating {
+		margin: 0;
+		font-size: 1.4rem;
+
+		i { color: #ffd600; }
+		&-text {
+			font-size: 1.2rem;
+		}
+	}
+	&__facilities, &__review {
+		position: relative;
+		display: block;
+		padding: 15px 50px 15px 10px;
+		color: $black;
+		text-decoration: none;
+
+		&:after {
+			@extend .bli-right-arrow:before;
+
+			position: absolute;
+			top: calc(50% - 14px);
+			right: 10px;
+			color: #aaa;
+			font-size: 3rem;
+			font-family: 'blicon';
+		}
+	}
+	&__facilities {
+		border-bottom: 1px solid #ddd;
+
+		span {
+			display: block;
+			float: left;
+			width: 20%;
+			text-align: center;
+			font-size: 1rem;
+			line-height: 1em;
+		}
+		i {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 2.6rem;
+		}
+		br {
+			clear: both;
+		}
+	}
+	&__review {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 50px;
+
+		p {
+			margin: 0;
+			color: $black;
+			font-size: 1.2rem;
+			line-height: 1.6em;
+		}
+		&:before {
+			@extend .bli-mark:before;
+			@include rotate(180deg);
+
+			position: absolute;
+			top: 10px;
+			left: 15px;
+			color: #aaa;
+			font-size: 2rem;
+			font-family: 'blicon';
+		}
+	}
+	&__map {
+		height: 200px;
+		background: #999;
+	}
+	&__footer {
+		@extend %container;
+
+		border-bottom: 1px solid #ddd;
+
+		p {
+			@extend %clearfix;
+
+			position: relative;
+			margin: 0;
+			margin-bottom: 10px;
+			padding-left: 30px;
+			color: $greyDarker;
+			font-style: normal;
+			font-size: 1.2rem;
+			line-height: 1.6em;
+		}
+		i {
+			position: absolute;
+			left: 0;
+			width: 25px;
+			font-size: 2rem;
+		}
+	}
+	&__desc {
+		@extend %container;
+
+		padding: 20px 10px;
+		padding-bottom: 50px;
+		font-size: 1.2rem;
+		line-height: 1.6em;
+
+		h3 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 1.3rem;
+		}
+		p {
+			margin-top: 10px;
+		}
+	}
+}
