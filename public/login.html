@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Mobile</title>
+	<link rel="stylesheet" type="text/css" href="../builds/mobile/login.css">
+	<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+</head>
+<body>
+	<div class="app">
+        <!-- START - LOGIN -->
+		<!-- <main class="login">
+            <a class="login__back-nav" href=""><i class="bli-arrow-left"></i></a>
+            <div class="login__header">
+                <img class="login__header__logo" ng-src="https://www.static-src.com/4.3.3/resources/images/logo-blibli-no-word.png" alt="" class="blibli-round-img" src="https://www.static-src.com/4.3.3/resources/images/logo-blibli-no-word.png">
+                <h2 class="login__header__title">Masuk ke akun Anda</h2>
+            </div>
+
+            <form class="login__form ng-pristine ng-valid" id="gdn-login-form" ng-submit="checkSubmit()">
+                <div class="login__form__row">
+                    <i class="bli-cc-email"></i> &nbsp;
+                    <input class="" type="text" placeholder="Masukan Email" name="email">
+                </div>
+                <div class="login__form__row">
+                    <i class="bli-locked"></i> &nbsp;
+                    <input class="" type="password" placeholder="Kata Sandi" name="password">
+                    <i class="pointer bli-eye-close"></i>
+                </div>
+                <div class="login__form__row login__form__row--fb" id="gdn-facebook-login" onclick="loginUsingFacebook('normal')">
+                    <i class="bli-facebook"></i>
+                    <span class="">Masuk dengan Facebook</span>
+                </div>
+
+                <input class="login__form__button--orange" type="submit" value="Masuk">
+                <a class="login__form__button--grey" href="">Lupa Kata Sandi?</a>
+            </form>
+
+            <div class="login__footer">
+                Belum punya akun? <a href="">Daftar disini</a><br><br>
+                Sudah mendaftar tetapi belum mendapat email aktivasi? <br>
+                <a href="" class="">Kirim ulang email aktivasi</a>
+            </div>
+		</main> -->
+        <!-- END - LOGIN -->
+
+        <!-- START - REGISTER -->
+        <main class="login">
+            <a class="login__back-nav" href=""><i class="bli-arrow-left"></i></a>
+            <div class="login__header">
+                <img class="login__header__logo" ng-src="https://www.static-src.com/4.3.3/resources/images/logo-blibli-no-word.png" alt="" class="blibli-round-img" src="https://www.static-src.com/4.3.3/resources/images/logo-blibli-no-word.png">
+                <h2 class="login__header__title">Daftar</h2>
+            </div>
+
+            <form class="login__form ng-pristine ng-valid" id="gdn-login-form" ng-submit="checkSubmit()">
+                <div class="login__form__row">
+                    <i class="bli-cc-email"></i> &nbsp;
+                    <input class="" type="text" placeholder="Masukan Email" name="email">
+                </div>
+                <div class="login__form__row">
+                    <i class="bli-locked"></i> &nbsp;
+                    <input class="" type="password" placeholder="Kata Sandi" name="password">
+                    <i class="pointer bli-eye-close"></i>
+                </div>
+                
+                <input class="login__form__button--orange" type="submit" value="Daftar">
+            </form>
+
+            <div class="login__footer">
+                Sudah punya akun? <a id="gdn-login-from-registration" href="#login-section" ng-click="openModalLogin('home')">Login disini</a><br><br>
+                Dengan klik <b>Daftar</b>, Anda telah menyetujui <a href="#terms-condition" ng-click="openModalTnc()" class="registration">Syarat &amp; Ketentuan</a> serta otomatis berlangganan newsletter Blibli.com
+            </div>
+        </main>
+        <!-- END - REGISTER -->
+	</div>
+
+	<!-- LIBRARY -->
+	<script type="text/javascript" src="../libs/jquery/jquery-3.1.0.min.js" defer="defer"></script>
+
+	<!-- FUNDAMENTAL -->
+	<script type="text/javascript" src="../pages/mobile/_fundamental.js" defer="defer"></script>
+	<script type="text/javascript" src="../blocks/mobile/page/_page.js" defer="defer"></script>
+
+	<!-- BLOCKS -->
+	<!-- <script type="text/javascript" src="../blocks/mobile/sidebar/_sidebar.js" defer="defer"></script> -->
+
+	<!-- MAIN -->
+	<!-- <script type="text/javascript" src="../pages/mobile/index.js" defer="defer"></script> -->
+
+</body>
+</html>
