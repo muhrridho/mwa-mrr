@@ -201,6 +201,11 @@
 			background: none;
 			color: $white;
 		}
+		&--inverse-orange {
+			border-color: $orange;
+			background: none;
+			color: $black;
+		}
 		&--link {
 			margin: 0;
 			padding: 0;

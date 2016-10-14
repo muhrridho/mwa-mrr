@@ -1,6 +1,6 @@
 @import "../../../libs/nouislider/nouislider";
 .filter {
-	&__section {
+    &__section {
         @extend %clearfix;
         @include transition(all .25s ease);
 
@@ -15,6 +15,11 @@
         }
         &--star {
             color: #ffd600;
+        }
+        &--action {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
         }
     }
     &__group  {
@@ -34,27 +39,27 @@
             height: 6px;
 
             &:before {
-				display: block;
-				margin: auto;
-				margin-top: -5px;
-				width: 50%;
-				height: 1px;
-				background: #ccc;
-            	content: "";
+                display: block;
+                margin: auto;
+                margin-top: -5px;
+                width: 50%;
+                height: 1px;
+                background: #ccc;
+                content: "";
             }
         }
     }
-	&__check {
-		@extend %form__checkbox;
+    &__check {
+        @extend %form__checkbox;
 
-		& + label {
-			display: block;
-			padding: 5px 0 5px 35px;
-			line-height: 1;
-			-webkit-tap-highlight-color: rgba(0,0,0,0);
-		}
-	}
-	&__price {
+        & + label {
+            display: block;
+            padding: 5px 0 5px 35px;
+            line-height: 1;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
+    }
+    &__price {
         @include border-radius(50px);
 
         padding: 5px;
@@ -82,9 +87,26 @@
         .connect { position: absolute; top: 0; bottom: 0; background: #0095DA; }
         .noUi-state-tap .connect { -webkit-transition: left 300ms, right 300ms; transition: left 300ms, right 300ms; }
         .noUi-handle {
-        	top: -8px;
-        	width: 20px;
-        	height: 20px;
+            top: -8px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &__btn {
+        @extend %form__button;
+        @include border-radius(2px);
+
+        width: 50%;
+        border-width: 2px;
+        line-height: 1;
+
+        &--reset {
+            @extend %form__button--inverse-orange;
+        }
+        &--apply {
+            @extend %form__button--orange;
+
+            margin-left: 40px;
         }
     }
 }

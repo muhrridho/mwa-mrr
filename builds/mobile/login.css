@@ -143,7 +143,7 @@ h5 { font-size: 1.28rem; }
 
 h6 { font-size: 1.12rem; }
 
-.login__form__button--grey, .login__form__button--orange { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; }
+.login__form__button--grey, .login__form__button--orange { display: inline-block; padding: 10px 20px; outline: none; border: 1px solid #d0d0d0; background: #fff; color: #666; text-align: center; cursor: pointer; -webkit-appearance: none; }
 .login__form__button--orange { border-color: #f7931e; background: #f7931e; color: #fff; }
 .login__form__button--orange:hover { border-color: #f9ab4f; background: #f9ab4f; color: #fff; }
 .login__form__button--grey { border-color: #B6B6B6; background: #B6B6B6; color: #fff; }
@@ -410,6 +410,7 @@ body { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -m
 .page__item { -webkit-transition: all 0.25s ease; -o-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -ms-transition: all 0.25s ease; transition: all 0.25s ease; position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: auto; }
 .page__item--fluid { padding: 0; }
 .page__item--hidden { -webkit-transition: none !important; -o-transition: none !important; -moz-transition: none !important; -ms-transition: none !important; transition: none !important; visibility: hidden; opacity: 0; }
+.page__item--no-header .page__content { padding-top: 0; }
 .page__content { padding-top: 50px; }
 .page--sidebar-open { -webkit-transform: translateX(70vw); -ms-transform: translateX(70vw); -o-transform: translateX(70vw); transform: translateX(70vw); overflow-x: hidden; }
 
@@ -448,6 +449,6 @@ input { font-size: 16px; }
 
 input[type=text], textarea { -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; outline: 0; }
 
-.app { background-color: #ffffff; display: table; min-height: 100vh; }
+.app { background-color: #ffffff; display: table; width: 100%; min-height: 100vh; }
 
 /*# sourceMappingURL=login.css.map */
